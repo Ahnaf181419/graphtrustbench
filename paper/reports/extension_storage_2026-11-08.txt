@@ -1,0 +1,33 @@
+{
+  "status": "lossless_verified",
+  "files": [
+    {
+      "path": "paper/results/2026-11-08_extension_v3/predictions.jsonl.gz",
+      "bytes": 12914787,
+      "sha256": "cc26b764d23f6f9c7cf22a954e6636e8dd9853b43f0ef1c571c9c56ef622f51b",
+      "uncompressed_bytes": 111538604,
+      "uncompressed_sha256": "ab30fb54a7cc82673d35d00eda71ea635ba3151caefd610f40f9b6010c3f722b"
+    },
+    {
+      "path": "paper/results/2026-11-08_extension_v3/per_task.jsonl.gz",
+      "bytes": 13172251,
+      "sha256": "3f64efa378a96fe3ad7467817e2762ae2ff6d8ed852e194e8788ecbe1bc0e407",
+      "uncompressed_bytes": 112866433,
+      "uncompressed_sha256": "4b6531359ecd8769100af6170090bb02a06255835da47e9f2eaadcfd438aa67f"
+    },
+    {
+      "path": "paper/results/2026-11-08_extension_v3_repeat/predictions.jsonl.gz",
+      "bytes": 12921885,
+      "sha256": "8204b6b281ca9dd223ae32b3e82e4199b8d3937982cf965f0a4436483f88de48",
+      "uncompressed_bytes": 111569174,
+      "uncompressed_sha256": "e5a417e104b063caae98fd40e8e781b219fd9a3c437215a6b39c2ad3605bebf6"
+    },
+    {
+      "path": "paper/results/2026-11-08_extension_v3_repeat/per_task.jsonl.gz",
+      "bytes": 13180044,
+      "sha256": "d1b6739bcc9d278bce3446362cae0c1d07a587b168bcfa5dd1bac25acb4b9ac1",
+      "uncompressed_bytes": 112897003,
+      "uncompressed_sha256": "c0508fecf2ffa552899415ba269218b9cf0f5b3d2e8b155b548e99961a8a479d"
+    }
+  ]
+}

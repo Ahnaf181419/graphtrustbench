@@ -1,0 +1,64 @@
+0 tasks done earlier, 35 to run
+[1/35] fastapi_12942 ok 15.7s f2p=1 {'raw_edges': 169, 'executed': 59, 'unmapped': 110, 'missing': 30, 'kinds': {'function': 12, 'method': 4, 'dunder': 9, 'unresolved': 5}}
+[2/35] fastapi_13537 ok 16.4s f2p=2 {'raw_edges': 212, 'executed': 81, 'unmapped': 131, 'missing': 38, 'kinds': {'method': 6, 'decorated': 8, 'function': 13, 'dunder': 11}}
+[3/35] fastapi_11355 ok 16.6s f2p=1 {'raw_edges': 201, 'executed': 78, 'unmapped': 123, 'missing': 33, 'kinds': {'function': 15, 'method': 4, 'dunder': 9, 'decorated': 5}}
+[4/35] fastapi_14077 no F2P test 14.7s f2p=0 
+[5/35] fastapi_14186 ok 17.9s f2p=49 {'raw_edges': 168, 'executed': 55, 'unmapped': 113, 'missing': 23, 'kinds': {'function': 12, 'method': 4, 'dunder': 7}}
+[6/35] fastapi_13920 ok 25.6s f2p=1 {'raw_edges': 187, 'executed': 78, 'unmapped': 109, 'missing': 31, 'kinds': {'function': 13, 'method': 4, 'dunder': 9, 'decorated': 5}}
+[7/35] fastapi_14258 ok 18.9s f2p=1 {'raw_edges': 109, 'executed': 10, 'unmapped': 99, 'missing': 9, 'kinds': {'function': 5, 'dunder': 4}}
+[8/35] fastapi_14306 ok 19.8s f2p=7 {'raw_edges': 207, 'executed': 82, 'unmapped': 125, 'missing': 34, 'kinds': {'function': 14, 'method': 6, 'dunder': 11, 'decorated': 3}}
+[9/35] fastapi_14360 ok 19.3s f2p=6 {'raw_edges': 202, 'executed': 82, 'unmapped': 120, 'missing': 37, 'kinds': {'function': 14, 'method': 5, 'dunder': 13, 'decorated': 5}}
+[10/35] fastapi_14372 ok 16.6s f2p=1 {'raw_edges': 120, 'executed': 10, 'unmapped': 110, 'missing': 8, 'kinds': {'function': 5, 'dunder': 3}}
+[11/35] fastapi_14419 ok 18.7s f2p=2 {'raw_edges': 159, 'executed': 35, 'unmapped': 124, 'missing': 19, 'kinds': {'function': 9, 'method': 4, 'dunder': 6}}
+[12/35] fastapi_14463 ok 19.0s f2p=1 {'raw_edges': 189, 'executed': 83, 'unmapped': 106, 'missing': 29, 'kinds': {'dunder': 9, 'decorated': 5, 'function': 11, 'method': 4}}
+[13/35] fastapi_14479 ok 20.1s f2p=4 {'raw_edges': 169, 'executed': 51, 'unmapped': 118, 'missing': 22, 'kinds': {'function': 11, 'method': 3, 'dunder': 7, 'decorated': 1}}
+[14/35] fastapi_14485 ok 20.9s f2p=2 {'raw_edges': 152, 'executed': 39, 'unmapped': 113, 'missing': 17, 'kinds': {'function': 9, 'method': 3, 'dunder': 5}}
+[15/35] fastapi_14609 no F2P test 10.8s f2p=0 
+[16/35] fastapi_14512 ok 25.5s f2p=3 {'raw_edges': 161, 'executed': 49, 'unmapped': 112, 'missing': 22, 'kinds': {'function': 12, 'method': 4, 'dunder': 6}}
+[17/35] fastapi_14605 ok 32.3s f2p=99 {'raw_edges': 117, 'executed': 8, 'unmapped': 109, 'missing': 8, 'kinds': {'function': 5, 'dunder': 3}}
+[18/35] fastapi_14978 ok 25.0s f2p=37 {'raw_edges': 156, 'executed': 54, 'unmapped': 102, 'missing': 21, 'kinds': {'function': 10, 'method': 4, 'dunder': 7}}
+[19/35] fastapi_15030 ok 26.0s f2p=33 {'raw_edges': 108, 'executed': 8, 'unmapped': 100, 'missing': 8, 'kinds': {'function': 5, 'dunder': 3}}
+[20/35] fastapi_15280 ok 23.0s f2p=1 {'raw_edges': 115, 'executed': 12, 'unmapped': 103, 'missing': 12, 'kinds': {'function': 5, 'method': 1, 'dunder': 6}}
+[21/35] fastapi_15661 no mapped edges 21.4s f2p=16 {'raw_edges': 0, 'executed': 0, 'unmapped': 0}
+[22/35] fastapi_15745 ok 24.9s f2p=39 {'raw_edges': 149, 'executed': 43, 'unmapped': 106, 'missing': 19, 'kinds': {'function': 7, 'method': 5, 'dunder': 7}}
+[23/35] fastapi_15785 ok 24.4s f2p=41 {'raw_edges': 119, 'executed': 10, 'unmapped': 109, 'missing': 10, 'kinds': {'function': 6, 'dunder': 4}}
+[24/35] fastapi_5077 ok 23.6s f2p=1 {'raw_edges': 195, 'executed': 75, 'unmapped': 120, 'missing': 32, 'kinds': {'function': 14, 'method': 4, 'dunder': 9, 'decorated': 5}}
+[25/35] fastapi_15800 ok 30.0s f2p=60 {'raw_edges': 170, 'executed': 58, 'unmapped': 112, 'missing': 27, 'kinds': {'function': 11, 'method': 8, 'dunder': 8}}
+[26/35] requests_6592 base run produced no outcomes 7.1s f2p=0 
+[27/35] fastapi_5624 ok 21.3s f2p=1 {'raw_edges': 159, 'executed': 35, 'unmapped': 124, 'missing': 19, 'kinds': {'function': 9, 'method': 4, 'dunder': 6}}
+[28/35] requests_6644 ok 13.0s f2p=1 {'raw_edges': 30, 'executed': 29, 'unmapped': 1, 'missing': 18, 'kinds': {'dunder': 4, 'method': 12, 'decorated': 2}}
+[29/35] requests_7315 ok 11.9s f2p=1 {'raw_edges': 30, 'executed': 29, 'unmapped': 1, 'missing': 18, 'kinds': {'dunder': 4, 'method': 12, 'decorated': 2}}
+[30/35] rich_3468 no F2P test 6.0s f2p=0 
+[31/35] requests_6757 no mapped edges 52.4s f2p=322 {'raw_edges': 0, 'executed': 0, 'unmapped': 0}
+[32/35] rich_3480 base run produced no outcomes 41.5s f2p=0 
+[33/35] rich_3930 ok 9.8s f2p=189 {'raw_edges': 102, 'executed': 8, 'unmapped': 94, 'missing': 5, 'kinds': {'function': 3, 'dunder': 2}}
+[34/35] rich_3772 base run produced no outcomes 308.8s f2p=0 
+[35/35] rich_4006 base run produced no outcomes 1802.7s f2p=0 
+{
+  "TR_TASKS": 26,
+  "TR_EDGES": "1,161",
+  "TR_MISS": "47",
+  "kinds": {
+    "function": 230,
+    "method": 101,
+    "dunder": 172,
+    "decorated": 41,
+    "unresolved": 5
+  },
+  "exclusions": {
+    "no F2P test": 3,
+    "no mapped edges": 2,
+    "base run produced no outcomes": 4
+  },
+  "tasks": 35,
+  "f2p_tasks": 28,
+  "TR_TOP_KIND": "plain function calls",
+  "TR_TOP_SHARE": "42",
+  "TR_MISS_MED": "47",
+  "H7_DIFF": "+0.0192",
+  "H7_LO": "+0.0000",
+  "H7_HI": "+0.0577",
+  "H7_p": 0.366,
+  "REP_M": "1",
+  "H7_TASKS": 26
+}

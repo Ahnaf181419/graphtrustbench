@@ -1,0 +1,44 @@
+[
+  {
+    "intervention": "deletion",
+    "fraction": 0.1,
+    "d_success": -0.0087,
+    "tasks_changed": 4,
+    "cells_changed": 5
+  },
+  {
+    "intervention": "deletion",
+    "fraction": 0.2,
+    "d_success": -0.0145,
+    "tasks_changed": 9,
+    "cells_changed": 10
+  },
+  {
+    "intervention": "deletion",
+    "fraction": 0.4,
+    "d_success": -0.0145,
+    "tasks_changed": 16,
+    "cells_changed": 25
+  },
+  {
+    "intervention": "rewiring",
+    "fraction": 0.1,
+    "d_success": 0.0,
+    "tasks_changed": 10,
+    "cells_changed": 12
+  },
+  {
+    "intervention": "rewiring",
+    "fraction": 0.2,
+    "d_success": -0.0203,
+    "tasks_changed": 20,
+    "cells_changed": 25
+  },
+  {
+    "intervention": "rewiring",
+    "fraction": 0.4,
+    "d_success": -0.0522,
+    "tasks_changed": 30,
+    "cells_changed": 45
+  }
+]

@@ -1,0 +1,812 @@
+{
+  "retrieved_on": "2026-11-08",
+  "source": "GitHub Git database API through connected GitHub tool; prior 24 verified records reused",
+  "tasks": [
+    {
+      "instance_id": "fastapi_11194",
+      "repo": "fastapi/fastapi",
+      "base_commit": "a7f2dbe976bf72703376f0cd04487bfc4a849f83",
+      "tree_sha": "ce1ff0e44176b7bed89e62d497073e20e4e9b6e9",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/a7f2dbe976bf72703376f0cd04487bfc4a849f83"
+    },
+    {
+      "instance_id": "fastapi_11355",
+      "repo": "fastapi/fastapi",
+      "base_commit": "811fa898752e7f5697733a2958ff79ad8dfb5276",
+      "tree_sha": "fc7624e2195bf9956179647a2e4314ce48efa64e",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/811fa898752e7f5697733a2958ff79ad8dfb5276"
+    },
+    {
+      "instance_id": "fastapi_12942",
+      "repo": "fastapi/fastapi",
+      "base_commit": "27c0f7e75fc0ce26ca75295d455eb36f0ca033d3",
+      "tree_sha": "09e60c5d118d3d01fdcc6fdbb970c4b44ef22451",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/27c0f7e75fc0ce26ca75295d455eb36f0ca033d3"
+    },
+    {
+      "instance_id": "fastapi_13207",
+      "repo": "fastapi/fastapi",
+      "base_commit": "5126e099bdda51f261fd5a101b5f914991d31897",
+      "tree_sha": "5251f9846fd1362b6989588b13bd534cab0bdc8c",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/5126e099bdda51f261fd5a101b5f914991d31897"
+    },
+    {
+      "instance_id": "fastapi_13537",
+      "repo": "fastapi/fastapi",
+      "base_commit": "3b4b5ab8c819dce27fbaf0aa0a9c74b7f3255ec0",
+      "tree_sha": "9244c838859f0e9f2768b217e3fa8e33770d0805",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/3b4b5ab8c819dce27fbaf0aa0a9c74b7f3255ec0"
+    },
+    {
+      "instance_id": "fastapi_13713",
+      "repo": "fastapi/fastapi",
+      "base_commit": "5c1f87c56387a96dbdddb2b1c4ec9ba48dcebc4e",
+      "tree_sha": "81da924fe008a4ff39fb398f4b5fb45bc8e0b8b9",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/5c1f87c56387a96dbdddb2b1c4ec9ba48dcebc4e"
+    },
+    {
+      "instance_id": "fastapi_13786",
+      "repo": "fastapi/fastapi",
+      "base_commit": "e2354a0a063f2fcb890ec568f1a98e136a39fd25",
+      "tree_sha": "a0b29dd207695b7201d64412f6fd51f4426f53cc",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/e2354a0a063f2fcb890ec568f1a98e136a39fd25"
+    },
+    {
+      "instance_id": "fastapi_13920",
+      "repo": "fastapi/fastapi",
+      "base_commit": "0dd42b746e17d33a74ea267a62eace9ccdccf345",
+      "tree_sha": "da863c88fc3edd8cb46a823698b91e9886827e43",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/0dd42b746e17d33a74ea267a62eace9ccdccf345"
+    },
+    {
+      "instance_id": "fastapi_14077",
+      "repo": "fastapi/fastapi",
+      "base_commit": "16d75d90eb96976a57b94cc24e4018859cd54c4d",
+      "tree_sha": "e4d341d2deda91a725aab539cc0aaf9731a48c7f",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/16d75d90eb96976a57b94cc24e4018859cd54c4d"
+    },
+    {
+      "instance_id": "fastapi_14099",
+      "repo": "fastapi/fastapi",
+      "base_commit": "861b22c40897a03d2d7e5926923d962121ed5e2e",
+      "tree_sha": "7bd11b14b86cad915575722a47c29b78a15f38d8",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/861b22c40897a03d2d7e5926923d962121ed5e2e"
+    },
+    {
+      "instance_id": "fastapi_14186",
+      "repo": "fastapi/fastapi",
+      "base_commit": "6e49dc029541aaa896fa63c47647ccd3f066df67",
+      "tree_sha": "2d271adb66e061d3748edee72f8628183089ac34",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/6e49dc029541aaa896fa63c47647ccd3f066df67"
+    },
+    {
+      "base_commit": "7132a690461c2367f22556eb87c2b5eb7d9cfb45",
+      "instance_id": "fastapi_14246",
+      "repo": "fastapi/fastapi",
+      "tree_sha": "6f7ebcf2851d2426f14b22e4630d88e116dda1c8",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/7132a690461c2367f22556eb87c2b5eb7d9cfb45"
+    },
+    {
+      "instance_id": "fastapi_14258",
+      "repo": "fastapi/fastapi",
+      "base_commit": "e94028ab60d18080810910352bc9129e8046c92d",
+      "tree_sha": "949c84566b1c716f2a98f88871617fd6277e5d45",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/e94028ab60d18080810910352bc9129e8046c92d"
+    },
+    {
+      "instance_id": "fastapi_14266",
+      "repo": "fastapi/fastapi",
+      "base_commit": "2cf04ee30db9df2db04a5b1e0d2c625dfbf1a211",
+      "tree_sha": "dba428f275d7f4b63ee85663fba3476d6adb2311",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/2cf04ee30db9df2db04a5b1e0d2c625dfbf1a211"
+    },
+    {
+      "instance_id": "fastapi_14297",
+      "repo": "fastapi/fastapi",
+      "base_commit": "3c54a8f07b70cdd40e3d81ea319e9fcccd2481d2",
+      "tree_sha": "ac32401dd842ca68e3cb8b999830545d54702a73",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/3c54a8f07b70cdd40e3d81ea319e9fcccd2481d2"
+    },
+    {
+      "instance_id": "fastapi_14301",
+      "repo": "fastapi/fastapi",
+      "base_commit": "972a967d5d3fa24d450637c36c6b7ad1f1d8c1b6",
+      "tree_sha": "31b61c8391894f850a7d0b78dbb9b344a8d1584d",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/972a967d5d3fa24d450637c36c6b7ad1f1d8c1b6"
+    },
+    {
+      "instance_id": "fastapi_14303",
+      "repo": "fastapi/fastapi",
+      "base_commit": "740ec2787b25e59f7aa9e3df1db09d4489c22718",
+      "tree_sha": "b7f1ded06cad8022df254424e24390989ebb50d7",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/740ec2787b25e59f7aa9e3df1db09d4489c22718"
+    },
+    {
+      "instance_id": "fastapi_14306",
+      "repo": "fastapi/fastapi",
+      "base_commit": "08b09e5236e315b6f10265ed229f130d4befb4ea",
+      "tree_sha": "7d07614fe2173bc21ee822d11a8108e5b7f09091",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/08b09e5236e315b6f10265ed229f130d4befb4ea"
+    },
+    {
+      "base_commit": "eaf611f9ee56de4f16c837d4f487a4b9fca507c4",
+      "instance_id": "fastapi_14349",
+      "repo": "fastapi/fastapi",
+      "tree_sha": "66ecd59395a5a5f7635c20ce2b4a5b8062647659",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/eaf611f9ee56de4f16c837d4f487a4b9fca507c4"
+    },
+    {
+      "instance_id": "fastapi_14356",
+      "repo": "fastapi/fastapi",
+      "base_commit": "6cf40df24d1d199fd25d034fc87fcae284fc23a2",
+      "tree_sha": "1f50aefe54295cd0bb43c9fbd1b736915ccefd42",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/6cf40df24d1d199fd25d034fc87fcae284fc23a2"
+    },
+    {
+      "instance_id": "fastapi_14360",
+      "repo": "fastapi/fastapi",
+      "base_commit": "eead41bf4cf8587b4d86091dd3eabbb85796e717",
+      "tree_sha": "57770158817eeddd4f08bc5c5213dd8b1177828c",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/eead41bf4cf8587b4d86091dd3eabbb85796e717"
+    },
+    {
+      "base_commit": "5265c4f5cb4d8fb4fb5015bccf1a6de8f3fc6044",
+      "instance_id": "fastapi_14361",
+      "repo": "fastapi/fastapi",
+      "tree_sha": "8dd45fa210672ea9cd43941a988177bd45239116",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/5265c4f5cb4d8fb4fb5015bccf1a6de8f3fc6044"
+    },
+    {
+      "instance_id": "fastapi_14371",
+      "repo": "fastapi/fastapi",
+      "base_commit": "3fe6522aaed4d36d6a38175a4a8137ee0fc62451",
+      "tree_sha": "e4d3c6d1460c2caf98efb6eb549d085464acc0df",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/3fe6522aaed4d36d6a38175a4a8137ee0fc62451"
+    },
+    {
+      "instance_id": "fastapi_14372",
+      "repo": "fastapi/fastapi",
+      "base_commit": "566e3157a5517784c741dbf36e39687af326fe90",
+      "tree_sha": "deece339b0ffe6a46d18e9c211b6ab3aa152fd61",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/566e3157a5517784c741dbf36e39687af326fe90"
+    },
+    {
+      "instance_id": "fastapi_14419",
+      "repo": "fastapi/fastapi",
+      "base_commit": "63d7a2b9978258d13dfc22664e60fc2110d30e20",
+      "tree_sha": "878421af550c1c8a8e4f087aa874fad092a92284",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/63d7a2b9978258d13dfc22664e60fc2110d30e20"
+    },
+    {
+      "instance_id": "fastapi_14430",
+      "repo": "fastapi/fastapi",
+      "base_commit": "cff2236dacb7aedcaf2d2de0873cfbc9bb2b897a",
+      "tree_sha": "1c8ae525614e8b28babcc79d505bab54a7035392",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/cff2236dacb7aedcaf2d2de0873cfbc9bb2b897a"
+    },
+    {
+      "instance_id": "fastapi_14448",
+      "repo": "fastapi/fastapi",
+      "base_commit": "c57ac7bdf3613798c94caceff562a41fa16d4a2d",
+      "tree_sha": "9bdae18ca58b96e923ee98ce323abafa7d34a54c",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/c57ac7bdf3613798c94caceff562a41fa16d4a2d"
+    },
+    {
+      "instance_id": "fastapi_14458",
+      "repo": "fastapi/fastapi",
+      "base_commit": "516169428d2fa189d34318ebc469a082c49c1189",
+      "tree_sha": "8e459c1d335c61f5516e84c47138e81d18900f3d",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/516169428d2fa189d34318ebc469a082c49c1189"
+    },
+    {
+      "instance_id": "fastapi_14459",
+      "repo": "fastapi/fastapi",
+      "base_commit": "eb1d50479ba0ac873e4ffa08a824b1d822ca3a17",
+      "tree_sha": "fe8e0ffd2b943a5ad73db73792d784007886fd1a",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/eb1d50479ba0ac873e4ffa08a824b1d822ca3a17"
+    },
+    {
+      "instance_id": "fastapi_14463",
+      "repo": "fastapi/fastapi",
+      "base_commit": "f2687dc1bb01f4cb62eee90e656b61c38c2aaf6a",
+      "tree_sha": "7b29402eb096dba6b927a94b597939233009e855",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/f2687dc1bb01f4cb62eee90e656b61c38c2aaf6a"
+    },
+    {
+      "instance_id": "fastapi_14479",
+      "repo": "fastapi/fastapi",
+      "base_commit": "2b212ddd7604891d42e2ffbafe764c334230bdb7",
+      "tree_sha": "2c012e37f79669f62d19b026380fe44fd51878c7",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/2b212ddd7604891d42e2ffbafe764c334230bdb7"
+    },
+    {
+      "instance_id": "fastapi_14482",
+      "repo": "fastapi/fastapi",
+      "base_commit": "71a17b5932e38bcf798fcd05c5bb384e6d4db5bf",
+      "tree_sha": "004cfaea5f5bb6e4ff1452dafebd06b15eb5f17a",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/71a17b5932e38bcf798fcd05c5bb384e6d4db5bf"
+    },
+    {
+      "instance_id": "fastapi_14485",
+      "repo": "fastapi/fastapi",
+      "base_commit": "60699f306b67dc1f4918ebea17f04d7a48cda645",
+      "tree_sha": "cab5809af3dc25cad9373a826772e8045925e5f3",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/60699f306b67dc1f4918ebea17f04d7a48cda645"
+    },
+    {
+      "instance_id": "fastapi_14487",
+      "repo": "fastapi/fastapi",
+      "base_commit": "4a98a66778987648d2195155c9cbe0824d67b02a",
+      "tree_sha": "92951e2cd2aeff6abff8ce68563f5f79a45dd32f",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/4a98a66778987648d2195155c9cbe0824d67b02a"
+    },
+    {
+      "instance_id": "fastapi_14492",
+      "repo": "fastapi/fastapi",
+      "base_commit": "a456e92a21d5b94a67d6d0fd070218df09444443",
+      "tree_sha": "da81a7d48afe0d3fa17b2ff20067557f5d49644d",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/a456e92a21d5b94a67d6d0fd070218df09444443"
+    },
+    {
+      "instance_id": "fastapi_14512",
+      "repo": "fastapi/fastapi",
+      "base_commit": "1fcec88ad2df4541b6a81c4786c4d039dc745e1e",
+      "tree_sha": "6e201ffacd40103a36910748fcb78fd867dd8520",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/1fcec88ad2df4541b6a81c4786c4d039dc745e1e"
+    },
+    {
+      "instance_id": "fastapi_14583",
+      "repo": "fastapi/fastapi",
+      "base_commit": "6513d4daa16a536d17743de6a292f49bd06388a4",
+      "tree_sha": "71473808bef24bf02b80574ef532f29b31273214",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/6513d4daa16a536d17743de6a292f49bd06388a4"
+    },
+    {
+      "instance_id": "fastapi_14605",
+      "repo": "fastapi/fastapi",
+      "base_commit": "6b53786f626db95a42fd0f66afd360bab161f4b1",
+      "tree_sha": "dfe0d1f97d43b9a7a035f1b395d5fd33a8948291",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/6b53786f626db95a42fd0f66afd360bab161f4b1"
+    },
+    {
+      "instance_id": "fastapi_14609",
+      "repo": "fastapi/fastapi",
+      "base_commit": "1b3bea8b6be2220cc1544653ea785d2134fcb35b",
+      "tree_sha": "a39b543b0f525bf15bb2cde43fa2f88cc9fcf0c7",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/1b3bea8b6be2220cc1544653ea785d2134fcb35b"
+    },
+    {
+      "instance_id": "fastapi_14616",
+      "repo": "fastapi/fastapi",
+      "base_commit": "54f8aeeb9a15e4d5a12401ec5549840966df0087",
+      "tree_sha": "245a512da08c2abd7dd9ca5d4c09c61f3b88803c",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/54f8aeeb9a15e4d5a12401ec5549840966df0087"
+    },
+    {
+      "base_commit": "eacbce24c9d299c6a28110d9fc8ac50f53cddb08",
+      "instance_id": "fastapi_14786",
+      "repo": "fastapi/fastapi",
+      "tree_sha": "8b4965f9f4c0438a470a913f8bd885ce1b92093e",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/eacbce24c9d299c6a28110d9fc8ac50f53cddb08"
+    },
+    {
+      "base_commit": "08924400c2c75533685148b029defcf6913f1def",
+      "instance_id": "fastapi_14791",
+      "repo": "fastapi/fastapi",
+      "tree_sha": "b7029217ef7b39a6384ae0aef31b33d4f3d9800c",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/08924400c2c75533685148b029defcf6913f1def"
+    },
+    {
+      "instance_id": "fastapi_14794",
+      "repo": "fastapi/fastapi",
+      "base_commit": "464c359bb03f7ba72330198cc9f44df36194837d",
+      "tree_sha": "88280e18ba6d1d9ac60d9dcf74e0b30e42e633ae",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/464c359bb03f7ba72330198cc9f44df36194837d"
+    },
+    {
+      "instance_id": "fastapi_14851",
+      "repo": "fastapi/fastapi",
+      "base_commit": "8e50c55fd90c4433ddc9096ff439da9498a8314a",
+      "tree_sha": "26af86db836158db647057d0834876f9de62e1a1",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/8e50c55fd90c4433ddc9096ff439da9498a8314a"
+    },
+    {
+      "base_commit": "cd31576d5704b6aef1bdadc43770238cd88aad2b",
+      "instance_id": "fastapi_14873",
+      "repo": "fastapi/fastapi",
+      "tree_sha": "01a087c3cc1fbe0e20d8cbbfb4d99163baa8032a",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/cd31576d5704b6aef1bdadc43770238cd88aad2b"
+    },
+    {
+      "instance_id": "fastapi_14953",
+      "repo": "fastapi/fastapi",
+      "base_commit": "d2c17b603d2f986d5f3800d3bf24acba8e1f485b",
+      "tree_sha": "c8be06d970c4f882737333c0818afa824f8a08c6",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/d2c17b603d2f986d5f3800d3bf24acba8e1f485b"
+    },
+    {
+      "instance_id": "fastapi_14962",
+      "repo": "fastapi/fastapi",
+      "base_commit": "1e78a36b7310003f0ff634627d8a7bc53c6ccdee",
+      "tree_sha": "3eea0e8ca7b38d37aa62d5d6c64f4c8aa68ea7ec",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/1e78a36b7310003f0ff634627d8a7bc53c6ccdee"
+    },
+    {
+      "instance_id": "fastapi_14964",
+      "repo": "fastapi/fastapi",
+      "base_commit": "bc06e4296d588f39f38c7ac2fc96d3913c565962",
+      "tree_sha": "cac1a745f81c2ac504ce548da1a4106cc53a5e23",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/bc06e4296d588f39f38c7ac2fc96d3913c565962"
+    },
+    {
+      "instance_id": "fastapi_14978",
+      "repo": "fastapi/fastapi",
+      "base_commit": "94a1ee749e63591e6e275b726a66e07a25f6c407",
+      "tree_sha": "c8932a13b7e865fc00948841c43766375f6d8de6",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/94a1ee749e63591e6e275b726a66e07a25f6c407"
+    },
+    {
+      "instance_id": "fastapi_14986",
+      "repo": "fastapi/fastapi",
+      "base_commit": "2f9c914d440e99fe8b62646b51e4d24c5bcd858b",
+      "tree_sha": "c932445f7f8b67df370873189024eb2daa75b567",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/2f9c914d440e99fe8b62646b51e4d24c5bcd858b"
+    },
+    {
+      "instance_id": "fastapi_15023",
+      "repo": "fastapi/fastapi",
+      "base_commit": "c0836dc1b7f4ba91e9563c8c4ccd0ebe655bc914",
+      "tree_sha": "e677615e75916874f814d2b2499f6efbb22aa00a",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/c0836dc1b7f4ba91e9563c8c4ccd0ebe655bc914"
+    },
+    {
+      "instance_id": "fastapi_15030",
+      "repo": "fastapi/fastapi",
+      "base_commit": "48d58ae3b6ef4ded5a4794618c00345667256d98",
+      "tree_sha": "0f249724ae4208bf0d1c41467de091fd86469c90",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/48d58ae3b6ef4ded5a4794618c00345667256d98"
+    },
+    {
+      "instance_id": "fastapi_15280",
+      "repo": "fastapi/fastapi",
+      "base_commit": "6ee87478d821171139264cd9cd17cbd2232934ce",
+      "tree_sha": "fe15581578fe0bdc9d396700363fb3a71e07ffbb",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/6ee87478d821171139264cd9cd17cbd2232934ce"
+    },
+    {
+      "instance_id": "fastapi_15588",
+      "repo": "fastapi/fastapi",
+      "base_commit": "cb83b83dcf78eab4ea17d504db5abcda705fbdc4",
+      "tree_sha": "5a955100b0770bb7ba49f271d8720ace9c38516f",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/cb83b83dcf78eab4ea17d504db5abcda705fbdc4"
+    },
+    {
+      "base_commit": "22b02e26f9e8c7e32bd8266e2b0ebe8bb3a0db2b",
+      "instance_id": "fastapi_15589",
+      "repo": "fastapi/fastapi",
+      "tree_sha": "90fc2eb8836de44e75fd4a24c83f4cd07c000070",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/22b02e26f9e8c7e32bd8266e2b0ebe8bb3a0db2b"
+    },
+    {
+      "instance_id": "fastapi_15661",
+      "repo": "fastapi/fastapi",
+      "base_commit": "ee22a4b8ca46dcce26c8c183afc4992a888d8be2",
+      "tree_sha": "955220d5586012e826782409c9a3400b800be1c5",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/ee22a4b8ca46dcce26c8c183afc4992a888d8be2"
+    },
+    {
+      "instance_id": "fastapi_15745",
+      "repo": "fastapi/fastapi",
+      "base_commit": "016ab760faba1813ba235d5582a014a58bd2f417",
+      "tree_sha": "80f3f66ba14f001f8eb648af2826445a611a6fb9",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/016ab760faba1813ba235d5582a014a58bd2f417"
+    },
+    {
+      "instance_id": "fastapi_15763",
+      "repo": "fastapi/fastapi",
+      "base_commit": "9a9c4ad5d06f5fe8ee6775a5aeaa2f83c854f263",
+      "tree_sha": "03a1d6c872675966f1892fe858c340d62c2cf6e4",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/9a9c4ad5d06f5fe8ee6775a5aeaa2f83c854f263"
+    },
+    {
+      "instance_id": "fastapi_15785",
+      "repo": "fastapi/fastapi",
+      "base_commit": "202b2d2f5f331db9102b5dbcef071a9e09bed10e",
+      "tree_sha": "9bd5c0da893c213aadef8caeaef768b191463e69",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/202b2d2f5f331db9102b5dbcef071a9e09bed10e"
+    },
+    {
+      "base_commit": "f1d750fddad90e2faad6c3cc5c85c7687b787e89",
+      "instance_id": "fastapi_15800",
+      "repo": "fastapi/fastapi",
+      "tree_sha": "a079dd11dc7359f6915b68a73afc3b2a324152a1",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/f1d750fddad90e2faad6c3cc5c85c7687b787e89"
+    },
+    {
+      "instance_id": "fastapi_5077",
+      "repo": "fastapi/fastapi",
+      "base_commit": "930b27e5fa32ce150ddcea61f0c913435ae71c83",
+      "tree_sha": "925c4f9783212978ef8f2e3722f3d5f4fa8a1995",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/930b27e5fa32ce150ddcea61f0c913435ae71c83"
+    },
+    {
+      "instance_id": "fastapi_5624",
+      "repo": "fastapi/fastapi",
+      "base_commit": "c6487ed632056e450d844846a1b63be551a3cbc6",
+      "tree_sha": "e7b4882452afbeea41f25e9d1b82e5acabc60597",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/c6487ed632056e450d844846a1b63be551a3cbc6"
+    },
+    {
+      "instance_id": "fastapi_9555",
+      "repo": "fastapi/fastapi",
+      "base_commit": "4976568fc7cb7501729d8f84d946cde1e91299cd",
+      "tree_sha": "ade096c3069af176d7950fbbc952431690c36ada",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/4976568fc7cb7501729d8f84d946cde1e91299cd"
+    },
+    {
+      "instance_id": "fastapi_9753",
+      "repo": "fastapi/fastapi",
+      "base_commit": "aee8e78078e8a7f2736d3cab7a1cb7197356951c",
+      "tree_sha": "df87c2df4233c24a23c77723a14086585b23cce9",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/aee8e78078e8a7f2736d3cab7a1cb7197356951c"
+    },
+    {
+      "base_commit": "7a13c041dbef42f9f3feb14110f02626f6892e9a",
+      "instance_id": "requests_6589",
+      "repo": "psf/requests",
+      "tree_sha": "4a14378b74ac3d965f13e05d27670223b5739190",
+      "url": "https://api.github.com/repos/psf/requests/git/commits/7a13c041dbef42f9f3feb14110f02626f6892e9a"
+    },
+    {
+      "base_commit": "0b4d494192de489701d3a2e32acef8fb5d3f042e",
+      "instance_id": "requests_6592",
+      "repo": "psf/requests",
+      "tree_sha": "3477f30d0f9ebcaf5abfcfb0ceb3dd73765cfc59",
+      "url": "https://api.github.com/repos/psf/requests/git/commits/0b4d494192de489701d3a2e32acef8fb5d3f042e"
+    },
+    {
+      "base_commit": "382fc2c0c6c0ef0874bc65bc1175f97c073e5086",
+      "instance_id": "requests_6644",
+      "repo": "psf/requests",
+      "tree_sha": "6e77739021025919bcae78f397c4768806b35116",
+      "url": "https://api.github.com/repos/psf/requests/git/commits/382fc2c0c6c0ef0874bc65bc1175f97c073e5086"
+    },
+    {
+      "base_commit": "0e322af87745eff34caffe4df68456ebc20d9068",
+      "instance_id": "requests_6757",
+      "repo": "psf/requests",
+      "tree_sha": "9474485f84c7244930abc1b8023f847486572091",
+      "url": "https://api.github.com/repos/psf/requests/git/commits/0e322af87745eff34caffe4df68456ebc20d9068"
+    },
+    {
+      "instance_id": "requests_7205",
+      "repo": "psf/requests",
+      "base_commit": "1b40fdd004bfc8ba5301bcf8a6908264e9b6b877",
+      "tree_sha": "683d44befe0d3519469011c35e46f332eebbc010",
+      "url": "https://api.github.com/repos/psf/requests/git/commits/1b40fdd004bfc8ba5301bcf8a6908264e9b6b877"
+    },
+    {
+      "base_commit": "7407309c8a8a73aa2f4337184025d440bbedab7a",
+      "instance_id": "requests_7309",
+      "repo": "psf/requests",
+      "tree_sha": "f7890cbd98314a186a6498fd4fb191abb424b560",
+      "url": "https://api.github.com/repos/psf/requests/git/commits/7407309c8a8a73aa2f4337184025d440bbedab7a"
+    },
+    {
+      "instance_id": "requests_7315",
+      "repo": "psf/requests",
+      "base_commit": "6360477c52303c9445b45fa8744b02d05a2f0905",
+      "tree_sha": "649c6f077e3970833049e3157bcbc02684550c51",
+      "url": "https://api.github.com/repos/psf/requests/git/commits/6360477c52303c9445b45fa8744b02d05a2f0905"
+    },
+    {
+      "base_commit": "b684dcb9bbf3aa557d1238e72062c4a29737dd1c",
+      "instance_id": "requests_7427",
+      "repo": "psf/requests",
+      "tree_sha": "f89ba9281369ca35eaad0f27853941e129836be2",
+      "url": "https://api.github.com/repos/psf/requests/git/commits/b684dcb9bbf3aa557d1238e72062c4a29737dd1c"
+    },
+    {
+      "base_commit": "0b401c76b6e80a4eecf3c690085b2553f6e261ca",
+      "instance_id": "requests_7433",
+      "repo": "psf/requests",
+      "tree_sha": "27a939fc92e62fd389e83992b62efdf22d6be7c0",
+      "url": "https://api.github.com/repos/psf/requests/git/commits/0b401c76b6e80a4eecf3c690085b2553f6e261ca"
+    },
+    {
+      "base_commit": "6f205ff422bccd5e4c4fc0b64c5f3e7df5181db6",
+      "instance_id": "requests_7505",
+      "repo": "psf/requests",
+      "tree_sha": "1283c61d32482454e6a9cd287fb3a61d44614f69",
+      "url": "https://api.github.com/repos/psf/requests/git/commits/6f205ff422bccd5e4c4fc0b64c5f3e7df5181db6"
+    },
+    {
+      "base_commit": "577def22dd83b999c5937cb2bf2ed49600943325",
+      "instance_id": "rich_2725",
+      "repo": "Textualize/rich",
+      "tree_sha": "f6638d3528bd77a1eff335d55da5db08cb3c9583",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/577def22dd83b999c5937cb2bf2ed49600943325"
+    },
+    {
+      "instance_id": "rich_2943",
+      "repo": "Textualize/rich",
+      "base_commit": "610fd75c433c3dfcd9c296e8b91363979127b9fa",
+      "tree_sha": "b421343dd8bf42c5d65c0221cf93acc517aea77a",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/610fd75c433c3dfcd9c296e8b91363979127b9fa"
+    },
+    {
+      "instance_id": "rich_3006",
+      "repo": "Textualize/rich",
+      "base_commit": "0c8bb032ad3b54a32fdb8a43f5ab457c8cd6dcb1",
+      "tree_sha": "de99655e573ec048b923905e2a3dd1888a4a5919",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/0c8bb032ad3b54a32fdb8a43f5ab457c8cd6dcb1"
+    },
+    {
+      "instance_id": "rich_3043",
+      "repo": "Textualize/rich",
+      "base_commit": "8a616de8e25db3c93abaaa220c493d80878de69d",
+      "tree_sha": "c2ab870ce396f066664ea9de5678ee71ca24dd92",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/8a616de8e25db3c93abaaa220c493d80878de69d"
+    },
+    {
+      "instance_id": "rich_3061",
+      "repo": "Textualize/rich",
+      "base_commit": "aca9467ec6a482b3bed1ba7d2e3de72271c5f817",
+      "tree_sha": "0e4daced6a43cfcdb0fa0d9a7479f7473d869e13",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/aca9467ec6a482b3bed1ba7d2e3de72271c5f817"
+    },
+    {
+      "base_commit": "368e8ad77c95a6bef8f9d332039091d1417296bc",
+      "instance_id": "rich_3063",
+      "repo": "Textualize/rich",
+      "tree_sha": "fdcc7c900b2f2b6c2a5b23a42ccb4d495cde71e6",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/368e8ad77c95a6bef8f9d332039091d1417296bc"
+    },
+    {
+      "base_commit": "1ad6f73a4d1d3b40ac3f879feccfaad66412bd1d",
+      "instance_id": "rich_3067",
+      "repo": "Textualize/rich",
+      "tree_sha": "fb28023a600388be4df1f59099ba44a1d6642952",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/1ad6f73a4d1d3b40ac3f879feccfaad66412bd1d"
+    },
+    {
+      "instance_id": "rich_3105",
+      "repo": "Textualize/rich",
+      "base_commit": "9f620dc50c0008c35e9f8493f198e6e593574a70",
+      "tree_sha": "31563bdabb63e51701f66e7c2d3e8c496680a68d",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/9f620dc50c0008c35e9f8493f198e6e593574a70"
+    },
+    {
+      "instance_id": "rich_3130",
+      "repo": "Textualize/rich",
+      "base_commit": "720800e6930d85ad027b1e9bd0cbb96b5e994ce3",
+      "tree_sha": "41184180ed1d69b84438b7182a0364d8a473d527",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/720800e6930d85ad027b1e9bd0cbb96b5e994ce3"
+    },
+    {
+      "instance_id": "rich_3180",
+      "repo": "Textualize/rich",
+      "base_commit": "e76f3c3ea78481342e21a7b3328075462ab69c2b",
+      "tree_sha": "e1e3e8e8b1462e55c6076a3bcd668dcf8a29c966",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/e76f3c3ea78481342e21a7b3328075462ab69c2b"
+    },
+    {
+      "instance_id": "rich_3278",
+      "repo": "Textualize/rich",
+      "base_commit": "4c5d305bb902ce97011666ada19e48d0b27b49e1",
+      "tree_sha": "082e12f5b38a696cc0ac6582c94c29f1a54a9b18",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/4c5d305bb902ce97011666ada19e48d0b27b49e1"
+    },
+    {
+      "instance_id": "rich_3296",
+      "repo": "Textualize/rich",
+      "base_commit": "fde5d6eee3b0437eaecdcbf6f8b11aeab3a5d503",
+      "tree_sha": "d5393bb81ed016e09732bb9b68a7b7ee599e2bc3",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/fde5d6eee3b0437eaecdcbf6f8b11aeab3a5d503"
+    },
+    {
+      "instance_id": "rich_3454",
+      "repo": "Textualize/rich",
+      "base_commit": "e1e6d745f670ff3df6b8f47377c0a4006cb74066",
+      "tree_sha": "df0ddbdd69bab7cac340b40cf182fcd1b63eba3b",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/e1e6d745f670ff3df6b8f47377c0a4006cb74066"
+    },
+    {
+      "base_commit": "ae15db600976a7999d21653002f338d0761b180c",
+      "instance_id": "rich_3468",
+      "repo": "Textualize/rich",
+      "tree_sha": "e703f8c71433f626fa299d710cd3fb9bf8432d75",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/ae15db600976a7999d21653002f338d0761b180c"
+    },
+    {
+      "instance_id": "rich_3469",
+      "repo": "Textualize/rich",
+      "base_commit": "c478588f3c228a4e86741a057c42b452d7bc6bce",
+      "tree_sha": "a1d0ce6481a8250608ed52634483a2eebceec3c3",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/c478588f3c228a4e86741a057c42b452d7bc6bce"
+    },
+    {
+      "instance_id": "rich_3470",
+      "repo": "Textualize/rich",
+      "base_commit": "0ba607dc080c9f102b5ae5346bcdb70d6e9c969d",
+      "tree_sha": "16c19ccbc62f516df962650b5144be4a2fb0ad97",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/0ba607dc080c9f102b5ae5346bcdb70d6e9c969d"
+    },
+    {
+      "instance_id": "rich_3471",
+      "repo": "Textualize/rich",
+      "base_commit": "e2a982d5ea747f0deb7f78e8eaa5b4be7d9194cf",
+      "tree_sha": "1a3c7fa7820aaceea64ee603ca918b1a3d6551f3",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/e2a982d5ea747f0deb7f78e8eaa5b4be7d9194cf"
+    },
+    {
+      "instance_id": "rich_3472",
+      "repo": "Textualize/rich",
+      "base_commit": "b6f2f7aa5b27f612f391cd28212aff51ad0d42d1",
+      "tree_sha": "0370041a00503c23fbb59d128afbabb3be8bbe76",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/b6f2f7aa5b27f612f391cd28212aff51ad0d42d1"
+    },
+    {
+      "instance_id": "rich_3480",
+      "repo": "Textualize/rich",
+      "base_commit": "9ec419154102acce7363e3958bec6c261864d7fb",
+      "tree_sha": "195beb524fb55245f529a12ba90120123a0e5bcd",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/9ec419154102acce7363e3958bec6c261864d7fb"
+    },
+    {
+      "instance_id": "rich_3486",
+      "repo": "Textualize/rich",
+      "base_commit": "d0de442c08df8793c5ff36d9ad322ca5c47fc38c",
+      "tree_sha": "b2b5f76eec764f28d0b0b764b6747455ca2623ef",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/d0de442c08df8793c5ff36d9ad322ca5c47fc38c"
+    },
+    {
+      "base_commit": "4101991898ee7a09fe1706daca24af5e1e054862",
+      "instance_id": "rich_3506",
+      "repo": "Textualize/rich",
+      "tree_sha": "654732f1647e5bff3561bae18e87a78dd444eed8",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/4101991898ee7a09fe1706daca24af5e1e054862"
+    },
+    {
+      "instance_id": "rich_3518",
+      "repo": "Textualize/rich",
+      "base_commit": "5ba9cb56e68dcdf2db50c214d8f1412c8a50761b",
+      "tree_sha": "61903e7e11125ebf8a528b4afc181404d0ba1588",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/5ba9cb56e68dcdf2db50c214d8f1412c8a50761b"
+    },
+    {
+      "instance_id": "rich_3521",
+      "repo": "Textualize/rich",
+      "base_commit": "66074922edabeac684434b4d87ee994fb97b0627",
+      "tree_sha": "60c5d6522669fed629703dc1651dbb0d5664f3d0",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/66074922edabeac684434b4d87ee994fb97b0627"
+    },
+    {
+      "instance_id": "rich_3535",
+      "repo": "Textualize/rich",
+      "base_commit": "0f2f51b872d14588de3a65968f5cdde6fb5694a3",
+      "tree_sha": "95510465f3f645237b668e7719a5749f1c6ad6e2",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/0f2f51b872d14588de3a65968f5cdde6fb5694a3"
+    },
+    {
+      "instance_id": "rich_3675",
+      "repo": "Textualize/rich",
+      "base_commit": "edc6b0a39b6df1c0e26d409bb5c5eda7149b2de6",
+      "tree_sha": "da4be81688092b7451ee0c881ffb5fe6cc66378d",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/edc6b0a39b6df1c0e26d409bb5c5eda7149b2de6"
+    },
+    {
+      "base_commit": "2b5d648b2c62960deb6439f4204ed8fa6eb3cf7b",
+      "instance_id": "rich_3676",
+      "repo": "Textualize/rich",
+      "tree_sha": "5a484a67cdf3dd0c74683da5c386c4436bd63838",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/2b5d648b2c62960deb6439f4204ed8fa6eb3cf7b"
+    },
+    {
+      "instance_id": "rich_3718",
+      "repo": "Textualize/rich",
+      "base_commit": "7d36119f8378b36129502c3281a7faffef837e02",
+      "tree_sha": "e1652a57c5e0929cc91da1f8333834d9ae898515",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/7d36119f8378b36129502c3281a7faffef837e02"
+    },
+    {
+      "base_commit": "2809954800af15b4027364cebf82390fe23dc194",
+      "instance_id": "rich_3772",
+      "repo": "Textualize/rich",
+      "tree_sha": "c36ff854763d9b60b63a67c1f11b785c1e4596b1",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/2809954800af15b4027364cebf82390fe23dc194"
+    },
+    {
+      "base_commit": "49117ced6648a432d85951f72dce777038f6ce09",
+      "instance_id": "rich_3777",
+      "repo": "Textualize/rich",
+      "tree_sha": "ceaa903197027d65ac1588c7cf993f119685aad7",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/49117ced6648a432d85951f72dce777038f6ce09"
+    },
+    {
+      "instance_id": "rich_3782",
+      "repo": "Textualize/rich",
+      "base_commit": "3b70db5a2997de191f7db3e422dbe4da35ca1c95",
+      "tree_sha": "730407ad923d120871b935d0fbeaf50a83fed91b",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/3b70db5a2997de191f7db3e422dbe4da35ca1c95"
+    },
+    {
+      "instance_id": "rich_3905",
+      "repo": "Textualize/rich",
+      "base_commit": "96dd4b60e3a7c647c43a85ad375afa690b3bb85b",
+      "tree_sha": "53355ec89b437f7a2d0e40d9c0c186583c80fd68",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/96dd4b60e3a7c647c43a85ad375afa690b3bb85b"
+    },
+    {
+      "instance_id": "rich_3930",
+      "repo": "Textualize/rich",
+      "base_commit": "53757bc234cf18977cade41a5b64f3abaccb0b85",
+      "tree_sha": "1eb47f947c917de5cf6b2da136b36bb5e83ea557",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/53757bc234cf18977cade41a5b64f3abaccb0b85"
+    },
+    {
+      "instance_id": "rich_3938",
+      "repo": "Textualize/rich",
+      "base_commit": "05ff970926cbd0b5d0acb6fc18cdbd1fc971e582",
+      "tree_sha": "74bccc739af9aea397651f382ecaa35fd262e1e4",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/05ff970926cbd0b5d0acb6fc18cdbd1fc971e582"
+    },
+    {
+      "instance_id": "rich_3942",
+      "repo": "Textualize/rich",
+      "base_commit": "c595fa95068dd2c5095d25446b2f0571bc0b3995",
+      "tree_sha": "5b5de5d00c2076222004226e800486916d713484",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/c595fa95068dd2c5095d25446b2f0571bc0b3995"
+    },
+    {
+      "instance_id": "rich_3944",
+      "repo": "Textualize/rich",
+      "base_commit": "36fe3f7ca9becca4777861d5e6e625f5a4a37545",
+      "tree_sha": "3ec64e942064ff880bb9fd7385263d4ec7bbe058",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/36fe3f7ca9becca4777861d5e6e625f5a4a37545"
+    },
+    {
+      "instance_id": "rich_3953",
+      "repo": "Textualize/rich",
+      "base_commit": "1d402e0c59f8765e420a5a4440eb2fca7465d1ae",
+      "tree_sha": "b0e4d7c3819caf68920a8766b70b28fa9e79abc3",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/1d402e0c59f8765e420a5a4440eb2fca7465d1ae"
+    },
+    {
+      "instance_id": "rich_4006",
+      "repo": "Textualize/rich",
+      "base_commit": "27701029082052c6541031b6f139097230253900",
+      "tree_sha": "fdc88f0082c3acd629aa7e165c44e2536190bf7c",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/27701029082052c6541031b6f139097230253900"
+    },
+    {
+      "instance_id": "rich_4070",
+      "repo": "Textualize/rich",
+      "base_commit": "fc41075a3206d2a5fd846c6f41c4d2becab814fa",
+      "tree_sha": "2036dc54c2d80a424598fd0add49d576843ee2ef",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/fc41075a3206d2a5fd846c6f41c4d2becab814fa"
+    },
+    {
+      "instance_id": "rich_4076",
+      "repo": "Textualize/rich",
+      "base_commit": "9cb198944f8184df92217efc8b20d3fffa4b4fa0",
+      "tree_sha": "5c7294e1bcd698d53d3ec05c449e0de97704ed73",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/9cb198944f8184df92217efc8b20d3fffa4b4fa0"
+    },
+    {
+      "instance_id": "rich_4077",
+      "repo": "Textualize/rich",
+      "base_commit": "58ac15120fe254886c10d6253667733c83604cb4",
+      "tree_sha": "bc6ede75faeaee74089fa8f3b91fa5f5e3ac3138",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/58ac15120fe254886c10d6253667733c83604cb4"
+    },
+    {
+      "instance_id": "rich_4079",
+      "repo": "Textualize/rich",
+      "base_commit": "19c67b9a3479841e9133bea94607c89ee931d3fc",
+      "tree_sha": "377db504b576ecd055025b260c341bf714f42c30",
+      "url": "https://api.github.com/repos/Textualize/rich/git/commits/19c67b9a3479841e9133bea94607c89ee931d3fc"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,15 @@
+{
+ "replies": 115,
+ "tasks": 115,
+ "excluded_tasks": {
+  "no F2P test": 3,
+  "base run produced no outcomes": 4
+ },
+ "by_cond": {
+  "REF": {
+   "n": 108,
+   "resolved": 104
+  }
+ },
+ "crashed": 0
+}

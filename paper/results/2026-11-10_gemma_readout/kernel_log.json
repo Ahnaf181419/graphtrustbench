@@ -1,0 +1,536 @@
+[{"stream_name":"stderr","time":9.557476906,"data":"/usr/local/lib/python3.12/dist-packages/nbformat/__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":9.557512241,"data":"  validate(nb)\n"}
+,{"stream_name":"stderr","time":10.846919893,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.846940568,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.846943431,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.846945703,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":11.568930604,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.568958187,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.568960999,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.56896326,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":13.305715562,"data":"Installing 41 wheels from /kaggle/input/datasets/metric/gemma-4-developer-agent-wheelhouse... 3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]\n"}
+,{"stream_name":"stdout","time":68.518322325,"data":"Wheelhouse installation complete.\n"}
+,{"stream_name":"stdout","time":80.922936328,"data":"art /kaggle/input/datasets/mahnafsarker/graphtrustbench-v5-readout comp /kaggle/input/competitions/gemma-4-developer-agent model /kaggle/input/models/google/gemma-4/other/gemma-4-31b-it-qat-w4a16-ct/2\n"}
+,{"stream_name":"stdout","time":81.125041545,"data":"art /kaggle/input/datasets/mahnafsarker/graphtrustbench-v5-readout comp /kaggle/input/competitions/gemma-4-developer-agent model /kaggle/input/models/google/gemma-4/other/gemma-4-31b-it-qat-w4a16-ct/2\n"}
+,{"stream_name":"stdout","time":137.684116464,"data":"INFO 11-10 16:21:39 [utils.py:233] non-default args: {'max_model_len': 32768, 'tensor_parallel_size': 4, 'gpu_memory_utilization': 0.85, 'max_num_seqs': 32, 'disable_log_stats': True, 'model': '/kaggle/input/models/google/gemma-4/other/gemma-4-31b-it-qat-w4a16-ct/2'}\n"}
+,{"stream_name":"stdout","time":137.887731478,"data":"INFO 11-10 16:21:39 [utils.py:233] non-default args: {'max_model_len': 32768, 'tensor_parallel_size': 4, 'gpu_memory_utilization': 0.85, 'max_num_seqs': 32, 'disable_log_stats': True, 'model': '/kaggle/input/models/google/gemma-4/other/gemma-4-31b-it-qat-w4a16-ct/2'}\n"}
+,{"stream_name":"stdout","time":162.787096229,"data":"INFO 11-10 16:22:04 [model.py:549] Resolved architecture: Gemma4ForConditionalGeneration\n"}
+,{"stream_name":"stdout","time":162.787343317,"data":"INFO 11-10 16:22:04 [model.py:1678] Using max model len 32768\n"}
+,{"stream_name":"stdout","time":162.989121658,"data":"INFO 11-10 16:22:04 [model.py:549] Resolved architecture: Gemma4ForConditionalGeneration\n"}
+,{"stream_name":"stdout","time":162.989148084,"data":"INFO 11-10 16:22:04 [model.py:1678] Using max model len 32768\n"}
+,{"stream_name":"stdout","time":163.998682737,"data":"INFO 11-10 16:22:05 [scheduler.py:238] Chunked prefill is enabled with max_num_batched_tokens=8192.\n"}
+,{"stream_name":"stdout","time":163.998985346,"data":"INFO 11-10 16:22:05 [config.py:104] Gemma4 model has heterogeneous head dimensions (head_dim=256, global_head_dim=512). Forcing TRITON_ATTN backend to prevent mixed-backend numerical divergence.\n"}
+,{"stream_name":"stdout","time":164.002742975,"data":"INFO 11-10 16:22:05 [vllm.py:790] Asynchronous scheduling is enabled.\n"}
+,{"stream_name":"stdout","time":164.20072802,"data":"INFO 11-10 16:22:05 [scheduler.py:238] Chunked prefill is enabled with max_num_batched_tokens=8192.\n"}
+,{"stream_name":"stdout","time":164.200754664,"data":"INFO 11-10 16:22:05 [config.py:104] Gemma4 model has heterogeneous head dimensions (head_dim=256, global_head_dim=512). Forcing TRITON_ATTN backend to prevent mixed-backend numerical divergence.\n"}
+,{"stream_name":"stdout","time":164.200759031,"data":"INFO 11-10 16:22:05 [vllm.py:790] Asynchronous scheduling is enabled.\n"}
+,{"stream_name":"stdout","time":186.513312627,"data":"(EngineCore pid=454) INFO 11-10 16:22:27 [core.py:105] Initializing a V1 LLM engine (v0.19.1) with config: model='/kaggle/input/models/google/gemma-4/other/gemma-4-31b-it-qat-w4a16-ct/2', speculative_config=None, tokenizer='/kaggle/input/models/google/gemma-4/other/gemma-4-31b-it-qat-w4a16-ct/2', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=32768, download_dir=None, load_format=auto, tensor_parallel_size=4, pipeline_parallel_size=1, data_parallel_size=1, decode_context_parallel_size=1, dcp_comm_backend=ag_rs, disable_custom_all_reduce=False, quantization=compressed-tensors, enforce_eager=False, enable_return_routed_experts=False, kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser='', reasoning_parser_plugin='', enable_in_reasoning=False), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None, kv_cache_metrics=False, kv_cache_metrics_sample=0.01, cudagraph_metrics=False, enable_layerwise_nvtx_tracing=False, enable_mfu_metrics=False, enable_mm_processor_stats=False, enable_logging_iteration_details=False), seed=0, served_model_name=/kaggle/input/models/google/gemma-4/other/gemma-4-31b-it-qat-w4a16-ct/2, enable_prefix_caching=True, enable_chunked_prefill=True, pooler_config=None, compilation_config={'mode': \u003cCompilationMode.VLLM_COMPILE: 3\u003e, 'debug_dump_path': None, 'cache_dir': '', 'compile_cache_save_format': 'binary', 'backend': 'inductor', 'custom_ops': ['none'], 'splitting_ops': ['vllm::unified_attention', 'vllm::unified_attention_with_output', 'vllm::unified_mla_attention', 'vllm::unified_mla_attention_with_output', 'vllm::mamba_mixer2', 'vllm::mamba_mixer', 'vllm::short_conv', 'vllm::linear_attention', 'vllm::plamo2_mamba_mixer', 'vllm::gdn_attention_core', 'vllm::olmo_hybrid_gdn_full_forward', 'vllm::kda_attention', 'vllm::sparse_attn_indexer', 'vllm::rocm_aiter_sparse_attn_indexer', 'vllm::unified_kv_cache_update', 'vllm::unified_mla_kv_cache_update'], 'compile_mm_encoder': False, 'cudagraph_mm_encoder': False, 'encoder_cudagraph_token_budgets': [], 'encoder_cudagraph_max_images_per_batch': 0, 'compile_sizes': [], 'compile_ranges_endpoints': [8192], 'inductor_compile_config': {'enable_auto_functionalized_v2': False, 'size_asserts': False, 'alignment_asserts': False, 'scalar_asserts': False, 'combo_kernels': True, 'benchmark_combo_kernel': True}, 'inductor_passes': {}, 'cudagraph_mode': \u003cCUDAGraphMode.FULL_AND_PIECEWISE: (2, 1)\u003e, 'cudagraph_num_of_warmups': 1, 'cudagraph_capture_sizes': [1, 2, 4, 8, 16, 24, 32, 40, 48, 56, 64], 'cudagraph_copy_inputs': False, 'cudagraph_specialize_lora': True, 'use_inductor_graph_partition': False, 'pass_config': {'fuse_norm_quant': False, 'fuse_act_quant': False, 'fuse_attn_quant': False, 'enable_sp': False, 'fuse_gemm_comms': False, 'fuse_allreduce_rms': False}, 'max_cudagraph_capture_size': 64, 'dynamic_shapes_config': {'type': \u003cDynamicShapesType.BACKED: 'backed'\u003e, 'evaluate_guards': False, 'assume_32_bit_indexing': False}, 'local_cache_dir': None, 'fast_moe_cold_start': True, 'static_all_moe_layers': []}\n"}
+,{"stream_name":"stdout","time":186.513371579,"data":"(EngineCore pid=454) WARNING 11-10 16:22:27 [multiproc_executor.py:1014] Reducing Torch parallelism from 24 threads to 1 to avoid unnecessary CPU contention. Set OMP_NUM_THREADS in the external environment to tune this value as needed.\n"}
+,{"stream_name":"stdout","time":186.513533343,"data":"(EngineCore pid=454) INFO 11-10 16:22:27 [multiproc_executor.py:134] DP group leader: node_rank=0, node_rank_within_dp=0, master_addr=127.0.0.1, mq_connect_ip=172.19.2.2 (local), world_size=4, local_world_size=4\n"}
+,{"stream_name":"stdout","time":186.717071043,"data":"(EngineCore pid=454) INFO 11-10 16:22:27 [core.py:105] Initializing a V1 LLM engine (v0.19.1) with config: model='/kaggle/input/models/google/gemma-4/other/gemma-4-31b-it-qat-w4a16-ct/2', speculative_config=None, tokenizer='/kaggle/input/models/google/gemma-4/other/gemma-4-31b-it-qat-w4a16-ct/2', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=32768, download_dir=None, load_format=auto, tensor_parallel_size=4, pipeline_parallel_size=1, data_parallel_size=1, decode_context_parallel_size=1, dcp_comm_backend=ag_rs, disable_custom_all_reduce=False, quantization=compressed-tensors, enforce_eager=False, enable_return_routed_experts=False, kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser='', reasoning_parser_plugin='', enable_in_reasoning=False), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None, kv_cache_metrics=False, kv_cache_metrics_sample=0.01, cudagraph_metrics=False, enable_layerwise_nvtx_tracing=False, enable_mfu_metrics=False, enable_mm_processor_stats=False, enable_logging_iteration_details=False), seed=0, served_model_name=/kaggle/input/models/google/gemma-4/other/gemma-4-31b-it-qat-w4a16-ct/2, enable_prefix_caching=True, enable_chunked_prefill=True, pooler_config=None, compilation_config={'mode': \u003cCompilationMode.VLLM_COMPILE: 3\u003e, 'debug_dump_path': None, 'cache_dir': '', 'compile_cache_save_format': 'binary', 'backend': 'inductor', 'custom_ops': ['none'], 'splitting_ops': ['vllm::unified_attention', 'vllm::unified_attention_with_output', 'vllm::unified_mla_attention', 'vllm::unified_mla_attention_with_output', 'vllm::mamba_mixer2', 'vllm::mamba_mixer', 'vllm::short_conv', 'vllm::linear_attention', 'vllm::plamo2_mamba_mixer', 'vllm::gdn_attention_core', 'vllm::olmo_hybrid_gdn_full_forward', 'vllm::kda_attention', 'vllm::sparse_attn_indexer', 'vllm::rocm_aiter_sparse_attn_indexer', 'vllm::unified_kv_cache_update', 'vllm::unified_mla_kv_cache_update'], 'compile_mm_encoder': False, 'cudagraph_mm_encoder': False, 'encoder_cudagraph_token_budgets': [], 'encoder_cudagraph_max_images_per_batch': 0, 'compile_sizes': [], 'compile_ranges_endpoints': [8192], 'inductor_compile_config': {'enable_auto_functionalized_v2': False, 'size_asserts': False, 'alignment_asserts': False, 'scalar_asserts': False, 'combo_kernels': True, 'benchmark_combo_kernel': True}, 'inductor_passes': {}, 'cudagraph_mode': \u003cCUDAGraphMode.FULL_AND_PIECEWISE: (2, 1)\u003e, 'cudagraph_num_of_warmups': 1, 'cudagraph_capture_sizes': [1, 2, 4, 8, 16, 24, 32, 40, 48, 56, 64], 'cudagraph_copy_inputs': False, 'cudagraph_specialize_lora': True, 'use_inductor_graph_partition': False, 'pass_config': {'fuse_norm_quant': False, 'fuse_act_quant': False, 'fuse_attn_quant': False, 'enable_sp': False, 'fuse_gemm_comms': False, 'fuse_allreduce_rms': False}, 'max_cudagraph_capture_size': 64, 'dynamic_shapes_config': {'type': \u003cDynamicShapesType.BACKED: 'backed'\u003e, 'evaluate_guards': False, 'assume_32_bit_indexing': False}, 'local_cache_dir': None, 'fast_moe_cold_start': True, 'static_all_moe_layers': []}\n"}
+,{"stream_name":"stdout","time":186.71712196,"data":"(EngineCore pid=454) WARNING 11-10 16:22:27 [multiproc_executor.py:1014] Reducing Torch parallelism from 24 threads to 1 to avoid unnecessary CPU contention. Set OMP_NUM_THREADS in the external environment to tune this value as needed.\n"}
+,{"stream_name":"stdout","time":186.717125977,"data":"(EngineCore pid=454) INFO 11-10 16:22:27 [multiproc_executor.py:134] DP group leader: node_rank=0, node_rank_within_dp=0, master_addr=127.0.0.1, mq_connect_ip=172.19.2.2 (local), world_size=4, local_world_size=4\n"}
+,{"stream_name":"stdout","time":204.237549808,"data":"(Worker pid=615) INFO 11-10 16:22:45 [parallel_state.py:1400] world_size=4 rank=0 local_rank=0 distributed_init_method=tcp://127.0.0.1:47231 backend=nccl\n"}
+,{"stream_name":"stdout","time":204.439734338,"data":"(Worker pid=615) INFO 11-10 16:22:45 [parallel_state.py:1400] world_size=4 rank=0 local_rank=0 distributed_init_method=tcp://127.0.0.1:47231 backend=nccl\n"}
+,{"stream_name":"stdout","time":204.556360151,"data":"(Worker pid=616) INFO 11-10 16:22:46 [parallel_state.py:1400] world_size=4 rank=1 local_rank=1 distributed_init_method=tcp://127.0.0.1:47231 backend=nccl\n"}
+,{"stream_name":"stdout","time":204.556404472,"data":"(Worker pid=617) INFO 11-10 16:22:46 [parallel_state.py:1400] world_size=4 rank=2 local_rank=2 distributed_init_method=tcp://127.0.0.1:47231 backend=nccl\n"}
+,{"stream_name":"stdout","time":204.558212378,"data":"(Worker pid=618) INFO 11-10 16:22:46 [parallel_state.py:1400] world_size=4 rank=3 local_rank=3 distributed_init_method=tcp://127.0.0.1:47231 backend=nccl\n"}
+,{"stream_name":"stdout","time":204.758279911,"data":"(Worker pid=616) INFO 11-10 16:22:46 [parallel_state.py:1400] world_size=4 rank=1 local_rank=1 distributed_init_method=tcp://127.0.0.1:47231 backend=nccl\n"}
+,{"stream_name":"stdout","time":204.75829812,"data":"(Worker pid=617) INFO 11-10 16:22:46 [parallel_state.py:1400] world_size=4 rank=2 local_rank=2 distributed_init_method=tcp://127.0.0.1:47231 backend=nccl\n"}
+,{"stream_name":"stdout","time":204.758302898,"data":"(Worker pid=618) INFO 11-10 16:22:46 [parallel_state.py:1400] world_size=4 rank=3 local_rank=3 distributed_init_method=tcp://127.0.0.1:47231 backend=nccl\n"}
+,{"stream_name":"stderr","time":212.24718107,"data":"[W1110 16:22:53.814558079 socket.cpp:207] [c10d] The hostname of the client socket cannot be retrieved. err=-3\n"}
+,{"stream_name":"stderr","time":212.448966337,"data":"[W1110 16:22:53.814558079 socket.cpp:207] [c10d] The hostname of the client socket cannot be retrieved. err=-3\n"}
+,{"stream_name":"stderr","time":212.448988697,"data":"\n"}
+,{"stream_name":"stderr","time":212.448992906,"data":"[W1110 16:22:53.814558079 socket.cpp:207] [c10d] The hostname of the client socket cannot be retrieved. err=-3\n"}
+,{"stream_name":"stderr","time":212.559578402,"data":"[W1110 16:22:54.127429985 socket.cpp:207] [c10d] The hostname of the client socket cannot be retrieved. err=-3\n"}
+,{"stream_name":"stderr","time":212.559597045,"data":"[W1110 16:22:54.127451182 socket.cpp:207] [c10d] The hostname of the client socket cannot be retrieved. err=-3\n"}
+,{"stream_name":"stderr","time":212.560957729,"data":"[W1110 16:22:54.128834315 socket.cpp:207] [c10d] The hostname of the client socket cannot be retrieved. err=-3\n"}
+,{"stream_name":"stderr","time":212.761690086,"data":"[W1110 16:22:54.127429985 socket.cpp:207] [c10d] The hostname of the client socket cannot be retrieved. err=-3\n"}
+,{"stream_name":"stderr","time":212.761720429,"data":"[W1110 16:22:54.127451182 socket.cpp:207] [c10d] The hostname of the client socket cannot be retrieved. err=-3\n"}
+,{"stream_name":"stderr","time":212.76172581,"data":"[W1110 16:22:54.128834315 socket.cpp:207] [c10d] The hostname of the client socket cannot be retrieved. err=-3\n"}
+,{"stream_name":"stderr","time":212.761738372,"data":"\n"}
+,{"stream_name":"stderr","time":212.761740554,"data":"[W1110 16:22:54.127429985 socket.cpp:207] [c10d] The hostname of the client socket cannot be retrieved. err=-3\n"}
+,{"stream_name":"stderr","time":212.761742498,"data":"[W1110 16:22:54.127451182 socket.cpp:207] [c10d] The hostname of the client socket cannot be retrieved. err=-3\n"}
+,{"stream_name":"stderr","time":212.76174453,"data":"[W1110 16:22:54.128834315 socket.cpp:207] [c10d] The hostname of the client socket cannot be retrieved. err=-3\n"}
+,{"stream_name":"stderr","time":213.05429678,"data":"(Worker pid=615) \u003cfrozen importlib._bootstrap_external\u003e:1301: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.\n"}
+,{"stream_name":"stderr","time":213.054320985,"data":"(Worker pid=616) \u003cfrozen importlib._bootstrap_external\u003e:1301: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.\n"}
+,{"stream_name":"stderr","time":213.054324064,"data":"(Worker pid=618) \u003cfrozen importlib._bootstrap_external\u003e:1301: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.\n"}
+,{"stream_name":"stderr","time":213.054326509,"data":"(Worker pid=617) \u003cfrozen importlib._bootstrap_external\u003e:1301: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.\n"}
+,{"stream_name":"stderr","time":213.072494002,"data":"(Worker pid=616) \u003cfrozen importlib._bootstrap_external\u003e:1301: FutureWarning: The cuda.nvrtc module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.nvrtc module instead.\n"}
+,{"stream_name":"stderr","time":213.072627053,"data":"(Worker pid=615) \u003cfrozen importlib._bootstrap_external\u003e:1301: FutureWarning: The cuda.nvrtc module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.nvrtc module instead.\n"}
+,{"stream_name":"stderr","time":213.072651189,"data":"(Worker pid=617) \u003cfrozen importlib._bootstrap_external\u003e:1301: FutureWarning: The cuda.nvrtc module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.nvrtc module instead.\n"}
+,{"stream_name":"stderr","time":213.072665419,"data":"(Worker pid=618) \u003cfrozen importlib._bootstrap_external\u003e:1301: FutureWarning: The cuda.nvrtc module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.nvrtc module instead.\n"}
+,{"stream_name":"stdout","time":213.082123292,"data":"(Worker pid=615) INFO 11-10 16:22:54 [pynccl.py:111] vLLM is using nccl==2.27.5\n"}
+,{"stream_name":"stderr","time":213.257326707,"data":"(Worker pid=615) \u003cfrozen importlib._bootstrap_external\u003e:1301: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.\n"}
+,{"stream_name":"stderr","time":213.257356525,"data":"(Worker pid=616) \u003cfrozen importlib._bootstrap_external\u003e:1301: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.\n"}
+,{"stream_name":"stderr","time":213.257360002,"data":"(Worker pid=618) \u003cfrozen importlib._bootstrap_external\u003e:1301: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.\n"}
+,{"stream_name":"stderr","time":213.257372154,"data":"(Worker pid=617) \u003cfrozen importlib._bootstrap_external\u003e:1301: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.\n"}
+,{"stream_name":"stderr","time":213.257374529,"data":"(Worker pid=616) \u003cfrozen importlib._bootstrap_external\u003e:1301: FutureWarning: The cuda.nvrtc module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.nvrtc module instead.\n"}
+,{"stream_name":"stderr","time":213.257376862,"data":"(Worker pid=615) \u003cfrozen importlib._bootstrap_external\u003e:1301: FutureWarning: The cuda.nvrtc module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.nvrtc module instead.\n"}
+,{"stream_name":"stderr","time":213.257379033,"data":"(Worker pid=617) \u003cfrozen importlib._bootstrap_external\u003e:1301: FutureWarning: The cuda.nvrtc module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.nvrtc module instead.\n"}
+,{"stream_name":"stderr","time":213.2573812,"data":"(Worker pid=618) \u003cfrozen importlib._bootstrap_external\u003e:1301: FutureWarning: The cuda.nvrtc module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.nvrtc module instead.\n"}
+,{"stream_name":"stderr","time":213.257383493,"data":"\n"}
+,{"stream_name":"stderr","time":213.257385254,"data":"(Worker pid=615) \u003cfrozen importlib._bootstrap_external\u003e:1301: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.\n"}
+,{"stream_name":"stderr","time":213.257388366,"data":"(Worker pid=616) \u003cfrozen importlib._bootstrap_external\u003e:1301: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.\n"}
+,{"stream_name":"stderr","time":213.257390712,"data":"(Worker pid=618) \u003cfrozen importlib._bootstrap_external\u003e:1301: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.\n"}
+,{"stream_name":"stderr","time":213.257392997,"data":"(Worker pid=617) \u003cfrozen importlib._bootstrap_external\u003e:1301: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.\n"}
+,{"stream_name":"stderr","time":213.257395188,"data":"(Worker pid=616) \u003cfrozen importlib._bootstrap_external\u003e:1301: FutureWarning: The cuda.nvrtc module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.nvrtc module instead.\n"}
+,{"stream_name":"stderr","time":213.257397381,"data":"(Worker pid=615) \u003cfrozen importlib._bootstrap_external\u003e:1301: FutureWarning: The cuda.nvrtc module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.nvrtc module instead.\n"}
+,{"stream_name":"stderr","time":213.257399597,"data":"(Worker pid=617) \u003cfrozen importlib._bootstrap_external\u003e:1301: FutureWarning: The cuda.nvrtc module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.nvrtc module instead.\n"}
+,{"stream_name":"stderr","time":213.257401864,"data":"(Worker pid=618) \u003cfrozen importlib._bootstrap_external\u003e:1301: FutureWarning: The cuda.nvrtc module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.nvrtc module instead.\n"}
+,{"stream_name":"stdout","time":213.284405526,"data":"(Worker pid=615) INFO 11-10 16:22:54 [pynccl.py:111] vLLM is using nccl==2.27.5\n"}
+,{"stream_name":"stdout","time":213.951381633,"data":"(Worker pid=615) WARNING 11-10 16:22:55 [symm_mem.py:66] SymmMemCommunicator: Device capability 8.9 not supported, communicator is not available.\n"}
+,{"stream_name":"stdout","time":213.951604359,"data":"(Worker pid=616) WARNING 11-10 16:22:55 [symm_mem.py:66] SymmMemCommunicator: Device capability 8.9 not supported, communicator is not available.\n"}
+,{"stream_name":"stdout","time":213.951618941,"data":"(Worker pid=618) WARNING 11-10 16:22:55 [symm_mem.py:66] SymmMemCommunicator: Device capability 8.9 not supported, communicator is not available.\n"}
+,{"stream_name":"stdout","time":213.95162163,"data":"(Worker pid=617) WARNING 11-10 16:22:55 [symm_mem.py:66] SymmMemCommunicator: Device capability 8.9 not supported, communicator is not available.\n"}
+,{"stream_name":"stdout","time":213.958102281,"data":"(Worker pid=618) WARNING 11-10 16:22:55 [custom_all_reduce.py:154] Custom allreduce is disabled because it's not supported on more than two PCIe-only GPUs. To silence this warning, specify disable_custom_all_reduce=True explicitly.\n"}
+,{"stream_name":"stdout","time":213.958118125,"data":"(Worker pid=616) WARNING 11-10 16:22:55 [custom_all_reduce.py:154] Custom allreduce is disabled because it's not supported on more than two PCIe-only GPUs. To silence this warning, specify disable_custom_all_reduce=True explicitly.\n"}
+,{"stream_name":"stdout","time":213.958149818,"data":"(Worker pid=615) WARNING 11-10 16:22:55 [custom_all_reduce.py:154] Custom allreduce is disabled because it's not supported on more than two PCIe-only GPUs. To silence this warning, specify disable_custom_all_reduce=True explicitly.\n"}
+,{"stream_name":"stdout","time":213.958160588,"data":"(Worker pid=617) WARNING 11-10 16:22:55 [custom_all_reduce.py:154] Custom allreduce is disabled because it's not supported on more than two PCIe-only GPUs. To silence this warning, specify disable_custom_all_reduce=True explicitly.\n"}
+,{"stream_name":"stdout","time":213.992318606,"data":"(Worker pid=615) INFO 11-10 16:22:55 [parallel_state.py:1716] rank 0 in world size 4 is assigned as DP rank 0, PP rank 0, PCP rank 0, TP rank 0, EP rank N/A, EPLB rank N/A\n"}
+,{"stream_name":"stdout","time":214.15363597,"data":"(Worker pid=615) WARNING 11-10 16:22:55 [symm_mem.py:66] SymmMemCommunicator: Device capability 8.9 not supported, communicator is not available.\n"}
+,{"stream_name":"stdout","time":214.153663374,"data":"(Worker pid=616) WARNING 11-10 16:22:55 [symm_mem.py:66] SymmMemCommunicator: Device capability 8.9 not supported, communicator is not available.\n"}
+,{"stream_name":"stdout","time":214.153666253,"data":"(Worker pid=618) WARNING 11-10 16:22:55 [symm_mem.py:66] SymmMemCommunicator: Device capability 8.9 not supported, communicator is not available.\n"}
+,{"stream_name":"stdout","time":214.153668584,"data":"(Worker pid=617) WARNING 11-10 16:22:55 [symm_mem.py:66] SymmMemCommunicator: Device capability 8.9 not supported, communicator is not available.\n"}
+,{"stream_name":"stdout","time":214.153670811,"data":"(Worker pid=618) WARNING 11-10 16:22:55 [custom_all_reduce.py:154] Custom allreduce is disabled because it's not supported on more than two PCIe-only GPUs. To silence this warning, specify disable_custom_all_reduce=True explicitly.\n"}
+,{"stream_name":"stdout","time":214.153673152,"data":"(Worker pid=616) WARNING 11-10 16:22:55 [custom_all_reduce.py:154] Custom allreduce is disabled because it's not supported on more than two PCIe-only GPUs. To silence this warning, specify disable_custom_all_reduce=True explicitly.\n"}
+,{"stream_name":"stdout","time":214.153675563,"data":"(Worker pid=615) WARNING 11-10 16:22:55 [custom_all_reduce.py:154] Custom allreduce is disabled because it's not supported on more than two PCIe-only GPUs. To silence this warning, specify disable_custom_all_reduce=True explicitly.\n"}
+,{"stream_name":"stdout","time":214.15369049,"data":"(Worker pid=617) WARNING 11-10 16:22:55 [custom_all_reduce.py:154] Custom allreduce is disabled because it's not supported on more than two PCIe-only GPUs. To silence this warning, specify disable_custom_all_reduce=True explicitly.\n"}
+,{"stream_name":"stdout","time":214.153692925,"data":"(Worker pid=615) INFO 11-10 16:22:55 [parallel_state.py:1716] rank 0 in world size 4 is assigned as DP rank 0, PP rank 0, PCP rank 0, TP rank 0, EP rank N/A, EPLB rank N/A\n"}
+,{"stream_name":"stdout","time":214.574419459,"data":"(Worker_TP0 pid=615) INFO 11-10 16:22:56 [gpu_model_runner.py:4735] Starting to load model /kaggle/input/models/google/gemma-4/other/gemma-4-31b-it-qat-w4a16-ct/2...\n"}
+,{"stream_name":"stdout","time":214.776657526,"data":"(Worker_TP0 pid=615) INFO 11-10 16:22:56 [gpu_model_runner.py:4735] Starting to load model /kaggle/input/models/google/gemma-4/other/gemma-4-31b-it-qat-w4a16-ct/2...\n"}
+,{"stream_name":"stdout","time":215.393459479,"data":"(Worker_TP0 pid=615) INFO 11-10 16:22:56 [vllm.py:790] Asynchronous scheduling is enabled.\n"}
+,{"stream_name":"stdout","time":215.401908238,"data":"(Worker_TP3 pid=618) INFO 11-10 16:22:56 [compressed_tensors_wNa16.py:112] Using MarlinLinearKernel for CompressedTensorsWNA16\n"}
+,{"stream_name":"stdout","time":215.402036927,"data":"(Worker_TP0 pid=615) INFO 11-10 16:22:56 [compressed_tensors_wNa16.py:112] Using MarlinLinearKernel for CompressedTensorsWNA16\n"}
+,{"stream_name":"stdout","time":215.402213943,"data":"(Worker_TP2 pid=617) INFO 11-10 16:22:56 [compressed_tensors_wNa16.py:112] Using MarlinLinearKernel for CompressedTensorsWNA16\n"}
+,{"stream_name":"stdout","time":215.402221429,"data":"(Worker_TP1 pid=616) INFO 11-10 16:22:56 [compressed_tensors_wNa16.py:112] Using MarlinLinearKernel for CompressedTensorsWNA16\n"}
+,{"stream_name":"stdout","time":215.555513771,"data":"(Worker_TP1 pid=616) INFO 11-10 16:22:57 [cuda.py:274] Using AttentionBackendEnum.TRITON_ATTN backend.\n"}
+,{"stream_name":"stdout","time":215.555537323,"data":"(Worker_TP3 pid=618) INFO 11-10 16:22:57 [cuda.py:274] Using AttentionBackendEnum.TRITON_ATTN backend.\n"}
+,{"stream_name":"stdout","time":215.55554009,"data":"(Worker_TP0 pid=615) INFO 11-10 16:22:57 [cuda.py:274] Using AttentionBackendEnum.TRITON_ATTN backend.\n"}
+,{"stream_name":"stdout","time":215.555542386,"data":"(Worker_TP2 pid=617) INFO 11-10 16:22:57 [cuda.py:274] Using AttentionBackendEnum.TRITON_ATTN backend.\n"}
+,{"stream_name":"stdout","time":215.587930519,"data":"(Worker_TP0 pid=615) INFO 11-10 16:22:57 [cuda.py:274] Using AttentionBackendEnum.TRITON_ATTN backend.\n"}
+,{"stream_name":"stdout","time":215.588493837,"data":"(Worker_TP2 pid=617) INFO 11-10 16:22:57 [cuda.py:274] Using AttentionBackendEnum.TRITON_ATTN backend.\n"}
+,{"stream_name":"stdout","time":215.588579145,"data":"(Worker_TP1 pid=616) INFO 11-10 16:22:57 [cuda.py:274] Using AttentionBackendEnum.TRITON_ATTN backend.\n"}
+,{"stream_name":"stdout","time":215.588971198,"data":"(Worker_TP3 pid=618) INFO 11-10 16:22:57 [cuda.py:274] Using AttentionBackendEnum.TRITON_ATTN backend.\n"}
+,{"stream_name":"stdout","time":215.595497217,"data":"(Worker_TP0 pid=615) INFO 11-10 16:22:56 [vllm.py:790] Asynchronous scheduling is enabled.\n"}
+,{"stream_name":"stdout","time":215.595511584,"data":"(Worker_TP3 pid=618) INFO 11-10 16:22:56 [compressed_tensors_wNa16.py:112] Using MarlinLinearKernel for CompressedTensorsWNA16\n"}
+,{"stream_name":"stdout","time":215.595514417,"data":"(Worker_TP0 pid=615) INFO 11-10 16:22:56 [compressed_tensors_wNa16.py:112] Using MarlinLinearKernel for CompressedTensorsWNA16\n"}
+,{"stream_name":"stdout","time":215.59551667,"data":"(Worker_TP2 pid=617) INFO 11-10 16:22:56 [compressed_tensors_wNa16.py:112] Using MarlinLinearKernel for CompressedTensorsWNA16\n"}
+,{"stream_name":"stdout","time":215.595530004,"data":"(Worker_TP1 pid=616) INFO 11-10 16:22:56 [compressed_tensors_wNa16.py:112] Using MarlinLinearKernel for CompressedTensorsWNA16\n"}
+,{"stream_name":"stdout","time":215.595532118,"data":"(Worker_TP1 pid=616) INFO 11-10 16:22:57 [cuda.py:274] Using AttentionBackendEnum.TRITON_ATTN backend.\n"}
+,{"stream_name":"stdout","time":215.595534041,"data":"(Worker_TP3 pid=618) INFO 11-10 16:22:57 [cuda.py:274] Using AttentionBackendEnum.TRITON_ATTN backend.\n"}
+,{"stream_name":"stdout","time":215.595535973,"data":"(Worker_TP0 pid=615) INFO 11-10 16:22:57 [cuda.py:274] Using AttentionBackendEnum.TRITON_ATTN backend.\n"}
+,{"stream_name":"stdout","time":215.595537974,"data":"(Worker_TP2 pid=617) INFO 11-10 16:22:57 [cuda.py:274] Using AttentionBackendEnum.TRITON_ATTN backend.\n"}
+,{"stream_name":"stdout","time":215.595539881,"data":"(Worker_TP0 pid=615) INFO 11-10 16:22:57 [cuda.py:274] Using AttentionBackendEnum.TRITON_ATTN backend.\n"}
+,{"stream_name":"stdout","time":215.595541903,"data":"(Worker_TP2 pid=617) INFO 11-10 16:22:57 [cuda.py:274] Using AttentionBackendEnum.TRITON_ATTN backend.\n"}
+,{"stream_name":"stdout","time":215.595543814,"data":"(Worker_TP1 pid=616) INFO 11-10 16:22:57 [cuda.py:274] Using AttentionBackendEnum.TRITON_ATTN backend.\n"}
+,{"stream_name":"stdout","time":215.595545824,"data":"(Worker_TP3 pid=618) INFO 11-10 16:22:57 [cuda.py:274] Using AttentionBackendEnum.TRITON_ATTN backend.\n"}
+,{"stream_name":"stdout","time":216.059796256,"data":"(Worker_TP3 pid=618) INFO 11-10 16:22:57 [weight_utils.py:848] Prefetching checkpoint files into page cache started (in background)\n"}
+,{"stream_name":"stdout","time":216.059833756,"data":"(Worker_TP1 pid=616) INFO 11-10 16:22:57 [weight_utils.py:848] Prefetching checkpoint files into page cache started (in background)\n"}
+,{"stream_name":"stdout","time":216.059838809,"data":"(Worker_TP0 pid=615) INFO 11-10 16:22:57 [weight_utils.py:848] Prefetching checkpoint files into page cache started (in background)\n"}
+,{"stream_name":"stdout","time":216.060123122,"data":"(Worker_TP2 pid=617) INFO 11-10 16:22:57 [weight_utils.py:848] Prefetching checkpoint files into page cache started (in background)\n"}
+,{"stream_name":"stderr","time":216.06131705,"data":"(Worker_TP0 pid=615) \rLoading safetensors checkpoint shards:   0% Completed | 0/1 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stdout","time":216.061619555,"data":"(Worker_TP3 pid=618) INFO 11-10 16:22:57 [weight_utils.py:843] Prefetching checkpoint files into page cache finished in 0.00s\n"}
+,{"stream_name":"stdout","time":216.078997253,"data":"(Worker_TP1 pid=616) INFO 11-10 16:22:57 [weight_utils.py:843] Prefetching checkpoint files into page cache finished in 0.02s\n"}
+,{"stream_name":"stdout","time":216.079026742,"data":"(Worker_TP2 pid=617) INFO 11-10 16:22:57 [weight_utils.py:843] Prefetching checkpoint files into page cache finished in 0.02s\n"}
+,{"stream_name":"stdout","time":216.262385879,"data":"(Worker_TP3 pid=618) INFO 11-10 16:22:57 [weight_utils.py:848] Prefetching checkpoint files into page cache started (in background)\n"}
+,{"stream_name":"stdout","time":216.262409181,"data":"(Worker_TP1 pid=616) INFO 11-10 16:22:57 [weight_utils.py:848] Prefetching checkpoint files into page cache started (in background)\n"}
+,{"stream_name":"stdout","time":216.262413871,"data":"(Worker_TP0 pid=615) INFO 11-10 16:22:57 [weight_utils.py:848] Prefetching checkpoint files into page cache started (in background)\n"}
+,{"stream_name":"stdout","time":216.262417869,"data":"(Worker_TP2 pid=617) INFO 11-10 16:22:57 [weight_utils.py:848] Prefetching checkpoint files into page cache started (in background)\n"}
+,{"stream_name":"stdout","time":216.262421212,"data":"(Worker_TP3 pid=618) INFO 11-10 16:22:57 [weight_utils.py:843] Prefetching checkpoint files into page cache finished in 0.00s\n"}
+,{"stream_name":"stdout","time":216.262436436,"data":"(Worker_TP1 pid=616) INFO 11-10 16:22:57 [weight_utils.py:843] Prefetching checkpoint files into page cache finished in 0.02s\n"}
+,{"stream_name":"stdout","time":216.262439841,"data":"(Worker_TP2 pid=617) INFO 11-10 16:22:57 [weight_utils.py:843] Prefetching checkpoint files into page cache finished in 0.02s\n"}
+,{"stream_name":"stderr","time":216.263458066,"data":"(Worker_TP0 pid=615) \rLoading safetensors checkpoint shards:   0% Completed | 0/1 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":216.263478829,"data":"\n"}
+,{"stream_name":"stderr","time":216.26348145,"data":"(Worker_TP0 pid=615) \rLoading safetensors checkpoint shards:   0% Completed | 0/1 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":314.937857258,"data":"(Worker_TP0 pid=615) \rLoading safetensors checkpoint shards: 100% Completed | 1/1 [01:38\u003c00:00, 98.88s/it]\n"}
+,{"stream_name":"stderr","time":314.937911974,"data":"(Worker_TP0 pid=615) \rLoading safetensors checkpoint shards: 100% Completed | 1/1 [01:38\u003c00:00, 98.88s/it]\n"}
+,{"stream_name":"stderr","time":314.937918255,"data":"(Worker_TP0 pid=615) \n"}
+,{"stream_name":"stderr","time":315.142400744,"data":"(Worker_TP0 pid=615) \rLoading safetensors checkpoint shards: 100% Completed | 1/1 [01:38\u003c00:00, 98.88s/it]\n"}
+,{"stream_name":"stderr","time":315.142438664,"data":"(Worker_TP0 pid=615) \rLoading safetensors checkpoint shards: 100% Completed | 1/1 [01:38\u003c00:00, 98.88s/it]\n"}
+,{"stream_name":"stderr","time":315.142442552,"data":"(Worker_TP0 pid=615) \n"}
+,{"stream_name":"stderr","time":315.142445119,"data":"\n"}
+,{"stream_name":"stderr","time":315.142447611,"data":"(Worker_TP0 pid=615) \rLoading safetensors checkpoint shards: 100% Completed | 1/1 [01:38\u003c00:00, 98.88s/it]\n"}
+,{"stream_name":"stderr","time":315.14245037,"data":"(Worker_TP0 pid=615) \rLoading safetensors checkpoint shards: 100% Completed | 1/1 [01:38\u003c00:00, 98.88s/it]\n"}
+,{"stream_name":"stderr","time":315.14245322,"data":"(Worker_TP0 pid=615) \n"}
+,{"stream_name":"stdout","time":315.233927527,"data":"(Worker_TP0 pid=615) INFO 11-10 16:24:36 [default_loader.py:384] Loading weights took 99.18 seconds\n"}
+,{"stream_name":"stdout","time":315.435991651,"data":"(Worker_TP0 pid=615) INFO 11-10 16:24:36 [default_loader.py:384] Loading weights took 99.18 seconds\n"}
+,{"stream_name":"stdout","time":316.244074046,"data":"(Worker_TP0 pid=615) INFO 11-10 16:24:37 [gpu_model_runner.py:4820] Model loading took 5.96 GiB memory and 100.582133 seconds\n"}
+,{"stream_name":"stdout","time":316.446241519,"data":"(Worker_TP0 pid=615) INFO 11-10 16:24:37 [gpu_model_runner.py:4820] Model loading took 5.96 GiB memory and 100.582133 seconds\n"}
+,{"stream_name":"stdout","time":316.621858821,"data":"(Worker_TP0 pid=615) INFO 11-10 16:24:38 [gpu_model_runner.py:5753] Encoder cache will be initialized with a budget of 8192 tokens, and profiled with 3 video items of the maximum feature size.\n"}
+,{"stream_name":"stdout","time":316.823720773,"data":"(Worker_TP0 pid=615) INFO 11-10 16:24:38 [gpu_model_runner.py:5753] Encoder cache will be initialized with a budget of 8192 tokens, and profiled with 3 video items of the maximum feature size.\n"}
+,{"stream_name":"stdout","time":332.548395104,"data":"(Worker_TP0 pid=615) INFO 11-10 16:24:54 [weight_utils.py:825] Prefetching checkpoint files: 10% (1/1)\n"}
+,{"stream_name":"stdout","time":332.585137797,"data":"(Worker_TP0 pid=615) INFO 11-10 16:24:54 [weight_utils.py:843] Prefetching checkpoint files into page cache finished in 116.53s\n"}
+,{"stream_name":"stdout","time":332.7504443,"data":"(Worker_TP0 pid=615) INFO 11-10 16:24:54 [weight_utils.py:825] Prefetching checkpoint files: 10% (1/1)\n"}
+,{"stream_name":"stdout","time":332.750475212,"data":"(Worker_TP0 pid=615) INFO 11-10 16:24:54 [weight_utils.py:843] Prefetching checkpoint files into page cache finished in 116.53s\n"}
+,{"stream_name":"stdout","time":377.267972577,"data":"(EngineCore pid=454) INFO 11-10 16:25:38 [shm_broadcast.py:681] No available shared memory broadcast block found in 60 seconds. This typically happens when some processes are hanging or doing some time-consuming work (e.g. compilation, weight/kv cache quantization).\n"}
+,{"stream_name":"stdout","time":377.472003109,"data":"(EngineCore pid=454) INFO 11-10 16:25:38 [shm_broadcast.py:681] No available shared memory broadcast block found in 60 seconds. This typically happens when some processes are hanging or doing some time-consuming work (e.g. compilation, weight/kv cache quantization).\n"}
+,{"stream_name":"stdout","time":379.148252979,"data":"(Worker_TP0 pid=615) INFO 11-10 16:25:40 [backends.py:1051] Using cache directory: /root/.cache/vllm/torch_compile_cache/f97a28eb8d/rank_0_0/backbone for vLLM's torch.compile\n"}
+,{"stream_name":"stdout","time":379.150435375,"data":"(Worker_TP0 pid=615) INFO 11-10 16:25:40 [backends.py:1111] Dynamo bytecode transform time: 27.55 s\n"}
+,{"stream_name":"stdout","time":379.350196779,"data":"(Worker_TP0 pid=615) INFO 11-10 16:25:40 [backends.py:1051] Using cache directory: /root/.cache/vllm/torch_compile_cache/f97a28eb8d/rank_0_0/backbone for vLLM's torch.compile\n"}
+,{"stream_name":"stdout","time":379.350231804,"data":"(Worker_TP0 pid=615) INFO 11-10 16:25:40 [backends.py:1111] Dynamo bytecode transform time: 27.55 s\n"}
+,{"stream_name":"stdout","time":395.601346,"data":"(Worker_TP0 pid=615) INFO 11-10 16:25:57 [backends.py:372] Cache the graph of compile range (1, 8192) for later use\n"}
+,{"stream_name":"stdout","time":395.803333246,"data":"(Worker_TP0 pid=615) INFO 11-10 16:25:57 [backends.py:372] Cache the graph of compile range (1, 8192) for later use\n"}
+,{"stream_name":"stdout","time":422.145113195,"data":"(Worker_TP0 pid=615) INFO 11-10 16:26:23 [backends.py:390] Compiling a graph for compile range (1, 8192) takes 41.58 s\n"}
+,{"stream_name":"stdout","time":422.349490492,"data":"(Worker_TP0 pid=615) INFO 11-10 16:26:23 [backends.py:390] Compiling a graph for compile range (1, 8192) takes 41.58 s\n"}
+,{"stream_name":"stdout","time":429.687649915,"data":"(Worker_TP0 pid=615) INFO 11-10 16:26:31 [decorators.py:655] saved AOT compiled function to /root/.cache/vllm/torch_compile_cache/torch_aot_compile/ea650995e4f98ad25e9a7f6d87532162a8113745c1d5ac4215228888a08bd851/rank_0_0/model\n"}
+,{"stream_name":"stdout","time":429.687689389,"data":"(Worker_TP0 pid=615) INFO 11-10 16:26:31 [monitor.py:48] torch.compile took 78.09 s in total\n"}
+,{"stream_name":"stdout","time":429.889695548,"data":"(Worker_TP0 pid=615) INFO 11-10 16:26:31 [decorators.py:655] saved AOT compiled function to /root/.cache/vllm/torch_compile_cache/torch_aot_compile/ea650995e4f98ad25e9a7f6d87532162a8113745c1d5ac4215228888a08bd851/rank_0_0/model\n"}
+,{"stream_name":"stdout","time":429.88972785,"data":"(Worker_TP0 pid=615) INFO 11-10 16:26:31 [monitor.py:48] torch.compile took 78.09 s in total\n"}
+,{"stream_name":"stdout","time":433.724598213,"data":"(Worker_TP0 pid=615) INFO 11-10 16:26:35 [monitor.py:76] Initial profiling/warmup run took 4.04 s\n"}
+,{"stream_name":"stdout","time":433.9266822,"data":"(Worker_TP0 pid=615) INFO 11-10 16:26:35 [monitor.py:76] Initial profiling/warmup run took 4.04 s\n"}
+,{"stream_name":"stdout","time":437.328610345,"data":"(EngineCore pid=454) INFO 11-10 16:26:38 [shm_broadcast.py:681] No available shared memory broadcast block found in 60 seconds. This typically happens when some processes are hanging or doing some time-consuming work (e.g. compilation, weight/kv cache quantization).\n"}
+,{"stream_name":"stdout","time":437.530728299,"data":"(EngineCore pid=454) INFO 11-10 16:26:38 [shm_broadcast.py:681] No available shared memory broadcast block found in 60 seconds. This typically happens when some processes are hanging or doing some time-consuming work (e.g. compilation, weight/kv cache quantization).\n"}
+,{"stream_name":"stdout","time":447.112694405,"data":"(Worker_TP0 pid=615) INFO 11-10 16:26:48 [kv_cache_utils.py:829] Overriding num_gpu_blocks=0 with num_gpu_blocks_override=64\n"}
+,{"stream_name":"stdout","time":447.114272637,"data":"(Worker_TP2 pid=617) INFO 11-10 16:26:48 [kv_cache_utils.py:829] Overriding num_gpu_blocks=0 with num_gpu_blocks_override=64\n"}
+,{"stream_name":"stdout","time":447.120994551,"data":"(Worker_TP0 pid=615) INFO 11-10 16:26:48 [gpu_model_runner.py:5876] Profiling CUDA graph memory: PIECEWISE=11 (largest=64), FULL=7 (largest=32)\n"}
+,{"stream_name":"stdout","time":447.121031381,"data":"(Worker_TP2 pid=617) INFO 11-10 16:26:48 [gpu_model_runner.py:5876] Profiling CUDA graph memory: PIECEWISE=11 (largest=64), FULL=7 (largest=32)\n"}
+,{"stream_name":"stdout","time":447.314843155,"data":"(Worker_TP0 pid=615) INFO 11-10 16:26:48 [kv_cache_utils.py:829] Overriding num_gpu_blocks=0 with num_gpu_blocks_override=64\n"}
+,{"stream_name":"stdout","time":447.314882036,"data":"(Worker_TP2 pid=617) INFO 11-10 16:26:48 [kv_cache_utils.py:829] Overriding num_gpu_blocks=0 with num_gpu_blocks_override=64\n"}
+,{"stream_name":"stdout","time":447.314885393,"data":"(Worker_TP0 pid=615) INFO 11-10 16:26:48 [gpu_model_runner.py:5876] Profiling CUDA graph memory: PIECEWISE=11 (largest=64), FULL=7 (largest=32)\n"}
+,{"stream_name":"stdout","time":447.314887783,"data":"(Worker_TP2 pid=617) INFO 11-10 16:26:48 [gpu_model_runner.py:5876] Profiling CUDA graph memory: PIECEWISE=11 (largest=64), FULL=7 (largest=32)\n"}
+,{"stream_name":"stdout","time":447.750726538,"data":"(Worker_TP3 pid=618) INFO 11-10 16:26:49 [kv_cache_utils.py:829] Overriding num_gpu_blocks=0 with num_gpu_blocks_override=64\n"}
+,{"stream_name":"stdout","time":447.759222546,"data":"(Worker_TP3 pid=618) INFO 11-10 16:26:49 [gpu_model_runner.py:5876] Profiling CUDA graph memory: PIECEWISE=11 (largest=64), FULL=7 (largest=32)\n"}
+,{"stream_name":"stdout","time":447.765571676,"data":"(Worker_TP1 pid=616) INFO 11-10 16:26:49 [kv_cache_utils.py:829] Overriding num_gpu_blocks=0 with num_gpu_blocks_override=64\n"}
+,{"stream_name":"stdout","time":447.774230498,"data":"(Worker_TP1 pid=616) INFO 11-10 16:26:49 [gpu_model_runner.py:5876] Profiling CUDA graph memory: PIECEWISE=11 (largest=64), FULL=7 (largest=32)\n"}
+,{"stream_name":"stdout","time":447.952808921,"data":"(Worker_TP3 pid=618) INFO 11-10 16:26:49 [kv_cache_utils.py:829] Overriding num_gpu_blocks=0 with num_gpu_blocks_override=64\n"}
+,{"stream_name":"stdout","time":447.95284216,"data":"(Worker_TP3 pid=618) INFO 11-10 16:26:49 [gpu_model_runner.py:5876] Profiling CUDA graph memory: PIECEWISE=11 (largest=64), FULL=7 (largest=32)\n"}
+,{"stream_name":"stdout","time":447.952845477,"data":"(Worker_TP1 pid=616) INFO 11-10 16:26:49 [kv_cache_utils.py:829] Overriding num_gpu_blocks=0 with num_gpu_blocks_override=64\n"}
+,{"stream_name":"stdout","time":447.952847845,"data":"(Worker_TP1 pid=616) INFO 11-10 16:26:49 [gpu_model_runner.py:5876] Profiling CUDA graph memory: PIECEWISE=11 (largest=64), FULL=7 (largest=32)\n"}
+,{"stream_name":"stdout","time":455.8023888,"data":"(Worker_TP3 pid=618) INFO 11-10 16:26:57 [gpu_model_runner.py:5955] Estimated CUDA graph memory: 0.41 GiB total\n"}
+,{"stream_name":"stdout","time":455.802425178,"data":"(Worker_TP1 pid=616) INFO 11-10 16:26:57 [gpu_model_runner.py:5955] Estimated CUDA graph memory: 0.41 GiB total\n"}
+,{"stream_name":"stdout","time":455.811612986,"data":"(Worker_TP2 pid=617) INFO 11-10 16:26:57 [gpu_model_runner.py:5955] Estimated CUDA graph memory: 0.41 GiB total\n"}
+,{"stream_name":"stdout","time":455.813210471,"data":"(Worker_TP0 pid=615) INFO 11-10 16:26:57 [gpu_model_runner.py:5955] Estimated CUDA graph memory: 0.41 GiB total\n"}
+,{"stream_name":"stdout","time":456.007084865,"data":"(Worker_TP3 pid=618) INFO 11-10 16:26:57 [gpu_model_runner.py:5955] Estimated CUDA graph memory: 0.41 GiB total\n"}
+,{"stream_name":"stdout","time":456.00711705,"data":"(Worker_TP1 pid=616) INFO 11-10 16:26:57 [gpu_model_runner.py:5955] Estimated CUDA graph memory: 0.41 GiB total\n"}
+,{"stream_name":"stdout","time":456.007120136,"data":"(Worker_TP2 pid=617) INFO 11-10 16:26:57 [gpu_model_runner.py:5955] Estimated CUDA graph memory: 0.41 GiB total\n"}
+,{"stream_name":"stdout","time":456.007122636,"data":"(Worker_TP0 pid=615) INFO 11-10 16:26:57 [gpu_model_runner.py:5955] Estimated CUDA graph memory: 0.41 GiB total\n"}
+,{"stream_name":"stdout","time":456.480976606,"data":"(Worker_TP1 pid=616) INFO 11-10 16:26:57 [gpu_worker.py:470] In v0.19, CUDA graph memory profiling will be enabled by default (VLLM_MEMORY_PROFILER_ESTIMATE_CUDAGRAPHS=1), which more accurately accounts for CUDA graph memory during KV cache allocation. To try it now, set VLLM_MEMORY_PROFILER_ESTIMATE_CUDAGRAPHS=1 and increase --gpu-memory-utilization from 0.8500 to 0.8687 to maintain the same effective KV cache size.\n"}
+,{"stream_name":"stdout","time":456.484995371,"data":"(Worker_TP3 pid=618) INFO 11-10 16:26:57 [gpu_worker.py:470] In v0.19, CUDA graph memory profiling will be enabled by default (VLLM_MEMORY_PROFILER_ESTIMATE_CUDAGRAPHS=1), which more accurately accounts for CUDA graph memory during KV cache allocation. To try it now, set VLLM_MEMORY_PROFILER_ESTIMATE_CUDAGRAPHS=1 and increase --gpu-memory-utilization from 0.8500 to 0.8687 to maintain the same effective KV cache size.\n"}
+,{"stream_name":"stdout","time":456.498455225,"data":"(Worker_TP2 pid=617) INFO 11-10 16:26:57 [gpu_worker.py:470] In v0.19, CUDA graph memory profiling will be enabled by default (VLLM_MEMORY_PROFILER_ESTIMATE_CUDAGRAPHS=1), which more accurately accounts for CUDA graph memory during KV cache allocation. To try it now, set VLLM_MEMORY_PROFILER_ESTIMATE_CUDAGRAPHS=1 and increase --gpu-memory-utilization from 0.8500 to 0.8687 to maintain the same effective KV cache size.\n"}
+,{"stream_name":"stdout","time":456.50167719,"data":"(Worker_TP0 pid=615) INFO 11-10 16:26:57 [gpu_worker.py:436] Available KV cache memory: 11.94 GiB\n"}
+,{"stream_name":"stdout","time":456.501699141,"data":"(Worker_TP0 pid=615) INFO 11-10 16:26:57 [gpu_worker.py:470] In v0.19, CUDA graph memory profiling will be enabled by default (VLLM_MEMORY_PROFILER_ESTIMATE_CUDAGRAPHS=1), which more accurately accounts for CUDA graph memory during KV cache allocation. To try it now, set VLLM_MEMORY_PROFILER_ESTIMATE_CUDAGRAPHS=1 and increase --gpu-memory-utilization from 0.8500 to 0.8687 to maintain the same effective KV cache size.\n"}
+,{"stream_name":"stdout","time":456.504696405,"data":"(EngineCore pid=454) INFO 11-10 16:26:57 [kv_cache_utils.py:1319] GPU KV cache size: 52,144 tokens\n"}
+,{"stream_name":"stdout","time":456.504848413,"data":"(EngineCore pid=454) INFO 11-10 16:26:57 [kv_cache_utils.py:1324] Maximum concurrency for 32,768 tokens per request: 5.00x\n"}
+,{"stream_name":"stdout","time":456.683056233,"data":"(Worker_TP1 pid=616) INFO 11-10 16:26:57 [gpu_worker.py:470] In v0.19, CUDA graph memory profiling will be enabled by default (VLLM_MEMORY_PROFILER_ESTIMATE_CUDAGRAPHS=1), which more accurately accounts for CUDA graph memory during KV cache allocation. To try it now, set VLLM_MEMORY_PROFILER_ESTIMATE_CUDAGRAPHS=1 and increase --gpu-memory-utilization from 0.8500 to 0.8687 to maintain the same effective KV cache size.\n"}
+,{"stream_name":"stdout","time":456.683085184,"data":"(Worker_TP3 pid=618) INFO 11-10 16:26:57 [gpu_worker.py:470] In v0.19, CUDA graph memory profiling will be enabled by default (VLLM_MEMORY_PROFILER_ESTIMATE_CUDAGRAPHS=1), which more accurately accounts for CUDA graph memory during KV cache allocation. To try it now, set VLLM_MEMORY_PROFILER_ESTIMATE_CUDAGRAPHS=1 and increase --gpu-memory-utilization from 0.8500 to 0.8687 to maintain the same effective KV cache size.\n"}
+,{"stream_name":"stdout","time":456.683099487,"data":"(Worker_TP2 pid=617) INFO 11-10 16:26:57 [gpu_worker.py:470] In v0.19, CUDA graph memory profiling will be enabled by default (VLLM_MEMORY_PROFILER_ESTIMATE_CUDAGRAPHS=1), which more accurately accounts for CUDA graph memory during KV cache allocation. To try it now, set VLLM_MEMORY_PROFILER_ESTIMATE_CUDAGRAPHS=1 and increase --gpu-memory-utilization from 0.8500 to 0.8687 to maintain the same effective KV cache size.\n"}
+,{"stream_name":"stdout","time":456.683102481,"data":"(Worker_TP0 pid=615) INFO 11-10 16:26:57 [gpu_worker.py:436] Available KV cache memory: 11.94 GiB\n"}
+,{"stream_name":"stdout","time":456.683104492,"data":"(Worker_TP0 pid=615) INFO 11-10 16:26:57 [gpu_worker.py:470] In v0.19, CUDA graph memory profiling will be enabled by default (VLLM_MEMORY_PROFILER_ESTIMATE_CUDAGRAPHS=1), which more accurately accounts for CUDA graph memory during KV cache allocation. To try it now, set VLLM_MEMORY_PROFILER_ESTIMATE_CUDAGRAPHS=1 and increase --gpu-memory-utilization from 0.8500 to 0.8687 to maintain the same effective KV cache size.\n"}
+,{"stream_name":"stdout","time":456.68310709,"data":"(EngineCore pid=454) INFO 11-10 16:26:57 [kv_cache_utils.py:1319] GPU KV cache size: 52,144 tokens\n"}
+,{"stream_name":"stdout","time":456.683109075,"data":"(EngineCore pid=454) INFO 11-10 16:26:57 [kv_cache_utils.py:1324] Maximum concurrency for 32,768 tokens per request: 5.00x\n"}
+,{"stream_name":"stderr","time":457.543283335,"data":"(Worker_TP0 pid=615) \rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):   0%|          | 0/11 [00:00\u003c?, ?it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):   9%|▉         | 1/11 [00:00\u003c00:01,  6.83it/s](Worker_TP0 pid=615) \rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):   0%|          | 0/11 [00:00\u003c?, ?it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):   9%|▉         | 1/11 [00:00\u003c00:01,  6.83it/s]\n"}
+,{"stream_name":"stderr","time":457.824208218,"data":"(Worker_TP0 pid=615) \rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):   0%|          | 0/11 [00:00\u003c?, ?it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):   9%|▉         | 1/11 [00:00\u003c00:01,  6.83it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):  18%|█▊        | 2/11 [00:00\u003c00:01,  7.17it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):  27%|██▋       | 3/11 [00:00\u003c00:01,  7.29it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):  18%|█▊        | 2/11 [00:00\u003c00:01,  7.17it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):  27%|██▋       | 3/11 [00:00\u003c00:01,  7.29it/s]\n"}
+,{"stream_name":"stderr","time":458.097399548,"data":"\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):  18%|█▊        | 2/11 [00:00\u003c00:01,  7.17it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):  27%|██▋       | 3/11 [00:00\u003c00:01,  7.29it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):  36%|███▋      | 4/11 [00:00\u003c00:00,  7.26it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):  45%|████▌     | 5/11 [00:00\u003c00:00,  7.25it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):  36%|███▋      | 4/11 [00:00\u003c00:00,  7.26it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):  45%|████▌     | 5/11 [00:00\u003c00:00,  7.25it/s]\n"}
+,{"stream_name":"stderr","time":458.374835204,"data":"\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):  36%|███▋      | 4/11 [00:00\u003c00:00,  7.26it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):  45%|████▌     | 5/11 [00:00\u003c00:00,  7.25it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):  55%|█████▍    | 6/11 [00:00\u003c00:00,  7.23it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):  64%|██████▎   | 7/11 [00:00\u003c00:00,  7.21it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):  55%|█████▍    | 6/11 [00:00\u003c00:00,  7.23it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):  64%|██████▎   | 7/11 [00:00\u003c00:00,  7.21it/s]\n"}
+,{"stream_name":"stderr","time":458.655253999,"data":"\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):  55%|█████▍    | 6/11 [00:00\u003c00:00,  7.23it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):  64%|██████▎   | 7/11 [00:00\u003c00:00,  7.21it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):  73%|███████▎  | 8/11 [00:01\u003c00:00,  7.17it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):  82%|████████▏ | 9/11 [00:01\u003c00:00,  7.17it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):  73%|███████▎  | 8/11 [00:01\u003c00:00,  7.17it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):  82%|████████▏ | 9/11 [00:01\u003c00:00,  7.17it/s]\n"}
+,{"stream_name":"stderr","time":458.874760702,"data":"\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):  73%|███████▎  | 8/11 [00:01\u003c00:00,  7.17it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):  82%|████████▏ | 9/11 [00:01\u003c00:00,  7.17it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):  91%|█████████ | 10/11 [00:01\u003c00:00,  7.16it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE): 100%|██████████| 11/11 [00:01\u003c00:00,  7.13it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE): 100%|██████████| 11/11 [00:01\u003c00:00,  7.17it/s]\n"}
+,{"stream_name":"stderr","time":458.935308862,"data":"(Worker_TP0 pid=615) \rCapturing CUDA graphs (decode, FULL):   0%|          | 0/7 [00:00\u003c?, ?it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):  91%|█████████ | 10/11 [00:01\u003c00:00,  7.16it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE): 100%|██████████| 11/11 [00:01\u003c00:00,  7.13it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE): 100%|██████████| 11/11 [00:01\u003c00:00,  7.17it/s]\n"}
+,{"stream_name":"stderr","time":458.935337172,"data":"(Worker_TP0 pid=615) \rCapturing CUDA graphs (decode, FULL):   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":458.935340203,"data":"\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE):  91%|█████████ | 10/11 [00:01\u003c00:00,  7.16it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE): 100%|██████████| 11/11 [00:01\u003c00:00,  7.13it/s]\rCapturing CUDA graphs (mixed prefill-decode, PIECEWISE): 100%|██████████| 11/11 [00:01\u003c00:00,  7.17it/s]\n"}
+,{"stream_name":"stderr","time":459.220931473,"data":"(Worker_TP0 pid=615) \rCapturing CUDA graphs (decode, FULL):   0%|          | 0/7 [00:00\u003c?, ?it/s]\rCapturing CUDA graphs (decode, FULL):  14%|█▍        | 1/7 [00:00\u003c00:00,  6.97it/s]\rCapturing CUDA graphs (decode, FULL):  29%|██▊       | 2/7 [00:00\u003c00:00,  7.01it/s]\rCapturing CUDA graphs (decode, FULL):  14%|█▍        | 1/7 [00:00\u003c00:00,  6.97it/s]\rCapturing CUDA graphs (decode, FULL):  29%|██▊       | 2/7 [00:00\u003c00:00,  7.01it/s]\n"}
+,{"stream_name":"stderr","time":459.504138258,"data":"\rCapturing CUDA graphs (decode, FULL):  14%|█▍        | 1/7 [00:00\u003c00:00,  6.97it/s]\rCapturing CUDA graphs (decode, FULL):  29%|██▊       | 2/7 [00:00\u003c00:00,  7.01it/s]\rCapturing CUDA graphs (decode, FULL):  43%|████▎     | 3/7 [00:00\u003c00:00,  7.05it/s]\rCapturing CUDA graphs (decode, FULL):  57%|█████▋    | 4/7 [00:00\u003c00:00,  7.10it/s]\rCapturing CUDA graphs (decode, FULL):  43%|████▎     | 3/7 [00:00\u003c00:00,  7.05it/s]\rCapturing CUDA graphs (decode, FULL):  57%|█████▋    | 4/7 [00:00\u003c00:00,  7.10it/s]\n"}
+,{"stream_name":"stderr","time":459.780531671,"data":"\rCapturing CUDA graphs (decode, FULL):  43%|████▎     | 3/7 [00:00\u003c00:00,  7.05it/s]\rCapturing CUDA graphs (decode, FULL):  57%|█████▋    | 4/7 [00:00\u003c00:00,  7.10it/s]\rCapturing CUDA graphs (decode, FULL):  71%|███████▏  | 5/7 [00:00\u003c00:00,  7.17it/s]\rCapturing CUDA graphs (decode, FULL):  86%|████████▌ | 6/7 [00:00\u003c00:00,  7.20it/s]\rCapturing CUDA graphs (decode, FULL):  71%|███████▏  | 5/7 [00:00\u003c00:00,  7.17it/s]\rCapturing CUDA graphs (decode, FULL):  86%|████████▌ | 6/7 [00:00\u003c00:00,  7.20it/s]\n"}
+,{"stream_name":"stderr","time":462.08285227,"data":"\rCapturing CUDA graphs (decode, FULL):  71%|███████▏  | 5/7 [00:00\u003c00:00,  7.17it/s]\rCapturing CUDA graphs (decode, FULL):  86%|████████▌ | 6/7 [00:00\u003c00:00,  7.20it/s]\rCapturing CUDA graphs (decode, FULL): 100%|██████████| 7/7 [00:03\u003c00:00,  1.15it/s]\rCapturing CUDA graphs (decode, FULL): 100%|██████████| 7/7 [00:03\u003c00:00,  2.18it/s]\n"}
+,{"stream_name":"stderr","time":462.285286881,"data":"\rCapturing CUDA graphs (decode, FULL): 100%|██████████| 7/7 [00:03\u003c00:00,  1.15it/s]\rCapturing CUDA graphs (decode, FULL): 100%|██████████| 7/7 [00:03\u003c00:00,  2.18it/s]\n"}
+,{"stream_name":"stderr","time":462.285323377,"data":"\n"}
+,{"stream_name":"stderr","time":462.285326305,"data":"\rCapturing CUDA graphs (decode, FULL): 100%|██████████| 7/7 [00:03\u003c00:00,  1.15it/s]\rCapturing CUDA graphs (decode, FULL): 100%|██████████| 7/7 [00:03\u003c00:00,  2.18it/s]\n"}
+,{"stream_name":"stdout","time":462.776458562,"data":"(Worker_TP3 pid=618) INFO 11-10 16:27:04 [gpu_worker.py:597] CUDA graph pool memory: 0.35 GiB (actual), 0.41 GiB (estimated), difference: 0.06 GiB (16.6%).\n"}
+,{"stream_name":"stdout","time":462.776978627,"data":"(Worker_TP0 pid=615) INFO 11-10 16:27:04 [gpu_model_runner.py:6046] Graph capturing finished in 6 secs, took 0.35 GiB\n"}
+,{"stream_name":"stdout","time":462.777125923,"data":"(Worker_TP0 pid=615) INFO 11-10 16:27:04 [gpu_worker.py:597] CUDA graph pool memory: 0.35 GiB (actual), 0.41 GiB (estimated), difference: 0.06 GiB (16.6%).\n"}
+,{"stream_name":"stdout","time":462.777666846,"data":"(Worker_TP2 pid=617) INFO 11-10 16:27:04 [gpu_worker.py:597] CUDA graph pool memory: 0.35 GiB (actual), 0.41 GiB (estimated), difference: 0.06 GiB (16.6%).\n"}
+,{"stream_name":"stdout","time":462.783581459,"data":"(Worker_TP1 pid=616) INFO 11-10 16:27:04 [gpu_worker.py:597] CUDA graph pool memory: 0.35 GiB (actual), 0.41 GiB (estimated), difference: 0.06 GiB (16.6%).\n"}
+,{"stream_name":"stdout","time":462.839000711,"data":"(EngineCore pid=454) INFO 11-10 16:27:04 [core.py:283] init engine (profile, create kv cache, warmup model) took 146.58 seconds\n"}
+,{"stream_name":"stdout","time":462.978365512,"data":"(Worker_TP3 pid=618) INFO 11-10 16:27:04 [gpu_worker.py:597] CUDA graph pool memory: 0.35 GiB (actual), 0.41 GiB (estimated), difference: 0.06 GiB (16.6%).\n"}
+,{"stream_name":"stdout","time":462.978392792,"data":"(Worker_TP0 pid=615) INFO 11-10 16:27:04 [gpu_model_runner.py:6046] Graph capturing finished in 6 secs, took 0.35 GiB\n"}
+,{"stream_name":"stdout","time":462.978395857,"data":"(Worker_TP0 pid=615) INFO 11-10 16:27:04 [gpu_worker.py:597] CUDA graph pool memory: 0.35 GiB (actual), 0.41 GiB (estimated), difference: 0.06 GiB (16.6%).\n"}
+,{"stream_name":"stdout","time":462.978409264,"data":"(Worker_TP2 pid=617) INFO 11-10 16:27:04 [gpu_worker.py:597] CUDA graph pool memory: 0.35 GiB (actual), 0.41 GiB (estimated), difference: 0.06 GiB (16.6%).\n"}
+,{"stream_name":"stdout","time":462.978411491,"data":"(Worker_TP1 pid=616) INFO 11-10 16:27:04 [gpu_worker.py:597] CUDA graph pool memory: 0.35 GiB (actual), 0.41 GiB (estimated), difference: 0.06 GiB (16.6%).\n"}
+,{"stream_name":"stdout","time":462.978413512,"data":"(EngineCore pid=454) INFO 11-10 16:27:04 [core.py:283] init engine (profile, create kv cache, warmup model) took 146.58 seconds\n"}
+,{"stream_name":"stdout","time":466.274047015,"data":"(EngineCore pid=454) INFO 11-10 16:27:07 [vllm.py:790] Asynchronous scheduling is enabled.\n"}
+,{"stream_name":"stdout","time":466.476520594,"data":"(EngineCore pid=454) INFO 11-10 16:27:07 [vllm.py:790] Asynchronous scheduling is enabled.\n"}
+,{"stream_name":"stdout","time":474.995944079,"data":"rendered fastapi_11194 24\n"}
+,{"stream_name":"stdout","time":475.19792523,"data":"rendered fastapi_11194 24\n"}
+,{"stream_name":"stdout","time":482.21745373,"data":"rendered fastapi_11355 25\n"}
+,{"stream_name":"stdout","time":482.419372905,"data":"rendered fastapi_11355 25\n"}
+,{"stream_name":"stdout","time":488.891423949,"data":"rendered fastapi_12942 22\n"}
+,{"stream_name":"stdout","time":489.096547034,"data":"rendered fastapi_12942 22\n"}
+,{"stream_name":"stdout","time":495.906881123,"data":"rendered fastapi_13207 27\n"}
+,{"stream_name":"stdout","time":496.10876799,"data":"rendered fastapi_13207 27\n"}
+,{"stream_name":"stdout","time":502.59051194,"data":"rendered fastapi_13537 25\n"}
+,{"stream_name":"stdout","time":502.792583177,"data":"rendered fastapi_13537 25\n"}
+,{"stream_name":"stdout","time":509.431690026,"data":"rendered fastapi_13713 25\n"}
+,{"stream_name":"stdout","time":509.63363445,"data":"rendered fastapi_13713 25\n"}
+,{"stream_name":"stdout","time":516.806970555,"data":"rendered fastapi_13786 23\n"}
+,{"stream_name":"stdout","time":517.009102243,"data":"rendered fastapi_13786 23\n"}
+,{"stream_name":"stdout","time":523.92887967,"data":"rendered fastapi_13920 24\n"}
+,{"stream_name":"stdout","time":524.134856937,"data":"rendered fastapi_13920 24\n"}
+,{"stream_name":"stdout","time":530.744343669,"data":"rendered fastapi_14077 24\n"}
+,{"stream_name":"stdout","time":530.946385359,"data":"rendered fastapi_14077 24\n"}
+,{"stream_name":"stdout","time":536.68956502,"data":"rendered fastapi_14099 25\n"}
+,{"stream_name":"stdout","time":536.891518263,"data":"rendered fastapi_14099 25\n"}
+,{"stream_name":"stdout","time":542.714862169,"data":"rendered fastapi_14186 25\n"}
+,{"stream_name":"stdout","time":542.916866999,"data":"rendered fastapi_14186 25\n"}
+,{"stream_name":"stdout","time":549.596208636,"data":"rendered fastapi_14246 23\n"}
+,{"stream_name":"stdout","time":549.798220675,"data":"rendered fastapi_14246 23\n"}
+,{"stream_name":"stdout","time":557.317212846,"data":"rendered fastapi_14258 24\n"}
+,{"stream_name":"stdout","time":557.522654734,"data":"rendered fastapi_14258 24\n"}
+,{"stream_name":"stdout","time":564.619856515,"data":"rendered fastapi_14266 26\n"}
+,{"stream_name":"stdout","time":564.82180054,"data":"rendered fastapi_14266 26\n"}
+,{"stream_name":"stdout","time":571.129571493,"data":"rendered fastapi_14297 25\n"}
+,{"stream_name":"stdout","time":571.331447636,"data":"rendered fastapi_14297 25\n"}
+,{"stream_name":"stdout","time":577.645684712,"data":"rendered fastapi_14301 29\n"}
+,{"stream_name":"stdout","time":577.847697158,"data":"rendered fastapi_14301 29\n"}
+,{"stream_name":"stdout","time":585.421969211,"data":"rendered fastapi_14303 25\n"}
+,{"stream_name":"stdout","time":585.623835721,"data":"rendered fastapi_14303 25\n"}
+,{"stream_name":"stdout","time":592.959608261,"data":"rendered fastapi_14306 21\n"}
+,{"stream_name":"stdout","time":593.165163549,"data":"rendered fastapi_14306 21\n"}
+,{"stream_name":"stdout","time":600.423190158,"data":"rendered fastapi_14349 22\n"}
+,{"stream_name":"stdout","time":600.625045017,"data":"rendered fastapi_14349 22\n"}
+,{"stream_name":"stdout","time":607.733392826,"data":"rendered fastapi_14356 25\n"}
+,{"stream_name":"stdout","time":607.935300443,"data":"rendered fastapi_14356 25\n"}
+,{"stream_name":"stdout","time":614.733742425,"data":"rendered fastapi_14360 26\n"}
+,{"stream_name":"stdout","time":614.935701205,"data":"rendered fastapi_14360 26\n"}
+,{"stream_name":"stdout","time":622.101258265,"data":"rendered fastapi_14361 26\n"}
+,{"stream_name":"stdout","time":622.303173063,"data":"rendered fastapi_14361 26\n"}
+,{"stream_name":"stdout","time":630.010359978,"data":"rendered fastapi_14371 28\n"}
+,{"stream_name":"stdout","time":630.216157008,"data":"rendered fastapi_14371 28\n"}
+,{"stream_name":"stdout","time":638.1602293,"data":"rendered fastapi_14372 26\n"}
+,{"stream_name":"stdout","time":638.362125412,"data":"rendered fastapi_14372 26\n"}
+,{"stream_name":"stdout","time":645.89623423,"data":"rendered fastapi_14419 27\n"}
+,{"stream_name":"stdout","time":646.098165567,"data":"rendered fastapi_14419 27\n"}
+,{"stream_name":"stdout","time":652.928058366,"data":"rendered fastapi_14430 24\n"}
+,{"stream_name":"stdout","time":653.130004413,"data":"rendered fastapi_14430 24\n"}
+,{"stream_name":"stdout","time":659.932856679,"data":"rendered fastapi_14448 26\n"}
+,{"stream_name":"stdout","time":660.134800087,"data":"rendered fastapi_14448 26\n"}
+,{"stream_name":"stdout","time":666.94333566,"data":"rendered fastapi_14458 25\n"}
+,{"stream_name":"stdout","time":667.14942692,"data":"rendered fastapi_14458 25\n"}
+,{"stream_name":"stdout","time":673.737834238,"data":"rendered fastapi_14459 27\n"}
+,{"stream_name":"stdout","time":673.939787605,"data":"rendered fastapi_14459 27\n"}
+,{"stream_name":"stdout","time":680.956654932,"data":"rendered fastapi_14463 25\n"}
+,{"stream_name":"stdout","time":681.158596417,"data":"rendered fastapi_14463 25\n"}
+,{"stream_name":"stdout","time":688.721697366,"data":"rendered fastapi_14479 26\n"}
+,{"stream_name":"stdout","time":688.923675922,"data":"rendered fastapi_14479 26\n"}
+,{"stream_name":"stdout","time":695.670655349,"data":"rendered fastapi_14482 23\n"}
+,{"stream_name":"stdout","time":695.872569816,"data":"rendered fastapi_14482 23\n"}
+,{"stream_name":"stdout","time":702.709973483,"data":"rendered fastapi_14485 23\n"}
+,{"stream_name":"stdout","time":702.916118163,"data":"rendered fastapi_14485 23\n"}
+,{"stream_name":"stdout","time":709.863240781,"data":"rendered fastapi_14487 22\n"}
+,{"stream_name":"stdout","time":710.065157842,"data":"rendered fastapi_14487 22\n"}
+,{"stream_name":"stdout","time":717.616983334,"data":"rendered fastapi_14492 23\n"}
+,{"stream_name":"stdout","time":717.818954338,"data":"rendered fastapi_14492 23\n"}
+,{"stream_name":"stdout","time":725.037904414,"data":"rendered fastapi_14512 25\n"}
+,{"stream_name":"stdout","time":725.239907697,"data":"rendered fastapi_14512 25\n"}
+,{"stream_name":"stdout","time":732.773169182,"data":"rendered fastapi_14583 25\n"}
+,{"stream_name":"stdout","time":732.979456226,"data":"rendered fastapi_14583 25\n"}
+,{"stream_name":"stdout","time":740.275183401,"data":"rendered fastapi_14605 26\n"}
+,{"stream_name":"stdout","time":740.477047778,"data":"rendered fastapi_14605 26\n"}
+,{"stream_name":"stdout","time":748.406830036,"data":"rendered fastapi_14609 27\n"}
+,{"stream_name":"stdout","time":748.608771652,"data":"rendered fastapi_14609 27\n"}
+,{"stream_name":"stdout","time":756.053836119,"data":"rendered fastapi_14616 22\n"}
+,{"stream_name":"stdout","time":756.255771887,"data":"rendered fastapi_14616 22\n"}
+,{"stream_name":"stdout","time":763.624048857,"data":"rendered fastapi_14786 26\n"}
+,{"stream_name":"stdout","time":763.830382848,"data":"rendered fastapi_14786 26\n"}
+,{"stream_name":"stdout","time":772.817656937,"data":"rendered fastapi_14791 27\n"}
+,{"stream_name":"stdout","time":773.019576672,"data":"rendered fastapi_14791 27\n"}
+,{"stream_name":"stdout","time":782.051171333,"data":"rendered fastapi_14794 23\n"}
+,{"stream_name":"stdout","time":782.253180634,"data":"rendered fastapi_14794 23\n"}
+,{"stream_name":"stdout","time":791.089254491,"data":"rendered fastapi_14851 23\n"}
+,{"stream_name":"stdout","time":791.29141786,"data":"rendered fastapi_14851 23\n"}
+,{"stream_name":"stdout","time":799.81458355,"data":"rendered fastapi_14873 25\n"}
+,{"stream_name":"stdout","time":800.021237087,"data":"rendered fastapi_14873 25\n"}
+,{"stream_name":"stdout","time":808.556745735,"data":"rendered fastapi_14953 24\n"}
+,{"stream_name":"stdout","time":808.758684865,"data":"rendered fastapi_14953 24\n"}
+,{"stream_name":"stdout","time":816.695668019,"data":"rendered fastapi_14962 21\n"}
+,{"stream_name":"stdout","time":816.897570838,"data":"rendered fastapi_14962 21\n"}
+,{"stream_name":"stdout","time":825.801803464,"data":"rendered fastapi_14964 27\n"}
+,{"stream_name":"stdout","time":826.003706379,"data":"rendered fastapi_14964 27\n"}
+,{"stream_name":"stdout","time":834.407214064,"data":"rendered fastapi_14978 21\n"}
+,{"stream_name":"stdout","time":834.613874141,"data":"rendered fastapi_14978 21\n"}
+,{"stream_name":"stdout","time":843.149388498,"data":"rendered fastapi_14986 22\n"}
+,{"stream_name":"stdout","time":843.351417364,"data":"rendered fastapi_14986 22\n"}
+,{"stream_name":"stdout","time":850.681543634,"data":"rendered fastapi_15023 21\n"}
+,{"stream_name":"stdout","time":850.883685028,"data":"rendered fastapi_15023 21\n"}
+,{"stream_name":"stdout","time":857.781895566,"data":"rendered fastapi_15030 24\n"}
+,{"stream_name":"stdout","time":857.983749305,"data":"rendered fastapi_15030 24\n"}
+,{"stream_name":"stdout","time":867.169107117,"data":"rendered fastapi_15280 28\n"}
+,{"stream_name":"stdout","time":867.376049533,"data":"rendered fastapi_15280 28\n"}
+,{"stream_name":"stdout","time":877.055501484,"data":"rendered fastapi_15588 31\n"}
+,{"stream_name":"stdout","time":877.257457818,"data":"rendered fastapi_15588 31\n"}
+,{"stream_name":"stdout","time":886.954337373,"data":"rendered fastapi_15589 24\n"}
+,{"stream_name":"stdout","time":887.156306388,"data":"rendered fastapi_15589 24\n"}
+,{"stream_name":"stdout","time":896.801536396,"data":"rendered fastapi_15661 23\n"}
+,{"stream_name":"stdout","time":897.0035066,"data":"rendered fastapi_15661 23\n"}
+,{"stream_name":"stdout","time":906.905945418,"data":"rendered fastapi_15745 28\n"}
+,{"stream_name":"stdout","time":907.113107031,"data":"rendered fastapi_15745 28\n"}
+,{"stream_name":"stdout","time":916.593939088,"data":"rendered fastapi_15763 23\n"}
+,{"stream_name":"stdout","time":916.795838609,"data":"rendered fastapi_15763 23\n"}
+,{"stream_name":"stdout","time":926.850574035,"data":"rendered fastapi_15785 25\n"}
+,{"stream_name":"stdout","time":927.052556276,"data":"rendered fastapi_15785 25\n"}
+,{"stream_name":"stdout","time":937.062848419,"data":"rendered fastapi_15800 24\n"}
+,{"stream_name":"stdout","time":937.269875524,"data":"rendered fastapi_15800 24\n"}
+,{"stream_name":"stdout","time":945.237224957,"data":"rendered fastapi_5077 26\n"}
+,{"stream_name":"stdout","time":945.439155132,"data":"rendered fastapi_5077 26\n"}
+,{"stream_name":"stdout","time":953.456200315,"data":"rendered fastapi_5624 22\n"}
+,{"stream_name":"stdout","time":953.658211656,"data":"rendered fastapi_5624 22\n"}
+,{"stream_name":"stdout","time":961.296230809,"data":"rendered fastapi_9555 23\n"}
+,{"stream_name":"stdout","time":961.498133068,"data":"rendered fastapi_9555 23\n"}
+,{"stream_name":"stdout","time":969.851404043,"data":"rendered fastapi_9753 27\n"}
+,{"stream_name":"stdout","time":970.058952036,"data":"rendered fastapi_9753 27\n"}
+,{"stream_name":"stdout","time":971.76395322,"data":"rendered requests_6589 20\n"}
+,{"stream_name":"stdout","time":971.965795162,"data":"rendered requests_6589 20\n"}
+,{"stream_name":"stdout","time":973.674812078,"data":"rendered requests_6592 20\n"}
+,{"stream_name":"stdout","time":973.876642731,"data":"rendered requests_6592 20\n"}
+,{"stream_name":"stdout","time":975.117746327,"data":"rendered requests_6644 20\n"}
+,{"stream_name":"stdout","time":975.319717908,"data":"rendered requests_6644 20\n"}
+,{"stream_name":"stdout","time":976.512716962,"data":"rendered requests_6757 20\n"}
+,{"stream_name":"stdout","time":976.714585616,"data":"rendered requests_6757 20\n"}
+,{"stream_name":"stdout","time":978.150306971,"data":"rendered requests_7205 21\n"}
+,{"stream_name":"stdout","time":978.352302618,"data":"rendered requests_7205 21\n"}
+,{"stream_name":"stdout","time":980.153831517,"data":"rendered requests_7309 21\n"}
+,{"stream_name":"stdout","time":980.355789308,"data":"rendered requests_7309 21\n"}
+,{"stream_name":"stdout","time":981.657096982,"data":"rendered requests_7315 20\n"}
+,{"stream_name":"stdout","time":981.858975752,"data":"rendered requests_7315 20\n"}
+,{"stream_name":"stdout","time":983.171085667,"data":"rendered requests_7427 20\n"}
+,{"stream_name":"stdout","time":983.372993237,"data":"rendered requests_7427 20\n"}
+,{"stream_name":"stdout","time":984.60851461,"data":"rendered requests_7433 21\n"}
+,{"stream_name":"stdout","time":984.810367598,"data":"rendered requests_7433 21\n"}
+,{"stream_name":"stdout","time":986.18819011,"data":"rendered requests_7505 20\n"}
+,{"stream_name":"stdout","time":986.390104738,"data":"rendered requests_7505 20\n"}
+,{"stream_name":"stdout","time":989.51272827,"data":"rendered rich_2725 24\n"}
+,{"stream_name":"stdout","time":989.71457861,"data":"rendered rich_2725 24\n"}
+,{"stream_name":"stdout","time":993.058365124,"data":"rendered rich_2943 24\n"}
+,{"stream_name":"stdout","time":993.260373328,"data":"rendered rich_2943 24\n"}
+,{"stream_name":"stdout","time":997.029271325,"data":"rendered rich_3006 22\n"}
+,{"stream_name":"stdout","time":997.231218442,"data":"rendered rich_3006 22\n"}
+,{"stream_name":"stdout","time":1000.432609325,"data":"rendered rich_3043 22\n"}
+,{"stream_name":"stdout","time":1000.640284489,"data":"rendered rich_3043 22\n"}
+,{"stream_name":"stdout","time":1003.573894322,"data":"rendered rich_3061 20\n"}
+,{"stream_name":"stdout","time":1003.775811572,"data":"rendered rich_3061 20\n"}
+,{"stream_name":"stdout","time":1007.108551685,"data":"rendered rich_3063 23\n"}
+,{"stream_name":"stdout","time":1007.310494559,"data":"rendered rich_3063 23\n"}
+,{"stream_name":"stdout","time":1010.774417696,"data":"rendered rich_3067 24\n"}
+,{"stream_name":"stdout","time":1010.976376145,"data":"rendered rich_3067 24\n"}
+,{"stream_name":"stdout","time":1014.573737425,"data":"rendered rich_3105 23\n"}
+,{"stream_name":"stdout","time":1014.775674239,"data":"rendered rich_3105 23\n"}
+,{"stream_name":"stdout","time":1018.474628721,"data":"rendered rich_3130 23\n"}
+,{"stream_name":"stdout","time":1018.676538737,"data":"rendered rich_3130 23\n"}
+,{"stream_name":"stdout","time":1022.198115471,"data":"rendered rich_3180 21\n"}
+,{"stream_name":"stdout","time":1022.400051591,"data":"rendered rich_3180 21\n"}
+,{"stream_name":"stdout","time":1026.42572797,"data":"rendered rich_3278 23\n"}
+,{"stream_name":"stdout","time":1026.627557487,"data":"rendered rich_3278 23\n"}
+,{"stream_name":"stdout","time":1030.348639596,"data":"rendered rich_3296 24\n"}
+,{"stream_name":"stdout","time":1030.550587768,"data":"rendered rich_3296 24\n"}
+,{"stream_name":"stdout","time":1033.958220942,"data":"rendered rich_3454 25\n"}
+,{"stream_name":"stdout","time":1034.166293786,"data":"rendered rich_3454 25\n"}
+,{"stream_name":"stdout","time":1037.937269757,"data":"rendered rich_3468 21\n"}
+,{"stream_name":"stdout","time":1038.139190284,"data":"rendered rich_3468 21\n"}
+,{"stream_name":"stdout","time":1042.578478428,"data":"rendered rich_3469 25\n"}
+,{"stream_name":"stdout","time":1042.780367823,"data":"rendered rich_3469 25\n"}
+,{"stream_name":"stdout","time":1046.579692632,"data":"rendered rich_3470 21\n"}
+,{"stream_name":"stdout","time":1046.7814283,"data":"rendered rich_3470 21\n"}
+,{"stream_name":"stdout","time":1050.655537899,"data":"rendered rich_3471 24\n"}
+,{"stream_name":"stdout","time":1050.857514783,"data":"rendered rich_3471 24\n"}
+,{"stream_name":"stdout","time":1054.434298999,"data":"rendered rich_3472 25\n"}
+,{"stream_name":"stdout","time":1054.636312097,"data":"rendered rich_3472 25\n"}
+,{"stream_name":"stdout","time":1058.268205429,"data":"rendered rich_3480 26\n"}
+,{"stream_name":"stdout","time":1058.470202527,"data":"rendered rich_3480 26\n"}
+,{"stream_name":"stdout","time":1062.476968633,"data":"rendered rich_3486 24\n"}
+,{"stream_name":"stdout","time":1062.678966374,"data":"rendered rich_3486 24\n"}
+,{"stream_name":"stdout","time":1066.329096136,"data":"rendered rich_3506 24\n"}
+,{"stream_name":"stdout","time":1066.537661764,"data":"rendered rich_3506 24\n"}
+,{"stream_name":"stdout","time":1069.90239311,"data":"rendered rich_3518 20\n"}
+,{"stream_name":"stdout","time":1070.104385748,"data":"rendered rich_3518 20\n"}
+,{"stream_name":"stdout","time":1073.496327318,"data":"rendered rich_3521 22\n"}
+,{"stream_name":"stdout","time":1073.698329597,"data":"rendered rich_3521 22\n"}
+,{"stream_name":"stdout","time":1077.648397681,"data":"rendered rich_3535 23\n"}
+,{"stream_name":"stdout","time":1077.850466346,"data":"rendered rich_3535 23\n"}
+,{"stream_name":"stdout","time":1081.111046426,"data":"rendered rich_3675 24\n"}
+,{"stream_name":"stdout","time":1081.313074234,"data":"rendered rich_3675 24\n"}
+,{"stream_name":"stdout","time":1084.802931512,"data":"rendered rich_3676 22\n"}
+,{"stream_name":"stdout","time":1085.004942882,"data":"rendered rich_3676 22\n"}
+,{"stream_name":"stdout","time":1088.630198801,"data":"rendered rich_3718 24\n"}
+,{"stream_name":"stdout","time":1088.832103907,"data":"rendered rich_3718 24\n"}
+,{"stream_name":"stdout","time":1093.34212135,"data":"rendered rich_3772 23\n"}
+,{"stream_name":"stdout","time":1093.544119376,"data":"rendered rich_3772 23\n"}
+,{"stream_name":"stdout","time":1096.725667851,"data":"rendered rich_3777 21\n"}
+,{"stream_name":"stdout","time":1096.934390958,"data":"rendered rich_3777 21\n"}
+,{"stream_name":"stdout","time":1100.622463485,"data":"rendered rich_3782 23\n"}
+,{"stream_name":"stdout","time":1100.824418257,"data":"rendered rich_3782 23\n"}
+,{"stream_name":"stdout","time":1104.530708288,"data":"rendered rich_3905 24\n"}
+,{"stream_name":"stdout","time":1104.73257556,"data":"rendered rich_3905 24\n"}
+,{"stream_name":"stdout","time":1107.988773408,"data":"rendered rich_3930 21\n"}
+,{"stream_name":"stdout","time":1108.190713236,"data":"rendered rich_3930 21\n"}
+,{"stream_name":"stdout","time":1112.345527037,"data":"rendered rich_3938 23\n"}
+,{"stream_name":"stdout","time":1112.547565231,"data":"rendered rich_3938 23\n"}
+,{"stream_name":"stdout","time":1115.968656985,"data":"rendered rich_3942 23\n"}
+,{"stream_name":"stdout","time":1116.170679084,"data":"rendered rich_3942 23\n"}
+,{"stream_name":"stdout","time":1120.198477367,"data":"rendered rich_3944 26\n"}
+,{"stream_name":"stdout","time":1120.400449326,"data":"rendered rich_3944 26\n"}
+,{"stream_name":"stdout","time":1124.753397221,"data":"rendered rich_3953 23\n"}
+,{"stream_name":"stdout","time":1124.955423822,"data":"rendered rich_3953 23\n"}
+,{"stream_name":"stdout","time":1128.794191283,"data":"rendered rich_4006 24\n"}
+,{"stream_name":"stdout","time":1129.003069767,"data":"rendered rich_4006 24\n"}
+,{"stream_name":"stdout","time":1132.58148026,"data":"rendered rich_4070 22\n"}
+,{"stream_name":"stdout","time":1132.783411879,"data":"rendered rich_4070 22\n"}
+,{"stream_name":"stdout","time":1136.68349665,"data":"rendered rich_4076 24\n"}
+,{"stream_name":"stdout","time":1136.885384713,"data":"rendered rich_4076 24\n"}
+,{"stream_name":"stdout","time":1141.264725974,"data":"rendered rich_4077 25\n"}
+,{"stream_name":"stdout","time":1141.466638497,"data":"rendered rich_4077 25\n"}
+,{"stream_name":"stdout","time":1145.326036276,"data":"rendered rich_4079 27\n"}
+,{"stream_name":"stdout","time":1145.528081912,"data":"rendered rich_4079 27\n"}
+,{"stream_name":"stdout","time":1148.379858705,"data":"INFO 11-10 16:38:29 [hf.py:314] Detected the chat template content format to be 'openai'. You can set `--chat-template-content-format` to override this.\n"}
+,{"stream_name":"stdout","time":1148.582044266,"data":"INFO 11-10 16:38:29 [hf.py:314] Detected the chat template content format to be 'openai'. You can set `--chat-template-content-format` to override this.\n"}
+,{"stream_name":"stdout","time":2873.837252127,"data":"stage1: 345 prompts, 0 retried, 0 invalid, 1728s\n"}
+,{"stream_name":"stdout","time":2874.046899808,"data":"stage1: 345 prompts, 0 retried, 0 invalid, 1728s\n"}
+,{"stream_name":"stdout","time":6559.078376478,"data":"stage2: 608 prompts, 0 retried, 0 invalid, 3685s\n"}
+,{"stream_name":"stdout","time":6559.100610887,"data":"placebo pool too small: 0\n"}
+,{"stream_name":"stdout","time":6559.288207928,"data":"stage2: 608 prompts, 0 retried, 0 invalid, 3685s\n"}
+,{"stream_name":"stdout","time":6559.288252881,"data":"placebo pool too small: 0\n"}
+,{"stream_name":"stdout","time":9077.638197391,"data":"stage3: 421 prompts, 0 retried, 0 invalid, 2519s\n"}
+,{"stream_name":"stdout","time":9077.84807193,"data":"stage3: 421 prompts, 0 retried, 0 invalid, 2519s\n"}
+,{"stream_name":"stdout","time":10807.076633853,"data":"stage4_rep1: 230 prompts, 0 retried, 0 invalid, 1729s\n"}
+,{"stream_name":"stdout","time":10807.286140355,"data":"stage4_rep1: 230 prompts, 0 retried, 0 invalid, 1729s\n"}
+,{"stream_name":"stdout","time":12505.015109,"data":"stage4_rep2: 230 prompts, 0 retried, 0 invalid, 1698s\n"}
+,{"stream_name":"stdout","time":12505.224674965,"data":"stage4_rep2: 230 prompts, 0 retried, 0 invalid, 1698s\n"}
+,{"stream_name":"stdout","time":14197.372878174,"data":"stage4_rep3: 230 prompts, 0 retried, 0 invalid, 1692s\n"}
+,{"stream_name":"stdout","time":14197.37292318,"data":"done\n"}
+,{"stream_name":"stdout","time":14197.439542178,"data":"(EngineCore pid=454) INFO 11-10 20:15:58 [core.py:1210] Shutdown initiated (timeout=0)\n"}
+,{"stream_name":"stdout","time":14197.439575436,"data":"(EngineCore pid=454) INFO 11-10 20:15:58 [core.py:1233] Shutdown complete\n"}
+,{"stream_name":"stdout","time":14197.43979119,"data":"(Worker_TP0 pid=615) INFO 11-10 20:15:58 [multiproc_executor.py:764] Parent process exited, terminating worker queues\n"}
+,{"stream_name":"stdout","time":14197.439874351,"data":"(Worker_TP2 pid=617) INFO 11-10 20:15:58 [multiproc_executor.py:859] WorkerProc shutting down.\n"}
+,{"stream_name":"stdout","time":14197.439911706,"data":"(Worker_TP1 pid=616) INFO 11-10 20:15:58 [multiproc_executor.py:859] WorkerProc shutting down.\n"}
+,{"stream_name":"stdout","time":14197.439920527,"data":"(Worker_TP3 pid=618) INFO 11-10 20:15:58 [multiproc_executor.py:859] WorkerProc shutting down.\n"}
+,{"stream_name":"stdout","time":14197.439923604,"data":"(Worker_TP0 pid=615) INFO 11-10 20:15:58 [multiproc_executor.py:859] WorkerProc shutting down.\n"}
+,{"stream_name":"stdout","time":14197.582534095,"data":"stage4_rep3: 230 prompts, 0 retried, 0 invalid, 1692s\n"}
+,{"stream_name":"stdout","time":14197.582557997,"data":"done\n"}
+,{"stream_name":"stdout","time":14197.582561359,"data":"(EngineCore pid=454) INFO 11-10 20:15:58 [core.py:1210] Shutdown initiated (timeout=0)\n"}
+,{"stream_name":"stdout","time":14197.582564415,"data":"(EngineCore pid=454) INFO 11-10 20:15:58 [core.py:1233] Shutdown complete\n"}
+,{"stream_name":"stdout","time":14197.582567188,"data":"(Worker_TP0 pid=615) INFO 11-10 20:15:58 [multiproc_executor.py:764] Parent process exited, terminating worker queues\n"}
+,{"stream_name":"stdout","time":14197.582569862,"data":"(Worker_TP2 pid=617) INFO 11-10 20:15:58 [multiproc_executor.py:859] WorkerProc shutting down.\n"}
+,{"stream_name":"stdout","time":14197.582572602,"data":"(Worker_TP1 pid=616) INFO 11-10 20:15:58 [multiproc_executor.py:859] WorkerProc shutting down.\n"}
+,{"stream_name":"stdout","time":14197.582575164,"data":"(Worker_TP3 pid=618) INFO 11-10 20:15:58 [multiproc_executor.py:859] WorkerProc shutting down.\n"}
+,{"stream_name":"stdout","time":14197.582577635,"data":"(Worker_TP0 pid=615) INFO 11-10 20:15:58 [multiproc_executor.py:859] WorkerProc shutting down.\n"}
+,{"stream_name":"stderr","time":14203.806402195,"data":"/usr/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 4 leaked semaphore objects to clean up at shutdown\n"}
+,{"stream_name":"stderr","time":14203.806433272,"data":"  warnings.warn('resource_tracker: There appear to be %d '\n"}
+,{"stream_name":"stderr","time":14203.806437021,"data":"/usr/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 2 leaked shared_memory objects to clean up at shutdown\n"}
+,{"stream_name":"stderr","time":14203.806440035,"data":"  warnings.warn('resource_tracker: There appear to be %d '\n"}
+,{"stream_name":"stderr","time":14204.00866091,"data":"/usr/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 4 leaked semaphore objects to clean up at shutdown\n"}
+,{"stream_name":"stderr","time":14204.008711779,"data":"  warnings.warn('resource_tracker: There appear to be %d '\n"}
+,{"stream_name":"stderr","time":14204.008731447,"data":"/usr/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 2 leaked shared_memory objects to clean up at shutdown\n"}
+,{"stream_name":"stderr","time":14204.008810752,"data":"  warnings.warn('resource_tracker: There appear to be %d '\n"}
+,{"stream_name":"stderr","time":14204.008825326,"data":"\n"}
+,{"stream_name":"stderr","time":14204.008829224,"data":"/usr/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 4 leaked semaphore objects to clean up at shutdown\n"}
+,{"stream_name":"stderr","time":14204.008833073,"data":"  warnings.warn('resource_tracker: There appear to be %d '\n"}
+,{"stream_name":"stderr","time":14204.008836797,"data":"/usr/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 2 leaked shared_memory objects to clean up at shutdown\n"}
+,{"stream_name":"stderr","time":14204.008840476,"data":"  warnings.warn('resource_tracker: There appear to be %d '\n"}
+,{"stream_name":"stdout","time":14204.981834153,"data":"exit 0\n"}
+,{"stream_name":"stderr","time":14207.831891974,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":14207.831921295,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":14208.043741653,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":14208.04377231,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":14208.876951987,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":14209.219708767,"data":"[NbConvertApp] Writing 34233 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":14211.995742925,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":14212.854549762,"data":"[NbConvertApp] Writing 312566 bytes to __results__.html\n"}
+]

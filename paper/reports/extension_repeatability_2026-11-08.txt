@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "tasks": 115,
+  "observations_per_run": 4370,
+  "ignored_fields": [
+    "corruption_seconds",
+    "experiment_id",
+    "index_seconds",
+    "ranking_seconds",
+    "shared_lexical_seconds"
+  ],
+  "streams": {
+    "predictions.jsonl": 4370,
+    "per_task.jsonl": 4370
+  },
+  "summaries_identical": true
+}

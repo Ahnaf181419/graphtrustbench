@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Same Score, Different Context: Call-Graph Errors, Retrieval Stability, and What Gemma 4 Does With Them"
+message: "If you use this protocol, call tracer or evaluation harness, please cite it."
+type: software
+authors:
+  - family-names: Shafin
+    given-names: Ahnaf
+abstract: >-
+  A pre-registered study of how call-graph errors propagate through graph-guided retrieval to the
+  file choices and patches of Gemma 4 on tasks from the Gemma 4 Developer Agent Competition, with an
+  edge-level corruption protocol, a run-time call tracer and a containerized test harness.
+keywords:
+  - software engineering
+  - code localization
+  - call graphs
+  - robustness evaluation
+  - coding agents
+license: Apache-2.0
+repository-code: "https://github.com/Ahnaf181419/graphtrustbench"

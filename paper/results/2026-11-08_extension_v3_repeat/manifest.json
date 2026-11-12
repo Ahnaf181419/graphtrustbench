@@ -1,0 +1,102 @@
+{
+  "audit_sha256": "19af7f0de9bfdd1b63f989024ad0c0ffa1f318bfad4aceb90bedf899d2a34736",
+  "command": [
+    "paper/scripts/run_localization_pilot.py",
+    "--data-root",
+    ".",
+    "--pilot",
+    "paper/data/heldout_full_2026-11-07.json",
+    "--audit",
+    "paper/reports/competition_audit_full_2026-11-06.json",
+    "--mapping-dir",
+    "paper/results/2026-11-08_extension_mapping",
+    "--config",
+    "paper/config/pilot_v3.json",
+    "--output-dir",
+    "paper/results/2026-11-08_extension_v3_repeat"
+  ],
+  "config_sha256": "7cddb2305abe3b578ea944028fceb78e51803af24dc0e400cf79e2934439e0ca",
+  "configuration": {
+    "bm25": {
+      "b": 0.75,
+      "k1": 1.2
+    },
+    "candidate_binding": "exact qualified ID; otherwise unique module/scope alias with matching pre-fix AST (class header only)",
+    "candidate_text": "snapshot AST definition, node ID, relative path",
+    "claims": "localization proxy; no model inference or patch-resolution claim",
+    "corruption": [
+      "missing",
+      "spurious"
+    ],
+    "cutoffs": [
+      1,
+      5,
+      10
+    ],
+    "methods": [
+      "bm25",
+      "one_hop"
+    ],
+    "one_hop": {
+      "edge_budget": 100,
+      "restart": 0.15,
+      "seed_count": 5
+    },
+    "primary_unit": "file",
+    "protocol_version": "graphtrust-pilot-0.3",
+    "query": "problem_statement_only",
+    "refinement": "adds spurious-edge rewiring to the protocol 0.2 interventions; same frozen development tasks and retrieval parameters",
+    "seeds": [
+      13,
+      37,
+      101
+    ],
+    "semantic_baseline": "deferred: no compatible issue-text encoder supplied",
+    "severities": [
+      0.1,
+      0.2,
+      0.4
+    ],
+    "status": "development_pilot_only"
+  },
+  "dataset_fingerprint": "e39fbcca3ccd76d39582587aa3c3d6e32e1adb5cfa011ed4845d55267c3afc7d",
+  "experiment_id": "2026-11-08_extension_v3_repeat",
+  "finished_utc": "2026-11-08T15:39:14.219645+00:00",
+  "git_sha": "24cfd6c1cfbb7685da70ed10fc883a66de7c2c48",
+  "lexical_invariance_passed": true,
+  "mapping_manifest_sha256": "1f223c5e64e8804df1d23bfc4094385ba59560d60157d1951d675e7377deba25",
+  "mapping_sha256": "9ddc7ab71b539c3963d5d9ceae85593d0ba42f25f266a199294a562323f84a2d",
+  "observations": 4370,
+  "peak_rss_kib": 397644,
+  "per_task_sha256": "c0508fecf2ffa552899415ba269218b9cf0f5b3d2e8b155b548e99961a8a479d",
+  "pilot_sha256": "16da836cb56b6e93c75bb002edff4010141b9e26ba9f1622b4cb65f08faed940",
+  "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.39",
+  "predictions_sha256": "e5a417e104b063caae98fd40e8e781b219fd9a3c437215a6b39c2ad3605bebf6",
+  "python": "3.12.3",
+  "runtime_seconds": 846.343153267,
+  "source_hashes": {
+    "agent_readout.py": "7e19801c60540be1a55e51c054b34114f1251304d87f78645a5ad82eb11d67cb",
+    "analyze_reachability.py": "ace738d816d6d7a4d1148f3b806109b72ec222f346e96f98b14c65eeb4e3d4a6",
+    "audit_competition_data.py": "9be492ee03f845e4fe6927b6070a42ee9975a44299967cd1be61941cc0d80f82",
+    "build_claim_ledger.py": "ecceed65ac4b8bd326ceb507af7a9fca9401dbb2307fa361e51594615b8f2a94",
+    "build_release.py": "4a9341f9ec2b5943b5a4a1b87166dab5ba722e3b145b4d164a5003ea5c5b12d1",
+    "build_submission.py": "a81bb5917801b52b74023a210e5710ba2eaa6bb5113d144991bde305d8297d77",
+    "build_submission_artifacts.py": "c677a0758f5f8f30ddd6b7c607510b018236237e9b7ecfede08aa768e3fab244",
+    "build_submission_document.py": "84a65607550e3a39d58b479a0ad8a99565d5ef5442cb28d8b0d98bdec94627c3",
+    "fetch_upstream_trees.py": "448345c44c191f7706751d60d0a7ac38903dfa9dff5edc8d39631c2e061a46fe",
+    "localization_data.py": "7bf069c1acab7f406b9afce81a6d2dc9481c2da297f166330916514ff6464057",
+    "localization_evaluation.py": "b7fea2427aeb34384bafbb8f976f4a1d8e7e06878fbe4d9b630672705fc25d8f",
+    "localization_retrieval.py": "c28cdb3a310fb9ecdcaa7c3df6af72003e9b4ef1e9610eacef0052830ae28f68",
+    "pilot_integrity.py": "6b96f39f80ae1fc54b8787442f6228cfb573434bf4571796677e1c084b7da1f1",
+    "prepare_pilot.py": "21e60d0143e1ad974cfd7737c1215160af4d8d608ba9371360a0b9c073251a52",
+    "render_figures.py": "5a80fcd8b5e5b588e0f1b22d609c6a378e5b073b59260288600bf39a43bb3566",
+    "render_pilot_report.py": "31833fd4bc479e9de8bb316dd881a73d5c4e055a18896f3ba5021d26e266a2cd",
+    "run_baseline.py": "a1d61e02ecf297f384c3ccdea6f54c73d17e85bf81b3e0a00ddebe11f5a3f2f3",
+    "run_localization_pilot.py": "62584237a8de57f9049a50649dc4595b88ba899f035409495f42ef8aefcd2820",
+    "select_heldout.py": "c7ddd06527e14881084d4c8b6e8cf29b00654f0564c69a243b7a311be90c805e"
+  },
+  "started_utc": "2026-11-08T15:25:07.876497+00:00",
+  "status": "completed",
+  "summary_sha256": "2c47f71308bc2d3514850e45591abc427bc406c83aef346c522c6e40035b1eb5",
+  "tasks": 115
+}

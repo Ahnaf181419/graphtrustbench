@@ -1,0 +1,40 @@
+{
+  "protocol_version": "graphtrust-pilot-0.2",
+  "status": "development_pilot_only",
+  "primary_unit": "file",
+  "query": "problem_statement_only",
+  "candidate_text": "snapshot AST definition, node ID, relative path",
+  "methods": [
+    "bm25",
+    "one_hop"
+  ],
+  "bm25": {
+    "k1": 1.2,
+    "b": 0.75
+  },
+  "one_hop": {
+    "seed_count": 5,
+    "edge_budget": 100,
+    "restart": 0.15
+  },
+  "corruption": "edge_deletion",
+  "severities": [
+    0.1,
+    0.2,
+    0.4
+  ],
+  "seeds": [
+    13,
+    37,
+    101
+  ],
+  "cutoffs": [
+    1,
+    5,
+    10
+  ],
+  "semantic_baseline": "deferred: no compatible issue-text encoder supplied",
+  "claims": "localization proxy; no model inference or patch-resolution claim",
+  "candidate_binding": "exact qualified ID; otherwise unique module/scope alias with matching pre-fix AST (class header only)",
+  "refinement": "gold-independent mapping correction and artifact integrity; same frozen development tasks and retrieval parameters"
+}

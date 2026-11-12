@@ -1,0 +1,122 @@
+{
+  "dataset_root": "/home/frostflux/Ahnaf_Shafin/Hackathon/gemma4-agent",
+  "gold_labels_constructed": false,
+  "retrieval_scores_computed": false,
+  "seed": 2026,
+  "selected": [
+    {
+      "base_commit": "425a4c5bb1d1a8e00007e82e5188fc4d30585767",
+      "embedding_present": false,
+      "graph_present": false,
+      "has_reference_patch": true,
+      "instance_id": "fastapi_14262",
+      "repo": "fastapi/fastapi",
+      "snapshot_present": true
+    },
+    {
+      "base_commit": "603df6e36f59cc4a3e189f506b8f36d1e816c3ac",
+      "embedding_present": false,
+      "graph_present": false,
+      "has_reference_patch": true,
+      "instance_id": "fastapi_14455",
+      "repo": "fastapi/fastapi",
+      "snapshot_present": true
+    },
+    {
+      "base_commit": "0bdc3ca3732e3742e094bea2b320e9774659ac38",
+      "embedding_present": false,
+      "graph_present": false,
+      "has_reference_patch": true,
+      "instance_id": "fastapi_9425",
+      "repo": "fastapi/fastapi",
+      "snapshot_present": true
+    },
+    {
+      "base_commit": "4acf5c2c37714cc63b5cf71b3e284fca83c90311",
+      "embedding_present": false,
+      "graph_present": false,
+      "has_reference_patch": true,
+      "instance_id": "httpx_3672",
+      "repo": "encode/httpx",
+      "snapshot_present": true
+    },
+    {
+      "base_commit": "cbce031327be4f1b4b5fd041ff4dcaa8efa2ce53",
+      "embedding_present": false,
+      "graph_present": false,
+      "has_reference_patch": true,
+      "instance_id": "requests_7328",
+      "repo": "psf/requests",
+      "snapshot_present": true
+    },
+    {
+      "base_commit": "661970d171d9c3e12e4c789c4768db647d8c4da0",
+      "embedding_present": false,
+      "graph_present": false,
+      "has_reference_patch": true,
+      "instance_id": "requests_7502",
+      "repo": "psf/requests",
+      "snapshot_present": true
+    },
+    {
+      "base_commit": "7a168a27c5097805b3bafa495f35e3955004ff4a",
+      "embedding_present": false,
+      "graph_present": false,
+      "has_reference_patch": true,
+      "instance_id": "rich_3052",
+      "repo": "Textualize/rich",
+      "snapshot_present": true
+    },
+    {
+      "base_commit": "01b85ac116c4635b6ddb8b488be8254be6df2a84",
+      "embedding_present": false,
+      "graph_present": false,
+      "has_reference_patch": true,
+      "instance_id": "rich_3064",
+      "repo": "Textualize/rich",
+      "snapshot_present": true
+    },
+    {
+      "base_commit": "4d6d631a3d2deddf8405522d4b8c976a6d35726c",
+      "embedding_present": false,
+      "graph_present": false,
+      "has_reference_patch": true,
+      "instance_id": "rich_3894",
+      "repo": "Textualize/rich",
+      "snapshot_present": true
+    },
+    {
+      "base_commit": "6764b24739b580c0c32ff5ef0b971ed4cfcf4f75",
+      "embedding_present": false,
+      "graph_present": false,
+      "has_reference_patch": true,
+      "instance_id": "rich_3934",
+      "repo": "Textualize/rich",
+      "snapshot_present": true
+    },
+    {
+      "base_commit": "fe55a131c2780fa856464ad04d7d6dc8a1079b72",
+      "embedding_present": false,
+      "graph_present": false,
+      "has_reference_patch": true,
+      "instance_id": "rich_3935",
+      "repo": "Textualize/rich",
+      "snapshot_present": true
+    },
+    {
+      "base_commit": "1fc7cb210ae52eb099df39818ddb9569e5b14c7b",
+      "embedding_present": false,
+      "graph_present": false,
+      "has_reference_patch": true,
+      "instance_id": "rich_4075",
+      "repo": "Textualize/rich",
+      "snapshot_present": true
+    }
+  ],
+  "selected_count": 12,
+  "selected_graph_errors": 12,
+  "status": "graph_schema_preflight_only",
+  "tasks_sha256": "e4b3fd60f69dbc2b9213e54eeb9636db78aefe92c1d06269d73d9f5f8f3c8ad6",
+  "total_repositories": 4,
+  "total_tasks": 129
+}

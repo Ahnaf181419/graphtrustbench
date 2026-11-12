@@ -1,0 +1,1 @@
+20 PRs that close an issue; 18 with a real issue; 8 issue opened after the cutoff

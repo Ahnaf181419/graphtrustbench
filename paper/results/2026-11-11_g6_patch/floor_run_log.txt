@@ -1,0 +1,12 @@
+2026-11-11T16:00:03Z patch items: 1172 {'C0': 115, 'X': 608, 'P': 421, 'REP': 28}
+2026-11-11T16:35:55Z patch_floor_rep1: 100/315 after 2138s
+2026-11-11T17:09:15Z patch_floor_rep1: 200/315 after 4138s
+2026-11-11T17:42:54Z patch_floor_rep1: 300/315 after 6157s
+2026-11-11T17:49:18Z patch_floor_rep1: 315/315 after 6541s
+2026-11-11T17:49:18Z patch_floor_rep1: 315 prompts, max prompt 24350 tokens, 6541s
+2026-11-11T18:21:41Z patch_floor_rep2: 100/315 after 1930s
+2026-11-11T18:55:40Z patch_floor_rep2: 200/315 after 3969s
+2026-11-11T19:28:36Z patch_floor_rep2: 300/315 after 5945s
+2026-11-11T19:33:28Z patch_floor_rep2: 315/315 after 6237s
+2026-11-11T19:33:28Z patch_floor_rep2: 315 prompts, max prompt 24254 tokens, 6237s
+2026-11-11T19:33:28Z patch readout done: ('floor',)

@@ -1,0 +1,929 @@
+{
+  "dataset_fingerprint": "e39fbcca3ccd76d39582587aa3c3d6e32e1adb5cfa011ed4845d55267c3afc7d",
+  "seed": 2027,
+  "selection": "repository round-robin, one base commit per draw; excludes every development task and every task sharing a development base commit; no gold used",
+  "status": "passed_schema_preflight",
+  "tasks": [
+    {
+      "base_commit": "a7f2dbe976bf72703376f0cd04487bfc4a849f83",
+      "embedding_path": "embeddings/fastapi_a7f2dbe976bf72703376f0cd04487bfc4a849f83.npz",
+      "graph_path": "graphs/fastapi_a7f2dbe976bf72703376f0cd04487bfc4a849f83.json",
+      "instance_id": "fastapi_11194",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_11194.tgz"
+    },
+    {
+      "base_commit": "811fa898752e7f5697733a2958ff79ad8dfb5276",
+      "embedding_path": "embeddings/fastapi_811fa898752e7f5697733a2958ff79ad8dfb5276.npz",
+      "graph_path": "graphs/fastapi_811fa898752e7f5697733a2958ff79ad8dfb5276.json",
+      "instance_id": "fastapi_11355",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_11355.tgz"
+    },
+    {
+      "base_commit": "27c0f7e75fc0ce26ca75295d455eb36f0ca033d3",
+      "embedding_path": "embeddings/fastapi_27c0f7e75fc0ce26ca75295d455eb36f0ca033d3.npz",
+      "graph_path": "graphs/fastapi_27c0f7e75fc0ce26ca75295d455eb36f0ca033d3.json",
+      "instance_id": "fastapi_12942",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_12942.tgz"
+    },
+    {
+      "base_commit": "5126e099bdda51f261fd5a101b5f914991d31897",
+      "embedding_path": "embeddings/fastapi_5126e099bdda51f261fd5a101b5f914991d31897.npz",
+      "graph_path": "graphs/fastapi_5126e099bdda51f261fd5a101b5f914991d31897.json",
+      "instance_id": "fastapi_13207",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_13207.tgz"
+    },
+    {
+      "base_commit": "3b4b5ab8c819dce27fbaf0aa0a9c74b7f3255ec0",
+      "embedding_path": "embeddings/fastapi_3b4b5ab8c819dce27fbaf0aa0a9c74b7f3255ec0.npz",
+      "graph_path": "graphs/fastapi_3b4b5ab8c819dce27fbaf0aa0a9c74b7f3255ec0.json",
+      "instance_id": "fastapi_13537",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_13537.tgz"
+    },
+    {
+      "base_commit": "5c1f87c56387a96dbdddb2b1c4ec9ba48dcebc4e",
+      "embedding_path": "embeddings/fastapi_5c1f87c56387a96dbdddb2b1c4ec9ba48dcebc4e.npz",
+      "graph_path": "graphs/fastapi_5c1f87c56387a96dbdddb2b1c4ec9ba48dcebc4e.json",
+      "instance_id": "fastapi_13713",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_13713.tgz"
+    },
+    {
+      "base_commit": "e2354a0a063f2fcb890ec568f1a98e136a39fd25",
+      "embedding_path": "embeddings/fastapi_e2354a0a063f2fcb890ec568f1a98e136a39fd25.npz",
+      "graph_path": "graphs/fastapi_e2354a0a063f2fcb890ec568f1a98e136a39fd25.json",
+      "instance_id": "fastapi_13786",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_13786.tgz"
+    },
+    {
+      "base_commit": "0dd42b746e17d33a74ea267a62eace9ccdccf345",
+      "embedding_path": "embeddings/fastapi_0dd42b746e17d33a74ea267a62eace9ccdccf345.npz",
+      "graph_path": "graphs/fastapi_0dd42b746e17d33a74ea267a62eace9ccdccf345.json",
+      "instance_id": "fastapi_13920",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_13920.tgz"
+    },
+    {
+      "base_commit": "16d75d90eb96976a57b94cc24e4018859cd54c4d",
+      "embedding_path": "embeddings/fastapi_16d75d90eb96976a57b94cc24e4018859cd54c4d.npz",
+      "graph_path": "graphs/fastapi_16d75d90eb96976a57b94cc24e4018859cd54c4d.json",
+      "instance_id": "fastapi_14077",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14077.tgz"
+    },
+    {
+      "base_commit": "861b22c40897a03d2d7e5926923d962121ed5e2e",
+      "embedding_path": "embeddings/fastapi_861b22c40897a03d2d7e5926923d962121ed5e2e.npz",
+      "graph_path": "graphs/fastapi_861b22c40897a03d2d7e5926923d962121ed5e2e.json",
+      "instance_id": "fastapi_14099",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14099.tgz"
+    },
+    {
+      "base_commit": "6e49dc029541aaa896fa63c47647ccd3f066df67",
+      "embedding_path": "embeddings/fastapi_6e49dc029541aaa896fa63c47647ccd3f066df67.npz",
+      "graph_path": "graphs/fastapi_6e49dc029541aaa896fa63c47647ccd3f066df67.json",
+      "instance_id": "fastapi_14186",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14186.tgz"
+    },
+    {
+      "base_commit": "7132a690461c2367f22556eb87c2b5eb7d9cfb45",
+      "embedding_path": "embeddings/fastapi_7132a690461c2367f22556eb87c2b5eb7d9cfb45.npz",
+      "graph_path": "graphs/fastapi_7132a690461c2367f22556eb87c2b5eb7d9cfb45.json",
+      "instance_id": "fastapi_14246",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14246.tgz"
+    },
+    {
+      "base_commit": "e94028ab60d18080810910352bc9129e8046c92d",
+      "embedding_path": "embeddings/fastapi_e94028ab60d18080810910352bc9129e8046c92d.npz",
+      "graph_path": "graphs/fastapi_e94028ab60d18080810910352bc9129e8046c92d.json",
+      "instance_id": "fastapi_14258",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14258.tgz"
+    },
+    {
+      "base_commit": "2cf04ee30db9df2db04a5b1e0d2c625dfbf1a211",
+      "embedding_path": "embeddings/fastapi_2cf04ee30db9df2db04a5b1e0d2c625dfbf1a211.npz",
+      "graph_path": "graphs/fastapi_2cf04ee30db9df2db04a5b1e0d2c625dfbf1a211.json",
+      "instance_id": "fastapi_14266",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14266.tgz"
+    },
+    {
+      "base_commit": "3c54a8f07b70cdd40e3d81ea319e9fcccd2481d2",
+      "embedding_path": "embeddings/fastapi_3c54a8f07b70cdd40e3d81ea319e9fcccd2481d2.npz",
+      "graph_path": "graphs/fastapi_3c54a8f07b70cdd40e3d81ea319e9fcccd2481d2.json",
+      "instance_id": "fastapi_14297",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14297.tgz"
+    },
+    {
+      "base_commit": "972a967d5d3fa24d450637c36c6b7ad1f1d8c1b6",
+      "embedding_path": "embeddings/fastapi_972a967d5d3fa24d450637c36c6b7ad1f1d8c1b6.npz",
+      "graph_path": "graphs/fastapi_972a967d5d3fa24d450637c36c6b7ad1f1d8c1b6.json",
+      "instance_id": "fastapi_14301",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14301.tgz"
+    },
+    {
+      "base_commit": "740ec2787b25e59f7aa9e3df1db09d4489c22718",
+      "embedding_path": "embeddings/fastapi_740ec2787b25e59f7aa9e3df1db09d4489c22718.npz",
+      "graph_path": "graphs/fastapi_740ec2787b25e59f7aa9e3df1db09d4489c22718.json",
+      "instance_id": "fastapi_14303",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14303.tgz"
+    },
+    {
+      "base_commit": "08b09e5236e315b6f10265ed229f130d4befb4ea",
+      "embedding_path": "embeddings/fastapi_08b09e5236e315b6f10265ed229f130d4befb4ea.npz",
+      "graph_path": "graphs/fastapi_08b09e5236e315b6f10265ed229f130d4befb4ea.json",
+      "instance_id": "fastapi_14306",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14306.tgz"
+    },
+    {
+      "base_commit": "eaf611f9ee56de4f16c837d4f487a4b9fca507c4",
+      "embedding_path": "embeddings/fastapi_eaf611f9ee56de4f16c837d4f487a4b9fca507c4.npz",
+      "graph_path": "graphs/fastapi_eaf611f9ee56de4f16c837d4f487a4b9fca507c4.json",
+      "instance_id": "fastapi_14349",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14349.tgz"
+    },
+    {
+      "base_commit": "6cf40df24d1d199fd25d034fc87fcae284fc23a2",
+      "embedding_path": "embeddings/fastapi_6cf40df24d1d199fd25d034fc87fcae284fc23a2.npz",
+      "graph_path": "graphs/fastapi_6cf40df24d1d199fd25d034fc87fcae284fc23a2.json",
+      "instance_id": "fastapi_14356",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14356.tgz"
+    },
+    {
+      "base_commit": "eead41bf4cf8587b4d86091dd3eabbb85796e717",
+      "embedding_path": "embeddings/fastapi_eead41bf4cf8587b4d86091dd3eabbb85796e717.npz",
+      "graph_path": "graphs/fastapi_eead41bf4cf8587b4d86091dd3eabbb85796e717.json",
+      "instance_id": "fastapi_14360",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14360.tgz"
+    },
+    {
+      "base_commit": "5265c4f5cb4d8fb4fb5015bccf1a6de8f3fc6044",
+      "embedding_path": "embeddings/fastapi_5265c4f5cb4d8fb4fb5015bccf1a6de8f3fc6044.npz",
+      "graph_path": "graphs/fastapi_5265c4f5cb4d8fb4fb5015bccf1a6de8f3fc6044.json",
+      "instance_id": "fastapi_14361",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14361.tgz"
+    },
+    {
+      "base_commit": "3fe6522aaed4d36d6a38175a4a8137ee0fc62451",
+      "embedding_path": "embeddings/fastapi_3fe6522aaed4d36d6a38175a4a8137ee0fc62451.npz",
+      "graph_path": "graphs/fastapi_3fe6522aaed4d36d6a38175a4a8137ee0fc62451.json",
+      "instance_id": "fastapi_14371",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14371.tgz"
+    },
+    {
+      "base_commit": "566e3157a5517784c741dbf36e39687af326fe90",
+      "embedding_path": "embeddings/fastapi_566e3157a5517784c741dbf36e39687af326fe90.npz",
+      "graph_path": "graphs/fastapi_566e3157a5517784c741dbf36e39687af326fe90.json",
+      "instance_id": "fastapi_14372",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14372.tgz"
+    },
+    {
+      "base_commit": "63d7a2b9978258d13dfc22664e60fc2110d30e20",
+      "embedding_path": "embeddings/fastapi_63d7a2b9978258d13dfc22664e60fc2110d30e20.npz",
+      "graph_path": "graphs/fastapi_63d7a2b9978258d13dfc22664e60fc2110d30e20.json",
+      "instance_id": "fastapi_14419",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14419.tgz"
+    },
+    {
+      "base_commit": "cff2236dacb7aedcaf2d2de0873cfbc9bb2b897a",
+      "embedding_path": "embeddings/fastapi_cff2236dacb7aedcaf2d2de0873cfbc9bb2b897a.npz",
+      "graph_path": "graphs/fastapi_cff2236dacb7aedcaf2d2de0873cfbc9bb2b897a.json",
+      "instance_id": "fastapi_14430",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14430.tgz"
+    },
+    {
+      "base_commit": "c57ac7bdf3613798c94caceff562a41fa16d4a2d",
+      "embedding_path": "embeddings/fastapi_c57ac7bdf3613798c94caceff562a41fa16d4a2d.npz",
+      "graph_path": "graphs/fastapi_c57ac7bdf3613798c94caceff562a41fa16d4a2d.json",
+      "instance_id": "fastapi_14448",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14448.tgz"
+    },
+    {
+      "base_commit": "516169428d2fa189d34318ebc469a082c49c1189",
+      "embedding_path": "embeddings/fastapi_516169428d2fa189d34318ebc469a082c49c1189.npz",
+      "graph_path": "graphs/fastapi_516169428d2fa189d34318ebc469a082c49c1189.json",
+      "instance_id": "fastapi_14458",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14458.tgz"
+    },
+    {
+      "base_commit": "eb1d50479ba0ac873e4ffa08a824b1d822ca3a17",
+      "embedding_path": "embeddings/fastapi_eb1d50479ba0ac873e4ffa08a824b1d822ca3a17.npz",
+      "graph_path": "graphs/fastapi_eb1d50479ba0ac873e4ffa08a824b1d822ca3a17.json",
+      "instance_id": "fastapi_14459",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14459.tgz"
+    },
+    {
+      "base_commit": "f2687dc1bb01f4cb62eee90e656b61c38c2aaf6a",
+      "embedding_path": "embeddings/fastapi_f2687dc1bb01f4cb62eee90e656b61c38c2aaf6a.npz",
+      "graph_path": "graphs/fastapi_f2687dc1bb01f4cb62eee90e656b61c38c2aaf6a.json",
+      "instance_id": "fastapi_14463",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14463.tgz"
+    },
+    {
+      "base_commit": "2b212ddd7604891d42e2ffbafe764c334230bdb7",
+      "embedding_path": "embeddings/fastapi_2b212ddd7604891d42e2ffbafe764c334230bdb7.npz",
+      "graph_path": "graphs/fastapi_2b212ddd7604891d42e2ffbafe764c334230bdb7.json",
+      "instance_id": "fastapi_14479",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14479.tgz"
+    },
+    {
+      "base_commit": "71a17b5932e38bcf798fcd05c5bb384e6d4db5bf",
+      "embedding_path": "embeddings/fastapi_71a17b5932e38bcf798fcd05c5bb384e6d4db5bf.npz",
+      "graph_path": "graphs/fastapi_71a17b5932e38bcf798fcd05c5bb384e6d4db5bf.json",
+      "instance_id": "fastapi_14482",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14482.tgz"
+    },
+    {
+      "base_commit": "60699f306b67dc1f4918ebea17f04d7a48cda645",
+      "embedding_path": "embeddings/fastapi_60699f306b67dc1f4918ebea17f04d7a48cda645.npz",
+      "graph_path": "graphs/fastapi_60699f306b67dc1f4918ebea17f04d7a48cda645.json",
+      "instance_id": "fastapi_14485",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14485.tgz"
+    },
+    {
+      "base_commit": "4a98a66778987648d2195155c9cbe0824d67b02a",
+      "embedding_path": "embeddings/fastapi_4a98a66778987648d2195155c9cbe0824d67b02a.npz",
+      "graph_path": "graphs/fastapi_4a98a66778987648d2195155c9cbe0824d67b02a.json",
+      "instance_id": "fastapi_14487",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14487.tgz"
+    },
+    {
+      "base_commit": "a456e92a21d5b94a67d6d0fd070218df09444443",
+      "embedding_path": "embeddings/fastapi_a456e92a21d5b94a67d6d0fd070218df09444443.npz",
+      "graph_path": "graphs/fastapi_a456e92a21d5b94a67d6d0fd070218df09444443.json",
+      "instance_id": "fastapi_14492",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14492.tgz"
+    },
+    {
+      "base_commit": "1fcec88ad2df4541b6a81c4786c4d039dc745e1e",
+      "embedding_path": "embeddings/fastapi_1fcec88ad2df4541b6a81c4786c4d039dc745e1e.npz",
+      "graph_path": "graphs/fastapi_1fcec88ad2df4541b6a81c4786c4d039dc745e1e.json",
+      "instance_id": "fastapi_14512",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14512.tgz"
+    },
+    {
+      "base_commit": "6513d4daa16a536d17743de6a292f49bd06388a4",
+      "embedding_path": "embeddings/fastapi_6513d4daa16a536d17743de6a292f49bd06388a4.npz",
+      "graph_path": "graphs/fastapi_6513d4daa16a536d17743de6a292f49bd06388a4.json",
+      "instance_id": "fastapi_14583",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14583.tgz"
+    },
+    {
+      "base_commit": "6b53786f626db95a42fd0f66afd360bab161f4b1",
+      "embedding_path": "embeddings/fastapi_6b53786f626db95a42fd0f66afd360bab161f4b1.npz",
+      "graph_path": "graphs/fastapi_6b53786f626db95a42fd0f66afd360bab161f4b1.json",
+      "instance_id": "fastapi_14605",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14605.tgz"
+    },
+    {
+      "base_commit": "1b3bea8b6be2220cc1544653ea785d2134fcb35b",
+      "embedding_path": "embeddings/fastapi_1b3bea8b6be2220cc1544653ea785d2134fcb35b.npz",
+      "graph_path": "graphs/fastapi_1b3bea8b6be2220cc1544653ea785d2134fcb35b.json",
+      "instance_id": "fastapi_14609",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14609.tgz"
+    },
+    {
+      "base_commit": "54f8aeeb9a15e4d5a12401ec5549840966df0087",
+      "embedding_path": "embeddings/fastapi_54f8aeeb9a15e4d5a12401ec5549840966df0087.npz",
+      "graph_path": "graphs/fastapi_54f8aeeb9a15e4d5a12401ec5549840966df0087.json",
+      "instance_id": "fastapi_14616",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14616.tgz"
+    },
+    {
+      "base_commit": "eacbce24c9d299c6a28110d9fc8ac50f53cddb08",
+      "embedding_path": "embeddings/fastapi_eacbce24c9d299c6a28110d9fc8ac50f53cddb08.npz",
+      "graph_path": "graphs/fastapi_eacbce24c9d299c6a28110d9fc8ac50f53cddb08.json",
+      "instance_id": "fastapi_14786",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14786.tgz"
+    },
+    {
+      "base_commit": "08924400c2c75533685148b029defcf6913f1def",
+      "embedding_path": "embeddings/fastapi_08924400c2c75533685148b029defcf6913f1def.npz",
+      "graph_path": "graphs/fastapi_08924400c2c75533685148b029defcf6913f1def.json",
+      "instance_id": "fastapi_14791",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14791.tgz"
+    },
+    {
+      "base_commit": "464c359bb03f7ba72330198cc9f44df36194837d",
+      "embedding_path": "embeddings/fastapi_464c359bb03f7ba72330198cc9f44df36194837d.npz",
+      "graph_path": "graphs/fastapi_464c359bb03f7ba72330198cc9f44df36194837d.json",
+      "instance_id": "fastapi_14794",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14794.tgz"
+    },
+    {
+      "base_commit": "8e50c55fd90c4433ddc9096ff439da9498a8314a",
+      "embedding_path": "embeddings/fastapi_8e50c55fd90c4433ddc9096ff439da9498a8314a.npz",
+      "graph_path": "graphs/fastapi_8e50c55fd90c4433ddc9096ff439da9498a8314a.json",
+      "instance_id": "fastapi_14851",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14851.tgz"
+    },
+    {
+      "base_commit": "cd31576d5704b6aef1bdadc43770238cd88aad2b",
+      "embedding_path": "embeddings/fastapi_cd31576d5704b6aef1bdadc43770238cd88aad2b.npz",
+      "graph_path": "graphs/fastapi_cd31576d5704b6aef1bdadc43770238cd88aad2b.json",
+      "instance_id": "fastapi_14873",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14873.tgz"
+    },
+    {
+      "base_commit": "d2c17b603d2f986d5f3800d3bf24acba8e1f485b",
+      "embedding_path": "embeddings/fastapi_d2c17b603d2f986d5f3800d3bf24acba8e1f485b.npz",
+      "graph_path": "graphs/fastapi_d2c17b603d2f986d5f3800d3bf24acba8e1f485b.json",
+      "instance_id": "fastapi_14953",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14953.tgz"
+    },
+    {
+      "base_commit": "1e78a36b7310003f0ff634627d8a7bc53c6ccdee",
+      "embedding_path": "embeddings/fastapi_1e78a36b7310003f0ff634627d8a7bc53c6ccdee.npz",
+      "graph_path": "graphs/fastapi_1e78a36b7310003f0ff634627d8a7bc53c6ccdee.json",
+      "instance_id": "fastapi_14962",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14962.tgz"
+    },
+    {
+      "base_commit": "bc06e4296d588f39f38c7ac2fc96d3913c565962",
+      "embedding_path": "embeddings/fastapi_bc06e4296d588f39f38c7ac2fc96d3913c565962.npz",
+      "graph_path": "graphs/fastapi_bc06e4296d588f39f38c7ac2fc96d3913c565962.json",
+      "instance_id": "fastapi_14964",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14964.tgz"
+    },
+    {
+      "base_commit": "94a1ee749e63591e6e275b726a66e07a25f6c407",
+      "embedding_path": "embeddings/fastapi_94a1ee749e63591e6e275b726a66e07a25f6c407.npz",
+      "graph_path": "graphs/fastapi_94a1ee749e63591e6e275b726a66e07a25f6c407.json",
+      "instance_id": "fastapi_14978",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14978.tgz"
+    },
+    {
+      "base_commit": "2f9c914d440e99fe8b62646b51e4d24c5bcd858b",
+      "embedding_path": "embeddings/fastapi_2f9c914d440e99fe8b62646b51e4d24c5bcd858b.npz",
+      "graph_path": "graphs/fastapi_2f9c914d440e99fe8b62646b51e4d24c5bcd858b.json",
+      "instance_id": "fastapi_14986",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_14986.tgz"
+    },
+    {
+      "base_commit": "c0836dc1b7f4ba91e9563c8c4ccd0ebe655bc914",
+      "embedding_path": "embeddings/fastapi_c0836dc1b7f4ba91e9563c8c4ccd0ebe655bc914.npz",
+      "graph_path": "graphs/fastapi_c0836dc1b7f4ba91e9563c8c4ccd0ebe655bc914.json",
+      "instance_id": "fastapi_15023",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_15023.tgz"
+    },
+    {
+      "base_commit": "48d58ae3b6ef4ded5a4794618c00345667256d98",
+      "embedding_path": "embeddings/fastapi_48d58ae3b6ef4ded5a4794618c00345667256d98.npz",
+      "graph_path": "graphs/fastapi_48d58ae3b6ef4ded5a4794618c00345667256d98.json",
+      "instance_id": "fastapi_15030",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_15030.tgz"
+    },
+    {
+      "base_commit": "6ee87478d821171139264cd9cd17cbd2232934ce",
+      "embedding_path": "embeddings/fastapi_6ee87478d821171139264cd9cd17cbd2232934ce.npz",
+      "graph_path": "graphs/fastapi_6ee87478d821171139264cd9cd17cbd2232934ce.json",
+      "instance_id": "fastapi_15280",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_15280.tgz"
+    },
+    {
+      "base_commit": "cb83b83dcf78eab4ea17d504db5abcda705fbdc4",
+      "embedding_path": "embeddings/fastapi_cb83b83dcf78eab4ea17d504db5abcda705fbdc4.npz",
+      "graph_path": "graphs/fastapi_cb83b83dcf78eab4ea17d504db5abcda705fbdc4.json",
+      "instance_id": "fastapi_15588",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_15588.tgz"
+    },
+    {
+      "base_commit": "22b02e26f9e8c7e32bd8266e2b0ebe8bb3a0db2b",
+      "embedding_path": "embeddings/fastapi_22b02e26f9e8c7e32bd8266e2b0ebe8bb3a0db2b.npz",
+      "graph_path": "graphs/fastapi_22b02e26f9e8c7e32bd8266e2b0ebe8bb3a0db2b.json",
+      "instance_id": "fastapi_15589",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_15589.tgz"
+    },
+    {
+      "base_commit": "ee22a4b8ca46dcce26c8c183afc4992a888d8be2",
+      "embedding_path": "embeddings/fastapi_ee22a4b8ca46dcce26c8c183afc4992a888d8be2.npz",
+      "graph_path": "graphs/fastapi_ee22a4b8ca46dcce26c8c183afc4992a888d8be2.json",
+      "instance_id": "fastapi_15661",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_15661.tgz"
+    },
+    {
+      "base_commit": "016ab760faba1813ba235d5582a014a58bd2f417",
+      "embedding_path": "embeddings/fastapi_016ab760faba1813ba235d5582a014a58bd2f417.npz",
+      "graph_path": "graphs/fastapi_016ab760faba1813ba235d5582a014a58bd2f417.json",
+      "instance_id": "fastapi_15745",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_15745.tgz"
+    },
+    {
+      "base_commit": "9a9c4ad5d06f5fe8ee6775a5aeaa2f83c854f263",
+      "embedding_path": "embeddings/fastapi_9a9c4ad5d06f5fe8ee6775a5aeaa2f83c854f263.npz",
+      "graph_path": "graphs/fastapi_9a9c4ad5d06f5fe8ee6775a5aeaa2f83c854f263.json",
+      "instance_id": "fastapi_15763",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_15763.tgz"
+    },
+    {
+      "base_commit": "202b2d2f5f331db9102b5dbcef071a9e09bed10e",
+      "embedding_path": "embeddings/fastapi_202b2d2f5f331db9102b5dbcef071a9e09bed10e.npz",
+      "graph_path": "graphs/fastapi_202b2d2f5f331db9102b5dbcef071a9e09bed10e.json",
+      "instance_id": "fastapi_15785",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_15785.tgz"
+    },
+    {
+      "base_commit": "f1d750fddad90e2faad6c3cc5c85c7687b787e89",
+      "embedding_path": "embeddings/fastapi_f1d750fddad90e2faad6c3cc5c85c7687b787e89.npz",
+      "graph_path": "graphs/fastapi_f1d750fddad90e2faad6c3cc5c85c7687b787e89.json",
+      "instance_id": "fastapi_15800",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_15800.tgz"
+    },
+    {
+      "base_commit": "930b27e5fa32ce150ddcea61f0c913435ae71c83",
+      "embedding_path": "embeddings/fastapi_930b27e5fa32ce150ddcea61f0c913435ae71c83.npz",
+      "graph_path": "graphs/fastapi_930b27e5fa32ce150ddcea61f0c913435ae71c83.json",
+      "instance_id": "fastapi_5077",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_5077.tgz"
+    },
+    {
+      "base_commit": "c6487ed632056e450d844846a1b63be551a3cbc6",
+      "embedding_path": "embeddings/fastapi_c6487ed632056e450d844846a1b63be551a3cbc6.npz",
+      "graph_path": "graphs/fastapi_c6487ed632056e450d844846a1b63be551a3cbc6.json",
+      "instance_id": "fastapi_5624",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_5624.tgz"
+    },
+    {
+      "base_commit": "4976568fc7cb7501729d8f84d946cde1e91299cd",
+      "embedding_path": "embeddings/fastapi_4976568fc7cb7501729d8f84d946cde1e91299cd.npz",
+      "graph_path": "graphs/fastapi_4976568fc7cb7501729d8f84d946cde1e91299cd.json",
+      "instance_id": "fastapi_9555",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_9555.tgz"
+    },
+    {
+      "base_commit": "aee8e78078e8a7f2736d3cab7a1cb7197356951c",
+      "embedding_path": "embeddings/fastapi_aee8e78078e8a7f2736d3cab7a1cb7197356951c.npz",
+      "graph_path": "graphs/fastapi_aee8e78078e8a7f2736d3cab7a1cb7197356951c.json",
+      "instance_id": "fastapi_9753",
+      "repo": "fastapi/fastapi",
+      "snapshot_path": "snapshots/fastapi_9753.tgz"
+    },
+    {
+      "base_commit": "7a13c041dbef42f9f3feb14110f02626f6892e9a",
+      "embedding_path": "embeddings/requests_7a13c041dbef42f9f3feb14110f02626f6892e9a.npz",
+      "graph_path": "graphs/requests_7a13c041dbef42f9f3feb14110f02626f6892e9a.json",
+      "instance_id": "requests_6589",
+      "repo": "psf/requests",
+      "snapshot_path": "snapshots/requests_6589.tgz"
+    },
+    {
+      "base_commit": "0b4d494192de489701d3a2e32acef8fb5d3f042e",
+      "embedding_path": "embeddings/requests_0b4d494192de489701d3a2e32acef8fb5d3f042e.npz",
+      "graph_path": "graphs/requests_0b4d494192de489701d3a2e32acef8fb5d3f042e.json",
+      "instance_id": "requests_6592",
+      "repo": "psf/requests",
+      "snapshot_path": "snapshots/requests_6592.tgz"
+    },
+    {
+      "base_commit": "382fc2c0c6c0ef0874bc65bc1175f97c073e5086",
+      "embedding_path": "embeddings/requests_382fc2c0c6c0ef0874bc65bc1175f97c073e5086.npz",
+      "graph_path": "graphs/requests_382fc2c0c6c0ef0874bc65bc1175f97c073e5086.json",
+      "instance_id": "requests_6644",
+      "repo": "psf/requests",
+      "snapshot_path": "snapshots/requests_6644.tgz"
+    },
+    {
+      "base_commit": "0e322af87745eff34caffe4df68456ebc20d9068",
+      "embedding_path": "embeddings/requests_0e322af87745eff34caffe4df68456ebc20d9068.npz",
+      "graph_path": "graphs/requests_0e322af87745eff34caffe4df68456ebc20d9068.json",
+      "instance_id": "requests_6757",
+      "repo": "psf/requests",
+      "snapshot_path": "snapshots/requests_6757.tgz"
+    },
+    {
+      "base_commit": "1b40fdd004bfc8ba5301bcf8a6908264e9b6b877",
+      "embedding_path": "embeddings/requests_1b40fdd004bfc8ba5301bcf8a6908264e9b6b877.npz",
+      "graph_path": "graphs/requests_1b40fdd004bfc8ba5301bcf8a6908264e9b6b877.json",
+      "instance_id": "requests_7205",
+      "repo": "psf/requests",
+      "snapshot_path": "snapshots/requests_7205.tgz"
+    },
+    {
+      "base_commit": "7407309c8a8a73aa2f4337184025d440bbedab7a",
+      "embedding_path": "embeddings/requests_7407309c8a8a73aa2f4337184025d440bbedab7a.npz",
+      "graph_path": "graphs/requests_7407309c8a8a73aa2f4337184025d440bbedab7a.json",
+      "instance_id": "requests_7309",
+      "repo": "psf/requests",
+      "snapshot_path": "snapshots/requests_7309.tgz"
+    },
+    {
+      "base_commit": "6360477c52303c9445b45fa8744b02d05a2f0905",
+      "embedding_path": "embeddings/requests_6360477c52303c9445b45fa8744b02d05a2f0905.npz",
+      "graph_path": "graphs/requests_6360477c52303c9445b45fa8744b02d05a2f0905.json",
+      "instance_id": "requests_7315",
+      "repo": "psf/requests",
+      "snapshot_path": "snapshots/requests_7315.tgz"
+    },
+    {
+      "base_commit": "b684dcb9bbf3aa557d1238e72062c4a29737dd1c",
+      "embedding_path": "embeddings/requests_b684dcb9bbf3aa557d1238e72062c4a29737dd1c.npz",
+      "graph_path": "graphs/requests_b684dcb9bbf3aa557d1238e72062c4a29737dd1c.json",
+      "instance_id": "requests_7427",
+      "repo": "psf/requests",
+      "snapshot_path": "snapshots/requests_7427.tgz"
+    },
+    {
+      "base_commit": "0b401c76b6e80a4eecf3c690085b2553f6e261ca",
+      "embedding_path": "embeddings/requests_0b401c76b6e80a4eecf3c690085b2553f6e261ca.npz",
+      "graph_path": "graphs/requests_0b401c76b6e80a4eecf3c690085b2553f6e261ca.json",
+      "instance_id": "requests_7433",
+      "repo": "psf/requests",
+      "snapshot_path": "snapshots/requests_7433.tgz"
+    },
+    {
+      "base_commit": "6f205ff422bccd5e4c4fc0b64c5f3e7df5181db6",
+      "embedding_path": "embeddings/requests_6f205ff422bccd5e4c4fc0b64c5f3e7df5181db6.npz",
+      "graph_path": "graphs/requests_6f205ff422bccd5e4c4fc0b64c5f3e7df5181db6.json",
+      "instance_id": "requests_7505",
+      "repo": "psf/requests",
+      "snapshot_path": "snapshots/requests_7505.tgz"
+    },
+    {
+      "base_commit": "577def22dd83b999c5937cb2bf2ed49600943325",
+      "embedding_path": "embeddings/rich_577def22dd83b999c5937cb2bf2ed49600943325.npz",
+      "graph_path": "graphs/rich_577def22dd83b999c5937cb2bf2ed49600943325.json",
+      "instance_id": "rich_2725",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_2725.tgz"
+    },
+    {
+      "base_commit": "610fd75c433c3dfcd9c296e8b91363979127b9fa",
+      "embedding_path": "embeddings/rich_610fd75c433c3dfcd9c296e8b91363979127b9fa.npz",
+      "graph_path": "graphs/rich_610fd75c433c3dfcd9c296e8b91363979127b9fa.json",
+      "instance_id": "rich_2943",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_2943.tgz"
+    },
+    {
+      "base_commit": "0c8bb032ad3b54a32fdb8a43f5ab457c8cd6dcb1",
+      "embedding_path": "embeddings/rich_0c8bb032ad3b54a32fdb8a43f5ab457c8cd6dcb1.npz",
+      "graph_path": "graphs/rich_0c8bb032ad3b54a32fdb8a43f5ab457c8cd6dcb1.json",
+      "instance_id": "rich_3006",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3006.tgz"
+    },
+    {
+      "base_commit": "8a616de8e25db3c93abaaa220c493d80878de69d",
+      "embedding_path": "embeddings/rich_8a616de8e25db3c93abaaa220c493d80878de69d.npz",
+      "graph_path": "graphs/rich_8a616de8e25db3c93abaaa220c493d80878de69d.json",
+      "instance_id": "rich_3043",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3043.tgz"
+    },
+    {
+      "base_commit": "aca9467ec6a482b3bed1ba7d2e3de72271c5f817",
+      "embedding_path": "embeddings/rich_aca9467ec6a482b3bed1ba7d2e3de72271c5f817.npz",
+      "graph_path": "graphs/rich_aca9467ec6a482b3bed1ba7d2e3de72271c5f817.json",
+      "instance_id": "rich_3061",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3061.tgz"
+    },
+    {
+      "base_commit": "368e8ad77c95a6bef8f9d332039091d1417296bc",
+      "embedding_path": "embeddings/rich_368e8ad77c95a6bef8f9d332039091d1417296bc.npz",
+      "graph_path": "graphs/rich_368e8ad77c95a6bef8f9d332039091d1417296bc.json",
+      "instance_id": "rich_3063",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3063.tgz"
+    },
+    {
+      "base_commit": "1ad6f73a4d1d3b40ac3f879feccfaad66412bd1d",
+      "embedding_path": "embeddings/rich_1ad6f73a4d1d3b40ac3f879feccfaad66412bd1d.npz",
+      "graph_path": "graphs/rich_1ad6f73a4d1d3b40ac3f879feccfaad66412bd1d.json",
+      "instance_id": "rich_3067",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3067.tgz"
+    },
+    {
+      "base_commit": "9f620dc50c0008c35e9f8493f198e6e593574a70",
+      "embedding_path": "embeddings/rich_9f620dc50c0008c35e9f8493f198e6e593574a70.npz",
+      "graph_path": "graphs/rich_9f620dc50c0008c35e9f8493f198e6e593574a70.json",
+      "instance_id": "rich_3105",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3105.tgz"
+    },
+    {
+      "base_commit": "720800e6930d85ad027b1e9bd0cbb96b5e994ce3",
+      "embedding_path": "embeddings/rich_720800e6930d85ad027b1e9bd0cbb96b5e994ce3.npz",
+      "graph_path": "graphs/rich_720800e6930d85ad027b1e9bd0cbb96b5e994ce3.json",
+      "instance_id": "rich_3130",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3130.tgz"
+    },
+    {
+      "base_commit": "e76f3c3ea78481342e21a7b3328075462ab69c2b",
+      "embedding_path": "embeddings/rich_e76f3c3ea78481342e21a7b3328075462ab69c2b.npz",
+      "graph_path": "graphs/rich_e76f3c3ea78481342e21a7b3328075462ab69c2b.json",
+      "instance_id": "rich_3180",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3180.tgz"
+    },
+    {
+      "base_commit": "4c5d305bb902ce97011666ada19e48d0b27b49e1",
+      "embedding_path": "embeddings/rich_4c5d305bb902ce97011666ada19e48d0b27b49e1.npz",
+      "graph_path": "graphs/rich_4c5d305bb902ce97011666ada19e48d0b27b49e1.json",
+      "instance_id": "rich_3278",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3278.tgz"
+    },
+    {
+      "base_commit": "fde5d6eee3b0437eaecdcbf6f8b11aeab3a5d503",
+      "embedding_path": "embeddings/rich_fde5d6eee3b0437eaecdcbf6f8b11aeab3a5d503.npz",
+      "graph_path": "graphs/rich_fde5d6eee3b0437eaecdcbf6f8b11aeab3a5d503.json",
+      "instance_id": "rich_3296",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3296.tgz"
+    },
+    {
+      "base_commit": "e1e6d745f670ff3df6b8f47377c0a4006cb74066",
+      "embedding_path": "embeddings/rich_e1e6d745f670ff3df6b8f47377c0a4006cb74066.npz",
+      "graph_path": "graphs/rich_e1e6d745f670ff3df6b8f47377c0a4006cb74066.json",
+      "instance_id": "rich_3454",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3454.tgz"
+    },
+    {
+      "base_commit": "ae15db600976a7999d21653002f338d0761b180c",
+      "embedding_path": "embeddings/rich_ae15db600976a7999d21653002f338d0761b180c.npz",
+      "graph_path": "graphs/rich_ae15db600976a7999d21653002f338d0761b180c.json",
+      "instance_id": "rich_3468",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3468.tgz"
+    },
+    {
+      "base_commit": "c478588f3c228a4e86741a057c42b452d7bc6bce",
+      "embedding_path": "embeddings/rich_c478588f3c228a4e86741a057c42b452d7bc6bce.npz",
+      "graph_path": "graphs/rich_c478588f3c228a4e86741a057c42b452d7bc6bce.json",
+      "instance_id": "rich_3469",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3469.tgz"
+    },
+    {
+      "base_commit": "0ba607dc080c9f102b5ae5346bcdb70d6e9c969d",
+      "embedding_path": "embeddings/rich_0ba607dc080c9f102b5ae5346bcdb70d6e9c969d.npz",
+      "graph_path": "graphs/rich_0ba607dc080c9f102b5ae5346bcdb70d6e9c969d.json",
+      "instance_id": "rich_3470",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3470.tgz"
+    },
+    {
+      "base_commit": "e2a982d5ea747f0deb7f78e8eaa5b4be7d9194cf",
+      "embedding_path": "embeddings/rich_e2a982d5ea747f0deb7f78e8eaa5b4be7d9194cf.npz",
+      "graph_path": "graphs/rich_e2a982d5ea747f0deb7f78e8eaa5b4be7d9194cf.json",
+      "instance_id": "rich_3471",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3471.tgz"
+    },
+    {
+      "base_commit": "b6f2f7aa5b27f612f391cd28212aff51ad0d42d1",
+      "embedding_path": "embeddings/rich_b6f2f7aa5b27f612f391cd28212aff51ad0d42d1.npz",
+      "graph_path": "graphs/rich_b6f2f7aa5b27f612f391cd28212aff51ad0d42d1.json",
+      "instance_id": "rich_3472",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3472.tgz"
+    },
+    {
+      "base_commit": "9ec419154102acce7363e3958bec6c261864d7fb",
+      "embedding_path": "embeddings/rich_9ec419154102acce7363e3958bec6c261864d7fb.npz",
+      "graph_path": "graphs/rich_9ec419154102acce7363e3958bec6c261864d7fb.json",
+      "instance_id": "rich_3480",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3480.tgz"
+    },
+    {
+      "base_commit": "d0de442c08df8793c5ff36d9ad322ca5c47fc38c",
+      "embedding_path": "embeddings/rich_d0de442c08df8793c5ff36d9ad322ca5c47fc38c.npz",
+      "graph_path": "graphs/rich_d0de442c08df8793c5ff36d9ad322ca5c47fc38c.json",
+      "instance_id": "rich_3486",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3486.tgz"
+    },
+    {
+      "base_commit": "4101991898ee7a09fe1706daca24af5e1e054862",
+      "embedding_path": "embeddings/rich_4101991898ee7a09fe1706daca24af5e1e054862.npz",
+      "graph_path": "graphs/rich_4101991898ee7a09fe1706daca24af5e1e054862.json",
+      "instance_id": "rich_3506",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3506.tgz"
+    },
+    {
+      "base_commit": "5ba9cb56e68dcdf2db50c214d8f1412c8a50761b",
+      "embedding_path": "embeddings/rich_5ba9cb56e68dcdf2db50c214d8f1412c8a50761b.npz",
+      "graph_path": "graphs/rich_5ba9cb56e68dcdf2db50c214d8f1412c8a50761b.json",
+      "instance_id": "rich_3518",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3518.tgz"
+    },
+    {
+      "base_commit": "66074922edabeac684434b4d87ee994fb97b0627",
+      "embedding_path": "embeddings/rich_66074922edabeac684434b4d87ee994fb97b0627.npz",
+      "graph_path": "graphs/rich_66074922edabeac684434b4d87ee994fb97b0627.json",
+      "instance_id": "rich_3521",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3521.tgz"
+    },
+    {
+      "base_commit": "0f2f51b872d14588de3a65968f5cdde6fb5694a3",
+      "embedding_path": "embeddings/rich_0f2f51b872d14588de3a65968f5cdde6fb5694a3.npz",
+      "graph_path": "graphs/rich_0f2f51b872d14588de3a65968f5cdde6fb5694a3.json",
+      "instance_id": "rich_3535",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3535.tgz"
+    },
+    {
+      "base_commit": "edc6b0a39b6df1c0e26d409bb5c5eda7149b2de6",
+      "embedding_path": "embeddings/rich_edc6b0a39b6df1c0e26d409bb5c5eda7149b2de6.npz",
+      "graph_path": "graphs/rich_edc6b0a39b6df1c0e26d409bb5c5eda7149b2de6.json",
+      "instance_id": "rich_3675",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3675.tgz"
+    },
+    {
+      "base_commit": "2b5d648b2c62960deb6439f4204ed8fa6eb3cf7b",
+      "embedding_path": "embeddings/rich_2b5d648b2c62960deb6439f4204ed8fa6eb3cf7b.npz",
+      "graph_path": "graphs/rich_2b5d648b2c62960deb6439f4204ed8fa6eb3cf7b.json",
+      "instance_id": "rich_3676",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3676.tgz"
+    },
+    {
+      "base_commit": "7d36119f8378b36129502c3281a7faffef837e02",
+      "embedding_path": "embeddings/rich_7d36119f8378b36129502c3281a7faffef837e02.npz",
+      "graph_path": "graphs/rich_7d36119f8378b36129502c3281a7faffef837e02.json",
+      "instance_id": "rich_3718",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3718.tgz"
+    },
+    {
+      "base_commit": "2809954800af15b4027364cebf82390fe23dc194",
+      "embedding_path": "embeddings/rich_2809954800af15b4027364cebf82390fe23dc194.npz",
+      "graph_path": "graphs/rich_2809954800af15b4027364cebf82390fe23dc194.json",
+      "instance_id": "rich_3772",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3772.tgz"
+    },
+    {
+      "base_commit": "49117ced6648a432d85951f72dce777038f6ce09",
+      "embedding_path": "embeddings/rich_49117ced6648a432d85951f72dce777038f6ce09.npz",
+      "graph_path": "graphs/rich_49117ced6648a432d85951f72dce777038f6ce09.json",
+      "instance_id": "rich_3777",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3777.tgz"
+    },
+    {
+      "base_commit": "3b70db5a2997de191f7db3e422dbe4da35ca1c95",
+      "embedding_path": "embeddings/rich_3b70db5a2997de191f7db3e422dbe4da35ca1c95.npz",
+      "graph_path": "graphs/rich_3b70db5a2997de191f7db3e422dbe4da35ca1c95.json",
+      "instance_id": "rich_3782",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3782.tgz"
+    },
+    {
+      "base_commit": "96dd4b60e3a7c647c43a85ad375afa690b3bb85b",
+      "embedding_path": "embeddings/rich_96dd4b60e3a7c647c43a85ad375afa690b3bb85b.npz",
+      "graph_path": "graphs/rich_96dd4b60e3a7c647c43a85ad375afa690b3bb85b.json",
+      "instance_id": "rich_3905",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3905.tgz"
+    },
+    {
+      "base_commit": "53757bc234cf18977cade41a5b64f3abaccb0b85",
+      "embedding_path": "embeddings/rich_53757bc234cf18977cade41a5b64f3abaccb0b85.npz",
+      "graph_path": "graphs/rich_53757bc234cf18977cade41a5b64f3abaccb0b85.json",
+      "instance_id": "rich_3930",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3930.tgz"
+    },
+    {
+      "base_commit": "05ff970926cbd0b5d0acb6fc18cdbd1fc971e582",
+      "embedding_path": "embeddings/rich_05ff970926cbd0b5d0acb6fc18cdbd1fc971e582.npz",
+      "graph_path": "graphs/rich_05ff970926cbd0b5d0acb6fc18cdbd1fc971e582.json",
+      "instance_id": "rich_3938",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3938.tgz"
+    },
+    {
+      "base_commit": "c595fa95068dd2c5095d25446b2f0571bc0b3995",
+      "embedding_path": "embeddings/rich_c595fa95068dd2c5095d25446b2f0571bc0b3995.npz",
+      "graph_path": "graphs/rich_c595fa95068dd2c5095d25446b2f0571bc0b3995.json",
+      "instance_id": "rich_3942",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3942.tgz"
+    },
+    {
+      "base_commit": "36fe3f7ca9becca4777861d5e6e625f5a4a37545",
+      "embedding_path": "embeddings/rich_36fe3f7ca9becca4777861d5e6e625f5a4a37545.npz",
+      "graph_path": "graphs/rich_36fe3f7ca9becca4777861d5e6e625f5a4a37545.json",
+      "instance_id": "rich_3944",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3944.tgz"
+    },
+    {
+      "base_commit": "1d402e0c59f8765e420a5a4440eb2fca7465d1ae",
+      "embedding_path": "embeddings/rich_1d402e0c59f8765e420a5a4440eb2fca7465d1ae.npz",
+      "graph_path": "graphs/rich_1d402e0c59f8765e420a5a4440eb2fca7465d1ae.json",
+      "instance_id": "rich_3953",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_3953.tgz"
+    },
+    {
+      "base_commit": "27701029082052c6541031b6f139097230253900",
+      "embedding_path": "embeddings/rich_27701029082052c6541031b6f139097230253900.npz",
+      "graph_path": "graphs/rich_27701029082052c6541031b6f139097230253900.json",
+      "instance_id": "rich_4006",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_4006.tgz"
+    },
+    {
+      "base_commit": "fc41075a3206d2a5fd846c6f41c4d2becab814fa",
+      "embedding_path": "embeddings/rich_fc41075a3206d2a5fd846c6f41c4d2becab814fa.npz",
+      "graph_path": "graphs/rich_fc41075a3206d2a5fd846c6f41c4d2becab814fa.json",
+      "instance_id": "rich_4070",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_4070.tgz"
+    },
+    {
+      "base_commit": "9cb198944f8184df92217efc8b20d3fffa4b4fa0",
+      "embedding_path": "embeddings/rich_9cb198944f8184df92217efc8b20d3fffa4b4fa0.npz",
+      "graph_path": "graphs/rich_9cb198944f8184df92217efc8b20d3fffa4b4fa0.json",
+      "instance_id": "rich_4076",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_4076.tgz"
+    },
+    {
+      "base_commit": "58ac15120fe254886c10d6253667733c83604cb4",
+      "embedding_path": "embeddings/rich_58ac15120fe254886c10d6253667733c83604cb4.npz",
+      "graph_path": "graphs/rich_58ac15120fe254886c10d6253667733c83604cb4.json",
+      "instance_id": "rich_4077",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_4077.tgz"
+    },
+    {
+      "base_commit": "19c67b9a3479841e9133bea94607c89ee931d3fc",
+      "embedding_path": "embeddings/rich_19c67b9a3479841e9133bea94607c89ee931d3fc.npz",
+      "graph_path": "graphs/rich_19c67b9a3479841e9133bea94607c89ee931d3fc.json",
+      "instance_id": "rich_4079",
+      "repo": "Textualize/rich",
+      "snapshot_path": "snapshots/rich_4079.tgz"
+    }
+  ],
+  "tasks_sha256": "e4b3fd60f69dbc2b9213e54eeb9636db78aefe92c1d06269d73d9f5f8f3c8ad6"
+}

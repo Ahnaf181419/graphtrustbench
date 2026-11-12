@@ -1,0 +1,31 @@
+{
+ "replies": 1802,
+ "tasks": 115,
+ "excluded_tasks": {
+  "no F2P test": 3,
+  "base run produced no outcomes": 4
+ },
+ "by_cond": {
+  "C0": {
+   "n": 152,
+   "resolved": 8
+  },
+  "C0r": {
+   "n": 216,
+   "resolved": 9
+  },
+  "P": {
+   "n": 525,
+   "resolved": 39
+  },
+  "REP": {
+   "n": 41,
+   "resolved": 4
+  },
+  "X": {
+   "n": 746,
+   "resolved": 48
+  }
+ },
+ "crashed": 3
+}

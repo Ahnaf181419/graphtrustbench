@@ -1,0 +1,128 @@
+[
+ {
+  "task_id": "fastapi-14681",
+  "repo": "fastapi/fastapi",
+  "pr": 14681,
+  "issue": 14680,
+  "reason": "needs a code and a test change"
+ },
+ {
+  "task_id": "fastapi-14795",
+  "repo": "fastapi/fastapi",
+  "pr": 14795,
+  "issue": 14700,
+  "reason": "the linked issue is a pull request"
+ },
+ {
+  "task_id": "fastapi-15515",
+  "repo": "fastapi/fastapi",
+  "pr": 15515,
+  "issue": 15500,
+  "reason": "issue fetch failed: gh: Not Found (HTTP 404)"
+ },
+ {
+  "task_id": "rich-3610",
+  "repo": "Textualize/rich",
+  "pr": 3610,
+  "issue": 3609,
+  "reason": "needs a code and a test change"
+ },
+ {
+  "task_id": "rich-3698",
+  "repo": "Textualize/rich",
+  "pr": 3698,
+  "issue": 3697,
+  "reason": "needs a code and a test change"
+ },
+ {
+  "task_id": "rich-3731",
+  "repo": "Textualize/rich",
+  "pr": 3731,
+  "issue": 3729,
+  "reason": "needs a code and a test change"
+ },
+ {
+  "task_id": "rich-3742",
+  "repo": "Textualize/rich",
+  "pr": 3742,
+  "issue": 3739,
+  "reason": "needs a code and a test change"
+ },
+ {
+  "task_id": "rich-3763",
+  "repo": "Textualize/rich",
+  "pr": 3763,
+  "issue": 3762,
+  "reason": "no fail-to-pass test"
+ },
+ {
+  "task_id": "rich-3775",
+  "repo": "Textualize/rich",
+  "pr": 3775,
+  "issue": 3706,
+  "reason": "needs a code and a test change"
+ },
+ {
+  "task_id": "rich-3783",
+  "repo": "Textualize/rich",
+  "pr": 3783,
+  "issue": 3644,
+  "reason": "needs a code and a test change"
+ },
+ {
+  "task_id": "rich-3937",
+  "repo": "Textualize/rich",
+  "pr": 3937,
+  "issue": 3841,
+  "reason": "no fail-to-pass test"
+ },
+ {
+  "task_id": "rich-3939",
+  "repo": "Textualize/rich",
+  "pr": 3939,
+  "issue": 3888,
+  "reason": "needs a code and a test change"
+ },
+ {
+  "task_id": "rich-3941",
+  "repo": "Textualize/rich",
+  "pr": 3941,
+  "issue": 3784,
+  "reason": "needs a code and a test change"
+ },
+ {
+  "task_id": "requests-6994",
+  "repo": "psf/requests",
+  "pr": 6994,
+  "issue": 6813,
+  "reason": "needs a code and a test change"
+ },
+ {
+  "task_id": "requests-6865",
+  "repo": "psf/requests",
+  "pr": 6865,
+  "issue": 6859,
+  "reason": "needs a code and a test change"
+ },
+ {
+  "task_id": "requests-7220",
+  "repo": "psf/requests",
+  "pr": 7220,
+  "issue": 7219,
+  "reason": "needs a code and a test change"
+ },
+ {
+  "task_id": "requests-7244",
+  "repo": "psf/requests",
+  "pr": 7244,
+  "issue": 5436,
+  "reason": "needs a code and a test change"
+ },
+ {
+  "task_id": "requests-7376",
+  "repo": "psf/requests",
+  "pr": 7376,
+  "issue": 7375,
+  "reason": "needs a code and a test change"
+ }
+]

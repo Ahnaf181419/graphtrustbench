@@ -1,0 +1,56 @@
+[
+  {
+    "intervention": "deletion",
+    "fraction": 0.1,
+    "full": 204,
+    "membership": 80,
+    "rbo": "0.062 [0.053, 0.072]",
+    "gold_moved": 34,
+    "gold_eligible": 170
+  },
+  {
+    "intervention": "deletion",
+    "fraction": 0.2,
+    "full": 267,
+    "membership": 147,
+    "rbo": "0.106 [0.094, 0.119]",
+    "gold_moved": 51,
+    "gold_eligible": 167
+  },
+  {
+    "intervention": "deletion",
+    "fraction": 0.4,
+    "full": 315,
+    "membership": 219,
+    "rbo": "0.192 [0.174, 0.209]",
+    "gold_moved": 79,
+    "gold_eligible": 161
+  },
+  {
+    "intervention": "rewiring",
+    "fraction": 0.1,
+    "full": 263,
+    "membership": 165,
+    "rbo": "0.103 [0.091, 0.116]",
+    "gold_moved": 23,
+    "gold_eligible": 169
+  },
+  {
+    "intervention": "rewiring",
+    "fraction": 0.2,
+    "full": 314,
+    "membership": 249,
+    "rbo": "0.174 [0.160, 0.189]",
+    "gold_moved": 38,
+    "gold_eligible": 160
+  },
+  {
+    "intervention": "rewiring",
+    "fraction": 0.4,
+    "full": 339,
+    "membership": 312,
+    "rbo": "0.302 [0.283, 0.321]",
+    "gold_moved": 64,
+    "gold_eligible": 145
+  }
+]

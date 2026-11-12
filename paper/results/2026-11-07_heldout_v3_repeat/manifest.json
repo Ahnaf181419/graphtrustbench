@@ -1,0 +1,95 @@
+{
+  "audit_sha256": "19af7f0de9bfdd1b63f989024ad0c0ffa1f318bfad4aceb90bedf899d2a34736",
+  "command": [
+    "paper/scripts/run_localization_pilot.py",
+    "--data-root",
+    ".",
+    "--pilot",
+    "paper/data/heldout_2026-11-08.json",
+    "--audit",
+    "paper/reports/competition_audit_full_2026-11-06.json",
+    "--mapping-dir",
+    "paper/results/2026-11-07_heldout_mapping",
+    "--config",
+    "paper/config/pilot_v3.json",
+    "--output-dir",
+    "paper/results/2026-11-07_heldout_v3_repeat"
+  ],
+  "config_sha256": "7cddb2305abe3b578ea944028fceb78e51803af24dc0e400cf79e2934439e0ca",
+  "configuration": {
+    "bm25": {
+      "b": 0.75,
+      "k1": 1.2
+    },
+    "candidate_binding": "exact qualified ID; otherwise unique module/scope alias with matching pre-fix AST (class header only)",
+    "candidate_text": "snapshot AST definition, node ID, relative path",
+    "claims": "localization proxy; no model inference or patch-resolution claim",
+    "corruption": [
+      "missing",
+      "spurious"
+    ],
+    "cutoffs": [
+      1,
+      5,
+      10
+    ],
+    "methods": [
+      "bm25",
+      "one_hop"
+    ],
+    "one_hop": {
+      "edge_budget": 100,
+      "restart": 0.15,
+      "seed_count": 5
+    },
+    "primary_unit": "file",
+    "protocol_version": "graphtrust-pilot-0.3",
+    "query": "problem_statement_only",
+    "refinement": "adds spurious-edge rewiring to the protocol 0.2 interventions; same frozen development tasks and retrieval parameters",
+    "seeds": [
+      13,
+      37,
+      101
+    ],
+    "semantic_baseline": "deferred: no compatible issue-text encoder supplied",
+    "severities": [
+      0.1,
+      0.2,
+      0.4
+    ],
+    "status": "development_pilot_only"
+  },
+  "dataset_fingerprint": "e39fbcca3ccd76d39582587aa3c3d6e32e1adb5cfa011ed4845d55267c3afc7d",
+  "experiment_id": "2026-11-07_heldout_v3_repeat",
+  "finished_utc": "2026-11-07T07:38:02.930408+00:00",
+  "git_sha": "5eba3f09bf5eaa560c196950f4388db015a806e6",
+  "lexical_invariance_passed": true,
+  "mapping_manifest_sha256": "ba2781df749f57394c0cc3f2d66c2c1d7b470b8a20f1a27b5693be7f1a78c0e0",
+  "mapping_sha256": "588bc18e8b348aeb0ba3ec20e09cf3652b3c7fc2370b28c803d793a337f5dfeb",
+  "observations": 912,
+  "peak_rss_kib": 105672,
+  "per_task_sha256": "75c0f7101e4c442f046c2bf67dac16d202a427a43defd06dc646db07ab077824",
+  "pilot_sha256": "497475526a4f50419a024711fa094660f78150653534b21d4fba65439d528403",
+  "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.39",
+  "predictions_sha256": "2fe4f1a4f17efda498b0f33d8c58d4fe9ec3c541798e8797846057c6253c3ea7",
+  "python": "3.12.3",
+  "runtime_seconds": 137.23604503000024,
+  "source_hashes": {
+    "audit_competition_data.py": "9be492ee03f845e4fe6927b6070a42ee9975a44299967cd1be61941cc0d80f82",
+    "build_release.py": "f14110ec641c529ae9c2d7136aebd8a566734dd096349e10234206b9381b2b0d",
+    "fetch_upstream_trees.py": "4b618d14da0d30a8435757d65bda0b716586ebb83a5f88485b546dd63039d8c8",
+    "localization_data.py": "7bf069c1acab7f406b9afce81a6d2dc9481c2da297f166330916514ff6464057",
+    "localization_evaluation.py": "b7fea2427aeb34384bafbb8f976f4a1d8e7e06878fbe4d9b630672705fc25d8f",
+    "localization_retrieval.py": "f9a0cac6b3d6f548874ac7c48dc8a3f261725c3aa6361bfc718e99c0efb55cd0",
+    "pilot_integrity.py": "4c329a1fa48c6cf027935f9bc55d4684a384ff82f4315357fd0f4f03efb96788",
+    "prepare_pilot.py": "21e60d0143e1ad974cfd7737c1215160af4d8d608ba9371360a0b9c073251a52",
+    "render_pilot_report.py": "0fd9a7065815feb4bf3c458380cf12a38a8bf2b3e6a068b8b8f38cfa4180867c",
+    "run_baseline.py": "a1d61e02ecf297f384c3ccdea6f54c73d17e85bf81b3e0a00ddebe11f5a3f2f3",
+    "run_localization_pilot.py": "d9a8a921ff862eb712dfde03c98c2cff2a8bf10be06b07fc21f301cec986c66b",
+    "select_heldout.py": "c7ddd06527e14881084d4c8b6e8cf29b00654f0564c69a243b7a311be90c805e"
+  },
+  "started_utc": "2026-11-07T07:35:45.694367+00:00",
+  "status": "completed",
+  "summary_sha256": "89741bd1f0a90add8995eba3f904c3a5c0ad5600fe45bdfab72f5a96354cd067",
+  "tasks": 24
+}

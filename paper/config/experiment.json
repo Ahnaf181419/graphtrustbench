@@ -1,0 +1,14 @@
+{
+  "scope": "optional_secondary_ARB",
+  "primary_configuration": "paper/config/pilot.json",
+  "protocol_version": "0.1",
+  "dataset": "Agent Retrieval Bench",
+  "upstream_repository": "https://github.com/eyuansu62/agent-retrieval-bench",
+  "release": "v2_edit2ripple",
+  "candidate_filter": "all_files",
+  "keep_list": false,
+  "rankers": ["lexical", "bm25", "repomap"],
+  "primary_metric_proposed": "BCY@8k",
+  "status": "not_run",
+  "measured_results": null
+}

@@ -1,0 +1,15 @@
+2026-11-11T16:00:03Z patch items: 1172 {'C0': 115, 'X': 608, 'P': 421, 'REP': 28}
+2026-11-11T16:34:14Z patch_comp: 100/1172 after 2003s
+2026-11-11T17:03:19Z patch_comp: 200/1172 after 3747s
+2026-11-11T17:29:35Z patch_comp: 300/1172 after 5324s
+2026-11-11T17:58:08Z patch_comp: 400/1172 after 7036s
+2026-11-11T18:27:29Z patch_comp: 500/1172 after 8798s
+2026-11-11T19:00:53Z patch_comp: 600/1172 after 10802s
+2026-11-11T19:31:44Z patch_comp: 700/1172 after 12653s
+2026-11-11T20:00:41Z patch_comp: 800/1172 after 14390s
+2026-11-11T20:27:40Z patch_comp: 900/1172 after 16009s
+2026-11-11T20:54:04Z patch_comp: 1000/1172 after 17593s
+2026-11-11T21:26:34Z patch_comp: 1100/1172 after 19543s
+2026-11-11T21:50:20Z patch_comp: 1172/1172 after 20969s
+2026-11-11T21:50:20Z patch_comp: 1172 prompts, max prompt 24564 tokens, 20969s
+2026-11-11T21:50:20Z patch readout done: ('main',)

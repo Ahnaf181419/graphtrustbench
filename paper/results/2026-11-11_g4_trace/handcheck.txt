@@ -1,0 +1,5 @@
+# G4.3 hand check (2026-11-11): python3 paper/results/2026-11-11_g4_trace/handcheck.py <scratch dir>
+# repo_ops.evaluate through Docker with the reference code patch and with no patch.
+fastapi_11194 install True f2p 2 p2p 2 | reference fix resolved: True [] | no patch resolved: False
+rich_2725 install True f2p 4 p2p 15 | reference fix resolved: True [] | no patch resolved: False
+requests_6589 install True f2p 1 p2p 317 | reference fix resolved: True [] | no patch resolved: False

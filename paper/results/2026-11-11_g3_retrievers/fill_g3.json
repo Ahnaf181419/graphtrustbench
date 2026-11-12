@@ -1,0 +1,83 @@
+{
+  "PPR_R_DEL": "\u22120.0072 [\u22120.0330, +0.0215]",
+  "PPR_M_DEL": "234",
+  "PPR_RBO_DEL": "0.254 [0.239, 0.268]",
+  "PPR_R_REW": "\u22120.0417 [\u22120.0754, \u22120.0119]",
+  "PPR_M_REW_N": "300",
+  "PPR_RBO_REW": "0.376 [0.354, 0.399]",
+  "PPR_M_REW": "87",
+  "MIT_M_REW_N": "314",
+  "MIT_M_REW": "91",
+  "MIT_COST": "14.9",
+  "MIT_RECALL": "down 0.030",
+  "OH_M_DEL_N": 219,
+  "OH_M_REW_N": 312,
+  "seconds": {
+    "one_hop": 19.9,
+    "ppr": 419.0,
+    "mit": 297.1
+  },
+  "low_rate": {
+    "missing_0.01": {
+      "membership": 1,
+      "recall_cells": 0,
+      "cells": 345
+    },
+    "missing_0.02": {
+      "membership": 11,
+      "recall_cells": 0,
+      "cells": 345
+    },
+    "missing_0.05": {
+      "membership": 41,
+      "recall_cells": 2,
+      "cells": 345
+    },
+    "missing_0.1": {
+      "membership": 80,
+      "recall_cells": 5,
+      "cells": 345
+    },
+    "missing_0.2": {
+      "membership": 147,
+      "recall_cells": 10,
+      "cells": 345
+    },
+    "missing_0.4": {
+      "membership": 219,
+      "recall_cells": 25,
+      "cells": 345
+    },
+    "spurious_0.01": {
+      "membership": 24,
+      "recall_cells": 0,
+      "cells": 345
+    },
+    "spurious_0.02": {
+      "membership": 41,
+      "recall_cells": 2,
+      "cells": 345
+    },
+    "spurious_0.05": {
+      "membership": 95,
+      "recall_cells": 6,
+      "cells": 345
+    },
+    "spurious_0.1": {
+      "membership": 165,
+      "recall_cells": 12,
+      "cells": 345
+    },
+    "spurious_0.2": {
+      "membership": 249,
+      "recall_cells": 25,
+      "cells": 345
+    },
+    "spurious_0.4": {
+      "membership": 312,
+      "recall_cells": 45,
+      "cells": 345
+    }
+  },
+  "tasks": 115
+}

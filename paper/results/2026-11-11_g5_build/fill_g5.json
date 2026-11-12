@@ -1,0 +1,24 @@
+{
+  "N_NEW": "23",
+  "rule": "fix after the cutoff (fallback)",
+  "reasons": {
+    "strict": {
+      "needs a code and a test change": 9,
+      "no fail-to-pass test": 2,
+      "ok": 16
+    },
+    "fallback": {
+      "needs a code and a test change": 14,
+      "no fail-to-pass test": 2,
+      "ok": 23
+    }
+  },
+  "candidates": 41,
+  "details": 39,
+  "strict_pool": 27,
+  "by_repo": {
+    "rich": 14,
+    "fastapi": 7,
+    "requests": 2
+  }
+}

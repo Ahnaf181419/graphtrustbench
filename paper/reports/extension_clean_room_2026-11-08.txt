@@ -1,0 +1,4 @@
+status: passed
+source_revision: 0dfd2f2490fd2e07a81c989812c79fb2e1fa1a0f
+exported_files: 196
+Compressed-only exported repository validates all115tasks/4370observations without source corpus or local uncompressed results

@@ -1,0 +1,8 @@
+2026-11-10T17:07:15Z stage1: 345 prompts, 0 retried, 0 invalid, 1728s
+2026-11-10T18:08:40Z stage2: 608 prompts, 0 retried, 0 invalid, 3685s
+2026-11-10T18:08:40Z placebo pool too small: 0
+2026-11-10T18:50:39Z stage3: 421 prompts, 0 retried, 0 invalid, 2519s
+2026-11-10T19:19:28Z stage4_rep1: 230 prompts, 0 retried, 0 invalid, 1729s
+2026-11-10T19:47:46Z stage4_rep2: 230 prompts, 0 retried, 0 invalid, 1698s
+2026-11-10T20:15:58Z stage4_rep3: 230 prompts, 0 retried, 0 invalid, 1692s
+2026-11-10T20:15:58Z done

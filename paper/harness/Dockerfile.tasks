@@ -1,0 +1,5 @@
+# Base image for running task tests in isolation (repo_ops via gtb6.docker_runner).
+# Build: docker build -t gtb-tasks:py3.12 -f paper/harness/Dockerfile.tasks paper/harness
+FROM python:3.12-slim
+RUN apt-get update && apt-get install -y --no-install-recommends git patch && rm -rf /var/lib/apt/lists/* \
+ && pip install --no-cache-dir pytest==8.3.5 uv==0.6.14

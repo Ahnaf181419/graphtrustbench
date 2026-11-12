@@ -1,0 +1,153 @@
+Audited 1/129: fastapi_15661
+Audited 2/129: fastapi_15588
+Audited 3/129: fastapi_15589
+Audited 4/129: fastapi_15030
+Audited 5/129: fastapi_14962
+Audited 6/129: fastapi_15280
+Audited 7/129: fastapi_14964
+Audited 8/129: fastapi_15023
+Audited 9/129: fastapi_14986
+Audited 10/129: fastapi_14978
+Audited 11/129: requests_7505
+Audited 12/129: requests_7502
+Audited 13/129: requests_7433
+Audited 14/129: requests_7427
+Audited 15/129: requests_7315
+Audited 16/129: requests_7328
+Audited 17/129: requests_7309
+Audited 18/129: requests_7205
+Audited 19/129: rich_4070
+Audited 20/129: rich_4077
+Audited 21/129: rich_4079
+Audited 22/129: rich_4076
+Audited 23/129: rich_4075
+Audited 24/129: rich_4006
+Audited 25/129: fastapi_14258
+Audited 26/129: fastapi_14851
+Audited 27/129: fastapi_14873
+Audited 28/129: fastapi_13920
+Audited 29/129: fastapi_14794
+Audited 30/129: fastapi_14786
+Audited 31/129: fastapi_14492
+Audited 32/129: fastapi_14479
+Audited 33/129: fastapi_14463
+Audited 34/129: fastapi_12942
+Audited 35/129: fastapi_14099
+Audited 36/129: fastapi_14609
+Audited 37/129: fastapi_14372
+Audited 38/129: fastapi_14349
+Audited 39/129: fastapi_14512
+Audited 40/129: fastapi_14487
+Audited 41/129: fastapi_11355
+Audited 42/129: fastapi_14485
+Audited 43/129: fastapi_14482
+Audited 44/129: fastapi_14306
+Audited 45/129: fastapi_14458
+Audited 46/129: fastapi_14459
+Audited 47/129: fastapi_14448
+Audited 48/129: fastapi_14455
+Audited 49/129: fastapi_9753
+Audited 50/129: fastapi_14430
+Audited 51/129: fastapi_5077
+Audited 52/129: fastapi_9555
+Audited 53/129: fastapi_14361
+Audited 54/129: fastapi_13207
+Audited 55/129: fastapi_14360
+Audited 56/129: fastapi_14356
+Audited 57/129: fastapi_5624
+Audited 58/129: fastapi_14419
+Audited 59/129: fastapi_14301
+Audited 60/129: fastapi_14262
+Audited 61/129: fastapi_14266
+Audited 62/129: fastapi_14246
+Audited 63/129: fastapi_14186
+Audited 64/129: fastapi_9425
+Audited 65/129: fastapi_13713
+Audited 66/129: fastapi_14077
+Audited 67/129: rich_3718
+Audited 68/129: rich_3934
+Audited 69/129: rich_3953
+Audited 70/129: rich_3944
+Audited 71/129: rich_3942
+Audited 72/129: rich_3938
+Audited 73/129: rich_3882
+Audited 74/129: rich_3894
+Audited 75/129: rich_3935
+Audited 76/129: rich_3905
+Audited 77/129: rich_3930
+Audited 78/129: httpx_3672
+Audited 79/129: fastapi_14791
+Audited 80/129: fastapi_15800
+Audited 81/129: fastapi_15785
+Audited 82/129: fastapi_14371
+Audited 83/129: fastapi_14605
+Audited 84/129: fastapi_15763
+Audited 85/129: fastapi_14583
+Audited 86/129: fastapi_15745
+Audited 87/129: fastapi_14297
+Audited 88/129: fastapi_14303
+Audited 89/129: fastapi_13537
+Audited 90/129: fastapi_14953
+Audited 91/129: fastapi_13786
+Audited 92/129: fastapi_14616
+Audited 93/129: fastapi_11194
+Audited 94/129: requests_6757
+Audited 95/129: requests_6629
+Audited 96/129: requests_6644
+Audited 97/129: requests_6589
+Audited 98/129: requests_6592
+Audited 99/129: rich_3180
+Audited 100/129: rich_3486
+Audited 101/129: rich_3777
+Audited 102/129: rich_3468
+Audited 103/129: rich_3782
+Audited 104/129: rich_3772
+Audited 105/129: rich_3296
+Audited 106/129: rich_3675
+Audited 107/129: rich_3676
+Audited 108/129: rich_3518
+Audited 109/129: rich_3535
+Audited 110/129: rich_3521
+Audited 111/129: rich_3506
+Audited 112/129: rich_3480
+Audited 113/129: rich_3472
+Audited 114/129: rich_3454
+Audited 115/129: rich_3471
+Audited 116/129: rich_3470
+Audited 117/129: rich_3469
+Audited 118/129: rich_3052
+Audited 119/129: rich_3278
+Audited 120/129: rich_2943
+Audited 121/129: rich_2725
+Audited 122/129: rich_3105
+Audited 123/129: rich_3130
+Audited 124/129: rich_3043
+Audited 125/129: rich_3067
+Audited 126/129: rich_3006
+Audited 127/129: rich_3064
+Audited 128/129: rich_3063
+Audited 129/129: rich_3061
+Report: paper/reports/competition_audit_full_2026-11-06.json
+	Command being timed: "python3 paper/scripts/audit_competition_data.py --data-root . --limit 12 --seed 2026 --scan-snapshots --output paper/reports/competition_audit_full_2026-11-06.json --pilot-output paper/data/pilot_2026-11-06.json"
+	User time (seconds): 80.93
+	System time (seconds): 6.11
+	Percent of CPU this job got: 86%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:40.57
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 94388
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 55824
+	Voluntary context switches: 130830
+	Involuntary context switches: 1982
+	Swaps: 0
+	File system inputs: 41547104
+	File system outputs: 728
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

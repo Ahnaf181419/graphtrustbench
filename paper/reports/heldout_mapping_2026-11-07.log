@@ -1,0 +1,47 @@
+fastapi_14246 passed precise
+fastapi_14349 passed precise
+fastapi_14361 passed precise
+fastapi_14786 passed precise
+fastapi_14791 passed file_only
+fastapi_14873 passed precise
+fastapi_15589 passed precise
+fastapi_15800 passed file_only
+requests_6589 passed precise
+requests_6592 passed file_only
+requests_6644 passed precise
+requests_6757 passed file_only
+requests_7309 passed precise
+requests_7427 passed precise
+requests_7433 passed precise
+requests_7505 passed file_only
+rich_2725 passed precise
+rich_3063 passed file_only
+rich_3067 passed precise
+rich_3468 passed precise
+rich_3506 passed precise
+rich_3676 passed file_only
+rich_3772 passed file_only
+rich_3777 passed file_only
+	Command being timed: "python3 paper/scripts/prepare_pilot.py --data-root . --pilot paper/data/heldout_2026-11-08.json --audit paper/reports/competition_audit_full_2026-11-06.json --upstream-trees paper/data/heldout_upstream_trees_2026-11-08.json --output-dir paper/results/2026-11-07_heldout_mapping"
+	User time (seconds): 44.70
+	System time (seconds): 1.47
+	Percent of CPU this job got: 96%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:47.94
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 92292
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 51038
+	Voluntary context switches: 18845
+	Involuntary context switches: 3594
+	Swaps: 0
+	File system inputs: 6195136
+	File system outputs: 976
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,32 @@
+112 tasks done earlier, 3 to run
+[1/3] rich_3480 no trace output 175.5s f2p=109 
+[2/3] rich_3772 no trace output 574.3s f2p=22 
+[3/3] rich_4006 no trace output 3604.1s f2p=67 
+{
+  "TR_TASKS": 106,
+  "TR_EDGES": "14,921",
+  "TR_MISS": "71",
+  "kinds": {
+    "function": 1125,
+    "unresolved": 104,
+    "method": 3501,
+    "dunder": 3231,
+    "decorated": 2603
+  },
+  "exclusions": {
+    "no F2P test": 4,
+    "no mapped edges": 2,
+    "no trace output": 3
+  },
+  "tasks": 115,
+  "f2p_tasks": 111,
+  "TR_TOP_KIND": "method calls resolved at run time",
+  "TR_TOP_SHARE": "33",
+  "TR_MISS_MED": "49",
+  "H7_DIFF": "+0.0236",
+  "H7_LO": "+0.0000",
+  "H7_HI": "+0.0566",
+  "H7_p": 0.0436,
+  "REP_M": "19",
+  "H7_TASKS": 106
+}
